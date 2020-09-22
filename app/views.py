@@ -13,6 +13,13 @@ def index(request):
 		'fields':getFields()}
 	return render(request,'index.html',dic)
 
+def resetdb(request):
+	CSVData.objects.all().delete()
+	dic={'data':CSVData.objects.all(),
+		'fields':getFields(),
+		'msg1':'Database Deleted Successfully'}
+	return render(request,'index.html',dic)
+
 @csrf_exempt
 def saveCSV(request):
 	if request.method=='POST':
