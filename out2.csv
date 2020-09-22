@@ -1,0 +1,831 @@
+,CustomerID,CustomerID.1_x,CompanyName,ContactName,ContactTitle,OrderID,CustomerID.1_y,EmployeeID,OrderDate,RequiredDate,ShippedDate,ShipVia,Freight
+363,LACOR,LACOR,La corne d'abondance,Daniel Tonini,Sales Representative,10972,LACOR,4,00:00.0,00:00.0,00:00.0,2,0.02
+404,LILAS,LILAS,LILA-Supermercado,Carlos González,Accounting Manager,10296,LILAS,6,00:00.0,00:00.0,00:00.0,1,0.12
+796,WELLI,WELLI,Wellington Importadora,Paula Parente,Sales Manager,10644,WELLI,3,00:00.0,00:00.0,00:00.0,2,0.14
+49,BLAUS,BLAUS,Blauer See Delikatessen,Hanna Moos,Sales Representative,10509,BLAUS,4,00:00.0,00:00.0,00:00.0,1,0.15
+708,SUPRD,SUPRD,Suprêmes délices,Pascale Cartrain,Accounting Manager,11035,SUPRD,2,00:00.0,00:00.0,00:00.0,2,0.17
+315,HUNGC,HUNGC,Hungry Coyote Import Store,Yoshi Latimer,Sales Representative,10415,HUNGC,3,00:00.0,00:00.0,00:00.0,1,0.2
+128,COMMI,COMMI,Comércio Mineiro,Pedro Afonso,Sales Associate,10969,COMMI,1,00:00.0,00:00.0,00:00.0,2,0.21
+115,CACTU,CACTU,Cactus Comidas para llevar,Patricio Simpson,Sales Agent,11054,CACTU,8,00:00.0,00:00.0,,1,0.33
+500,PERIC,PERIC,Pericles Comidas clásicas,Guillermo Fernández,Sales Representative,10322,PERIC,7,00:00.0,00:00.0,00:00.0,3,0.4
+367,LAMAI,LAMAI,La maison d'Asie,Annette Roulet,Sales Manager,10371,LAMAI,1,00:00.0,00:00.0,00:00.0,1,0.45
+598,REGGC,REGGC,Reggiani Caseifici,Maurizio Moroni,Sales Associate,10586,REGGC,9,00:00.0,00:00.0,00:00.0,1,0.48
+435,LONEP,LONEP,Lonesome Pine Restaurant,Fran Wilson,Sales Manager,10883,LONEP,8,00:00.0,00:00.0,00:00.0,3,0.53
+358,KOENE,KOENE,Königlich Essen,Philip Cramer,Sales Associate,10849,KOENE,9,00:00.0,00:00.0,00:00.0,2,0.56
+429,LONEP,LONEP,Lonesome Pine Restaurant,Fran Wilson,Sales Manager,10307,LONEP,2,00:00.0,00:00.0,00:00.0,2,0.56
+469,MORGK,MORGK,Morgenstern Gesundkost,Alexander Feuer,Marketing Assistant,10699,MORGK,3,00:00.0,00:00.0,00:00.0,3,0.58
+781,WARTH,WARTH,Wartian Herkku,Pirkko Koskitalo,Accounting Manager,10333,WARTH,5,00:00.0,00:00.0,00:00.0,3,0.59
+822,WILMK,WILMK,Wilman Kala,Matti Karttunen,Owner/Marketing Assistant,11005,WILMK,2,00:00.0,00:00.0,00:00.0,1,0.75
+816,WILMK,WILMK,Wilman Kala,Matti Karttunen,Owner/Marketing Assistant,10615,WILMK,2,00:00.0,00:00.0,00:00.0,3,0.75
+770,WANDK,WANDK,Die Wandernde Kuh,Rita Müller,Sales Representative,10348,WANDK,4,00:00.0,00:00.0,00:00.0,2,0.78
+819,WILMK,WILMK,Wilman Kala,Matti Karttunen,Owner/Marketing Assistant,10873,WILMK,4,00:00.0,00:00.0,00:00.0,1,0.82
+374,LAMAI,LAMAI,La maison d'Asie,Annette Roulet,Sales Manager,10631,LAMAI,8,00:00.0,00:00.0,00:00.0,1,0.87
+342,ISLAT,ISLAT,Island Trading,Helen Bennett,Marketing Manager,10674,ISLAT,4,00:00.0,00:00.0,00:00.0,2,0.9
+416,LILAS,LILAS,LILA-Supermercado,Carlos González,Accounting Manager,11071,LILAS,1,00:00.0,00:00.0,,1,0.93
+380,LAUGB,LAUGB,Laughing Bacchus Wine Cellars,Yoshi Tannamuri,Marketing Assistant,10620,LAUGB,2,00:00.0,00:00.0,00:00.0,3,0.94
+111,CACTU,CACTU,Cactus Comidas para llevar,Patricio Simpson,Sales Agent,10782,CACTU,9,00:00.0,00:00.0,00:00.0,3,1.1
+569,QUICK,QUICK,QUICK-Stop,Horst Kloss,Accounting Manager,10996,QUICK,4,00:00.0,00:00.0,00:00.0,2,1.12
+765,VINET,VINET,Vins et alcools Chevalier,Paul Henriot,Accounting Manager,10295,VINET,2,00:00.0,00:00.0,00:00.0,2,1.15
+789,WARTH,WARTH,Wartian Herkku,Pirkko Koskitalo,Accounting Manager,10636,WARTH,4,00:00.0,00:00.0,00:00.0,1,1.15
+118,CHOPS,CHOPS,Chop-suey Chinese,Yang Wang,Owner,10370,CHOPS,6,00:00.0,00:00.0,00:00.0,2,1.17
+413,LILAS,LILAS,LILA-Supermercado,Carlos González,Accounting Manager,10899,LILAS,5,00:00.0,00:00.0,00:00.0,3,1.21
+5,ALFKI,ALFKI,Alfreds Futterkiste,Maria Anders,Sales Representative,11011,ALFKI,3,00:00.0,00:00.0,00:00.0,1,1.21
+203,FOLKO,FOLKO,Folk och fä HB,Maria Larsson,Owner,10824,FOLKO,8,00:00.0,00:00.0,00:00.0,1,1.23
+247,GALED,GALED,Galería del gastrónomo,Eduardo Saavedra,Marketing Manager,10887,GALED,8,00:00.0,00:00.0,00:00.0,3,1.25
+208,FOLKO,FOLKO,Folk och fä HB,Maria Larsson,Owner,10980,FOLKO,4,00:00.0,00:00.0,00:00.0,1,1.26
+477,OCEAN,OCEAN,Océano Atlántico Ltda.,Yvonne Moncada,Sales Agent,10898,OCEAN,4,00:00.0,00:00.0,00:00.0,2,1.27
+242,FURIB,FURIB,Furia Bacalhau e Frutos do Mar,Lino Rodriguez,Sales Manager,10664,FURIB,1,00:00.0,00:00.0,00:00.0,3,1.27
+432,LONEP,LONEP,Lonesome Pine Restaurant,Fran Wilson,Sales Manager,10662,LONEP,3,00:00.0,00:00.0,00:00.0,2,1.28
+237,FURIB,FURIB,Furia Bacalhau e Frutos do Mar,Lino Rodriguez,Sales Manager,10352,FURIB,3,00:00.0,00:00.0,00:00.0,3,1.3
+189,FOLIG,FOLIG,Folies gourmandes,Martine Rancé,Assistant Sales Agent,10480,FOLIG,6,00:00.0,00:00.0,00:00.0,2,1.35
+733,TRADH,TRADH,Tradição Hipermercados,Anabela Domingues,Sales Representative,10292,TRADH,1,00:00.0,00:00.0,00:00.0,2,1.35
+248,GALED,GALED,Galería del gastrónomo,Eduardo Saavedra,Marketing Manager,10928,GALED,1,00:00.0,00:00.0,00:00.0,1,1.36
+233,FRANS,FRANS,Franchi S.p.A.,Paolo Accorti,Sales Representative,10807,FRANS,4,00:00.0,00:00.0,00:00.0,1,1.36
+473,NORTS,NORTS,North/South,Simon Crowther,Sales Associate,10752,NORTS,2,00:00.0,00:00.0,00:00.0,3,1.39
+720,TOMSP,TOMSP,Toms Spezialitäten,Karin Josephs,Marketing Manager,10548,TOMSP,3,00:00.0,00:00.0,00:00.0,2,1.43
+280,GROSR,GROSR,GROSELLA-Restaurante,Manuel Pereira,Owner,10785,GROSR,1,00:00.0,00:00.0,00:00.0,3,1.51
+703,SUPRD,SUPRD,Suprêmes délices,Pascale Cartrain,Accounting Manager,10767,SUPRD,4,00:00.0,00:00.0,00:00.0,3,1.59
+6,ANATR,ANATR,Ana Trujillo Emparedados y helados,Ana Trujillo,Owner,10308,ANATR,7,00:00.0,00:00.0,00:00.0,3,1.61
+263,GOURL,GOURL,Gourmet Lanchonetes,André Fonseca,Sales Associate,10734,GOURL,2,00:00.0,00:00.0,00:00.0,3,1.63
+799,WELLI,WELLI,Wellington Importadora,Paula Parente,Sales Manager,10900,WELLI,1,00:00.0,00:00.0,00:00.0,2,1.66
+140,DUMON,DUMON,Du monde entier,Janine Labrune,Owner,10609,DUMON,7,00:00.0,00:00.0,00:00.0,2,1.85
+51,BLAUS,BLAUS,Blauer See Delikatessen,Hanna Moos,Sales Representative,10614,BLAUS,8,00:00.0,00:00.0,00:00.0,3,1.93
+434,LONEP,LONEP,Lonesome Pine Restaurant,Fran Wilson,Sales Manager,10867,LONEP,6,00:00.0,00:00.0,00:00.0,1,1.93
+546,QUICK,QUICK,QUICK-Stop,Horst Kloss,Accounting Manager,10313,QUICK,2,00:00.0,00:00.0,00:00.0,2,1.96
+729,TORTU,TORTU,Tortuga Restaurante,Miguel Angel Paolino,Owner,10676,TORTU,2,00:00.0,00:00.0,00:00.0,2,2.01
+310,HILAA,HILAA,HILARION-Abastos,Carlos Hernández,Sales Representative,10960,HILAA,3,00:00.0,00:00.0,00:00.0,1,2.08
+107,BSBEV,BSBEV,B's Beverages,Victoria Ashworth,Sales Representative,10943,BSBEV,4,00:00.0,00:00.0,00:00.0,2,2.17
+291,HANAR,HANAR,Hanari Carnes,Mario Pontes,Accounting Manager,10925,HANAR,3,00:00.0,00:00.0,00:00.0,1,2.27
+344,ISLAT,ISLAT,Island Trading,Helen Bennett,Marketing Manager,10798,ISLAT,2,00:00.0,00:00.0,00:00.0,1,2.33
+442,MAGAA,MAGAA,Magazzini Alimentari Riuniti,Giovanni Rovelli,Marketing Manager,10754,MAGAA,6,00:00.0,00:00.0,00:00.0,3,2.38
+87,BOTTM,BOTTM,Bottom-Dollar Markets,Elizabeth Lincoln,Accounting Manager,10410,BOTTM,3,00:00.0,00:00.0,00:00.0,3,2.4
+446,MAGAA,MAGAA,Magazzini Alimentari Riuniti,Giovanni Rovelli,Marketing Manager,10950,MAGAA,1,00:00.0,00:00.0,00:00.0,2,2.5
+243,FURIB,FURIB,Furia Bacalhau e Frutos do Mar,Lino Rodriguez,Sales Manager,10963,FURIB,9,00:00.0,00:00.0,00:00.0,3,2.7
+424,LINOD,LINOD,LINO-Delicateses,Felipe Izquierdo,Owner,10840,LINOD,4,00:00.0,00:00.0,00:00.0,2,2.71
+370,LAMAI,LAMAI,La maison d'Asie,Annette Roulet,Sales Manager,10454,LAMAI,4,00:00.0,00:00.0,00:00.0,3,2.74
+378,LAMAI,LAMAI,La maison d'Asie,Annette Roulet,Sales Manager,11051,LAMAI,7,00:00.0,00:00.0,,3,2.79
+113,CACTU,CACTU,Cactus Comidas para llevar,Patricio Simpson,Sales Agent,10881,CACTU,4,00:00.0,00:00.0,00:00.0,1,2.84
+685,SPECD,SPECD,Spécialités du monde,Dominique Perrier,Marketing Manager,10738,SPECD,2,00:00.0,00:00.0,00:00.0,1,2.91
+746,VAFFE,VAFFE,Vaffeljernet,Palle Ibsen,Sales Manager,10602,VAFFE,8,00:00.0,00:00.0,00:00.0,2,2.92
+627,ROMEY,ROMEY,Romero y tomillo,Alejandra Camino,Accounting Manager,10281,ROMEY,4,00:00.0,00:00.0,00:00.0,1,2.94
+711,THEBI,THEBI,The Big Cheese,Liz Nixon,Marketing Manager,10708,THEBI,6,00:00.0,00:00.0,00:00.0,2,2.96
+264,GOURL,GOURL,Gourmet Lanchonetes,André Fonseca,Sales Associate,10777,GOURL,7,00:00.0,00:00.0,00:00.0,2,3.01
+185,FAMIA,FAMIA,Familia Arquibaldo,Aria Cruz,Marketing Assistant,10581,FAMIA,3,00:00.0,00:00.0,00:00.0,1,3.01
+230,FRANS,FRANS,Franchi S.p.A.,Paolo Accorti,Sales Representative,10422,FRANS,2,00:00.0,00:00.0,00:00.0,1,3.02
+26,AROUT,AROUT,Around the Horn,Thomas Hardy,Sales Representative,10864,AROUT,4,00:00.0,00:00.0,00:00.0,2,3.04
+521,QUEDE,QUEDE,Que Delícia,Bernardo Batista,Accounting Manager,10261,QUEDE,4,00:00.0,00:00.0,00:00.0,2,3.05
+181,FAMIA,FAMIA,Familia Arquibaldo,Aria Cruz,Marketing Assistant,10347,FAMIA,4,00:00.0,00:00.0,00:00.0,3,3.1
+575,RANCH,RANCH,Rancho grande,Sergio Gutiérrez,Sales Representative,11019,RANCH,6,00:00.0,00:00.0,,3,3.17
+258,GODOS,GODOS,Godos Cocina Típica,José Pedro Freyre,Sales Manager,11037,GODOS,7,00:00.0,00:00.0,00:00.0,1,3.2
+116,CENTC,CENTC,Centro comercial Moctezuma,Francisco Chang,Marketing Manager,10259,CENTC,4,00:00.0,00:00.0,00:00.0,3,3.25
+108,BSBEV,BSBEV,B's Beverages,Victoria Ashworth,Sales Representative,10947,BSBEV,3,00:00.0,00:00.0,00:00.0,2,3.26
+206,FOLKO,FOLKO,Folk och fä HB,Maria Larsson,Owner,10955,FOLKO,8,00:00.0,00:00.0,00:00.0,2,3.26
+268,GREAL,GREAL,Great Lakes Food Market,Howard Snyder,Marketing Manager,10528,GREAL,6,00:00.0,00:00.0,00:00.0,2,3.35
+339,ISLAT,ISLAT,Island Trading,Helen Bennett,Marketing Manager,10321,ISLAT,3,00:00.0,00:00.0,00:00.0,2,3.43
+33,BERGS,BERGS,Berglunds snabbköp,Christina Berglund,Order Administrator,10444,BERGS,3,00:00.0,00:00.0,00:00.0,3,3.5
+731,TORTU,TORTU,Tortuga Restaurante,Miguel Angel Paolino,Owner,10915,TORTU,2,00:00.0,00:00.0,00:00.0,2,3.51
+305,HILAA,HILAA,HILARION-Abastos,Carlos Hernández,Sales Representative,10705,HILAA,9,00:00.0,00:00.0,00:00.0,2,3.52
+560,QUICK,QUICK,QUICK-Stop,Horst Kloss,Accounting Manager,10745,QUICK,9,00:00.0,00:00.0,00:00.0,1,3.52
+184,FAMIA,FAMIA,Familia Arquibaldo,Aria Cruz,Marketing Assistant,10512,FAMIA,7,00:00.0,00:00.0,00:00.0,2,3.53
+193,FOLKO,FOLKO,Folk och fä HB,Maria Larsson,Owner,10264,FOLKO,6,00:00.0,00:00.0,00:00.0,3,3.67
+782,WARTH,WARTH,Wartian Herkku,Pirkko Koskitalo,Accounting Manager,10412,WARTH,8,00:00.0,00:00.0,00:00.0,2,3.77
+823,WOLZA,WOLZA,Wolski  Zajazd,Zbyszek Piestrzeniewicz,Owner,10374,WOLZA,1,00:00.0,00:00.0,00:00.0,3,3.94
+14,ANTON,ANTON,Antonio Moreno Taquería,Antonio Moreno,Owner,10677,ANTON,1,00:00.0,00:00.0,00:00.0,3,4.03
+458,MEREP,MEREP,Mère Paillarde,Jean Fresnière,Marketing Assistant,10439,MEREP,6,00:00.0,00:00.0,00:00.0,3,4.07
+474,NORTS,NORTS,North/South,Simon Crowther,Sales Associate,11057,NORTS,3,00:00.0,00:00.0,00:00.0,3,4.13
+672,SEVES,SEVES,Seven Seas Imports,Hari Kumar,Sales Manager,10472,SEVES,8,00:00.0,00:00.0,00:00.0,1,4.2
+713,THEBI,THEBI,The Big Cheese,Liz Nixon,Marketing Manager,10992,THEBI,1,00:00.0,00:00.0,00:00.0,3,4.27
+250,GODOS,GODOS,Godos Cocina Típica,José Pedro Freyre,Sales Manager,10550,GODOS,7,00:00.0,00:00.0,00:00.0,3,4.32
+381,LAUGB,LAUGB,Laughing Bacchus Wine Cellars,Yoshi Tannamuri,Marketing Assistant,10810,LAUGB,2,00:00.0,00:00.0,00:00.0,3,4.33
+694,SPLIR,SPLIR,Split Rail Beer & Ale,Art Braunschweiger,Sales Manager,10432,SPLIR,3,00:00.0,00:00.0,00:00.0,2,4.34
+141,DUMON,DUMON,Du monde entier,Janine Labrune,Owner,10683,DUMON,2,00:00.0,00:00.0,00:00.0,1,4.4
+297,HILAA,HILAA,HILARION-Abastos,Carlos Hernández,Sales Representative,10476,HILAA,8,00:00.0,00:00.0,00:00.0,3,4.41
+599,REGGC,REGGC,Reggiani Caseifici,Maurizio Moroni,Sales Associate,10655,REGGC,1,00:00.0,00:00.0,00:00.0,2,4.41
+269,GREAL,GREAL,Great Lakes Food Market,Howard Snyder,Marketing Manager,10589,GREAL,8,00:00.0,00:00.0,00:00.0,2,4.42
+25,AROUT,AROUT,Around the Horn,Thomas Hardy,Sales Representative,10793,AROUT,3,00:00.0,00:00.0,00:00.0,3,4.52
+689,SPLIR,SPLIR,Split Rail Beer & Ale,Art Braunschweiger,Sales Manager,10271,SPLIR,6,00:00.0,00:00.0,00:00.0,2,4.54
+802,WHITC,WHITC,White Clover Markets,Karl Jablonski,Owner,10269,WHITC,5,00:00.0,00:00.0,00:00.0,1,4.56
+637,SANTG,SANTG,Santé Gourmet,Jonas Bergulfsen,Owner,11015,SANTG,2,00:00.0,00:00.0,00:00.0,2,4.62
+379,LAUGB,LAUGB,Laughing Bacchus Wine Cellars,Yoshi Tannamuri,Marketing Assistant,10495,LAUGB,3,00:00.0,00:00.0,00:00.0,3,4.65
+338,ISLAT,ISLAT,Island Trading,Helen Bennett,Marketing Manager,10318,ISLAT,8,00:00.0,00:00.0,00:00.0,2,4.73
+535,QUEEN,QUEEN,Queen Cozinha,Lúcia Carvalho,Marketing Assistant,10704,QUEEN,6,00:00.0,00:00.0,00:00.0,1,4.78
+757,VICTE,VICTE,Victuailles en stock,Mary Saveley,Sales Agent,10478,VICTE,2,00:00.0,00:00.0,00:00.0,3,4.81
+798,WELLI,WELLI,Wellington Importadora,Paula Parente,Sales Manager,10809,WELLI,7,00:00.0,00:00.0,00:00.0,1,4.87
+103,BSBEV,BSBEV,B's Beverages,Victoria Ashworth,Sales Representative,10538,BSBEV,9,00:00.0,00:00.0,00:00.0,3,4.87
+347,KOENE,KOENE,Königlich Essen,Philip Cramer,Sales Associate,10323,KOENE,4,00:00.0,00:00.0,00:00.0,1,4.88
+216,FRANK,FRANK,Frankenversand,Peter Franken,Marketing Manager,10488,FRANK,8,00:00.0,00:00.0,00:00.0,2,4.93
+440,MAGAA,MAGAA,Magazzini Alimentari Riuniti,Giovanni Rovelli,Marketing Manager,10467,MAGAA,8,00:00.0,00:00.0,00:00.0,2,4.93
+231,FRANS,FRANS,Franchi S.p.A.,Paolo Accorti,Sales Representative,10710,FRANS,1,00:00.0,00:00.0,00:00.0,1,4.98
+266,GOURL,GOURL,Gourmet Lanchonetes,André Fonseca,Sales Associate,10959,GOURL,6,00:00.0,00:00.0,00:00.0,2,4.98
+492,OTTIK,OTTIK,Ottilies Käseladen,Henriette Pfalzheim,Owner,10508,OTTIK,1,00:00.0,00:00.0,00:00.0,2,4.99
+288,HANAR,HANAR,Hanari Carnes,Mario Pontes,Accounting Manager,10886,HANAR,1,00:00.0,00:00.0,00:00.0,1,4.99
+483,OLDWO,OLDWO,Old World Delicatessen,Rene Phillips,Sales Representative,10594,OLDWO,3,00:00.0,00:00.0,00:00.0,2,5.24
+509,PICCO,PICCO,Piccolo und mehr,Georg Pipps,Sales Manager,10489,PICCO,6,00:00.0,00:00.0,00:00.0,2,5.29
+286,HANAR,HANAR,Hanari Carnes,Mario Pontes,Accounting Manager,10770,HANAR,8,00:00.0,00:00.0,00:00.0,3,5.32
+195,FOLKO,FOLKO,Folk och fä HB,Maria Larsson,Owner,10378,FOLKO,5,00:00.0,00:00.0,00:00.0,3,5.44
+134,DRACD,DRACD,Drachenblut Delikatessen,Sven Ottlieb,Order Administrator,10391,DRACD,3,00:00.0,00:00.0,00:00.0,3,5.45
+706,SUPRD,SUPRD,Suprêmes délices,Pascale Cartrain,Accounting Manager,10885,SUPRD,6,00:00.0,00:00.0,00:00.0,3,5.64
+56,BLONP,BLONP,Blondesddsl père et fils,Frédérique Citeaux,Marketing Manager,10297,BLONP,5,00:00.0,00:00.0,00:00.0,2,5.74
+764,VINET,VINET,Vins et alcools Chevalier,Paul Henriot,Accounting Manager,10274,VINET,6,00:00.0,00:00.0,00:00.0,1,6.01
+131,CONSH,CONSH,Consolidated Holdings,Elizabeth Brown,Sales Representative,10462,CONSH,2,00:00.0,00:00.0,00:00.0,1,6.17
+626,RICSU,RICSU,Richter Supermarkt,Michael Holz,Sales Manager,11075,RICSU,8,00:00.0,00:00.0,,2,6.19
+448,MAISD,MAISD,Maison Dewey,Catherine Dewey,Sales Agent,10649,MAISD,5,00:00.0,00:00.0,00:00.0,3,6.2
+699,SUPRD,SUPRD,Suprêmes délices,Pascale Cartrain,Accounting Manager,10302,SUPRD,4,00:00.0,00:00.0,00:00.0,2,6.27
+293,HANAR,HANAR,Hanari Carnes,Mario Pontes,Accounting Manager,11022,HANAR,9,00:00.0,00:00.0,00:00.0,2,6.27
+522,QUEDE,QUEDE,Que Delícia,Bernardo Batista,Accounting Manager,10291,QUEDE,6,00:00.0,00:00.0,00:00.0,2,6.4
+246,GALED,GALED,Galería del gastrónomo,Eduardo Saavedra,Marketing Manager,10568,GALED,3,00:00.0,00:00.0,00:00.0,3,6.54
+42,BERGS,BERGS,Berglunds snabbköp,Christina Berglund,Order Administrator,10778,BERGS,3,00:00.0,00:00.0,00:00.0,1,6.79
+102,BSBEV,BSBEV,B's Beverages,Victoria Ashworth,Sales Representative,10484,BSBEV,3,00:00.0,00:00.0,00:00.0,3,6.88
+741,TRAIH,TRAIH,Trail's Head Gourmet Provisioners,Helvetius Nagy,Sales Associate,10822,TRAIH,6,00:00.0,00:00.0,00:00.0,3,7.0
+65,BLONP,BLONP,Blondesddsl père et fils,Frédérique Citeaux,Marketing Manager,10826,BLONP,6,00:00.0,00:00.0,00:00.0,1,7.09
+459,MEREP,MEREP,Mère Paillarde,Jean Fresnière,Marketing Assistant,10505,MEREP,3,00:00.0,00:00.0,00:00.0,3,7.13
+260,GOURL,GOURL,Gourmet Lanchonetes,André Fonseca,Sales Associate,10652,GOURL,4,00:00.0,00:00.0,00:00.0,2,7.14
+460,MEREP,MEREP,Mère Paillarde,Jean Fresnière,Marketing Assistant,10565,MEREP,8,00:00.0,00:00.0,00:00.0,2,7.15
+755,VICTE,VICTE,Victuailles en stock,Mary Saveley,Sales Agent,10450,VICTE,8,00:00.0,00:00.0,00:00.0,2,7.23
+788,WARTH,WARTH,Wartian Herkku,Pirkko Koskitalo,Accounting Manager,10583,WARTH,2,00:00.0,00:00.0,00:00.0,2,7.28
+594,REGGC,REGGC,Reggiani Caseifici,Maurizio Moroni,Sales Associate,10288,REGGC,4,00:00.0,00:00.0,00:00.0,1,7.45
+241,FURIB,FURIB,Furia Bacalhau e Frutos do Mar,Lino Rodriguez,Sales Manager,10604,FURIB,1,00:00.0,00:00.0,00:00.0,1,7.46
+382,LAZYK,LAZYK,Lazy K Kountry Store,John Steel,Marketing Manager,10482,LAZYK,1,00:00.0,00:00.0,00:00.0,3,7.48
+629,ROMEY,ROMEY,Romero y tomillo,Alejandra Camino,Accounting Manager,10306,ROMEY,1,00:00.0,00:00.0,00:00.0,3,7.56
+232,FRANS,FRANS,Franchi S.p.A.,Paolo Accorti,Sales Representative,10753,FRANS,3,00:00.0,00:00.0,00:00.0,1,7.7
+766,VINET,VINET,Vins et alcools Chevalier,Paul Henriot,Accounting Manager,10737,VINET,2,00:00.0,00:00.0,00:00.0,2,7.79
+369,LAMAI,LAMAI,La maison d'Asie,Annette Roulet,Sales Manager,10425,LAMAI,6,00:00.0,00:00.0,00:00.0,2,7.93
+138,DRACD,DRACD,Drachenblut Delikatessen,Sven Ottlieb,Order Administrator,11067,DRACD,1,00:00.0,00:00.0,00:00.0,2,7.98
+407,LILAS,LILAS,LILA-Supermercado,Carlos González,Accounting Manager,10381,LILAS,3,00:00.0,00:00.0,00:00.0,3,7.99
+60,BLONP,BLONP,Blondesddsl père et fils,Frédérique Citeaux,Marketing Manager,10559,BLONP,6,00:00.0,00:00.0,00:00.0,1,8.05
+303,HILAA,HILAA,HILARION-Abastos,Carlos Hernández,Sales Representative,10613,HILAA,4,00:00.0,00:00.0,00:00.0,2,8.11
+349,KOENE,KOENE,Königlich Essen,Philip Cramer,Sales Associate,10456,KOENE,8,00:00.0,00:00.0,00:00.0,2,8.12
+476,OCEAN,OCEAN,Océano Atlántico Ltda.,Yvonne Moncada,Sales Agent,10531,OCEAN,7,00:00.0,00:00.0,00:00.0,1,8.12
+657,SAVEA,SAVEA,Save-a-lot Markets,Jose Pavarotti,Sales Representative,10757,SAVEA,6,00:00.0,00:00.0,00:00.0,1,8.19
+718,TOMSP,TOMSP,Toms Spezialitäten,Karin Josephs,Marketing Manager,10438,TOMSP,3,00:00.0,00:00.0,00:00.0,2,8.24
+630,ROMEY,ROMEY,Romero y tomillo,Alejandra Camino,Accounting Manager,10917,ROMEY,4,00:00.0,00:00.0,00:00.0,2,8.29
+267,GOURL,GOURL,Gourmet Lanchonetes,André Fonseca,Sales Associate,11049,GOURL,3,00:00.0,00:00.0,00:00.0,1,8.34
+820,WILMK,WILMK,Wilman Kala,Matti Karttunen,Owner/Marketing Assistant,10879,WILMK,3,00:00.0,00:00.0,00:00.0,3,8.5
+593,RATTC,RATTC,Rattlesnake Canyon Grocery,Paula Wilson,Assistant Sales Representative,11077,RATTC,1,00:00.0,00:00.0,,2,8.53
+754,VICTE,VICTE,Victuailles en stock,Mary Saveley,Sales Agent,10334,VICTE,8,00:00.0,00:00.0,00:00.0,2,8.56
+691,SPLIR,SPLIR,Split Rail Beer & Ale,Art Braunschweiger,Sales Manager,10349,SPLIR,7,00:00.0,00:00.0,00:00.0,1,8.63
+829,WOLZA,WOLZA,Wolski  Zajazd,Zbyszek Piestrzeniewicz,Owner,11044,WOLZA,4,00:00.0,00:00.0,00:00.0,1,8.72
+688,SPECD,SPECD,Spécialités du monde,Dominique Perrier,Marketing Manager,11043,SPECD,5,00:00.0,00:00.0,00:00.0,2,8.8
+209,FOLKO,FOLKO,Folk och fä HB,Maria Larsson,Owner,10993,FOLKO,7,00:00.0,00:00.0,00:00.0,3,8.81
+48,BLAUS,BLAUS,Blauer See Delikatessen,Hanna Moos,Sales Representative,10501,BLAUS,9,00:00.0,00:00.0,00:00.0,3,8.85
+31,BERGS,BERGS,Berglunds snabbköp,Christina Berglund,Order Administrator,10280,BERGS,2,00:00.0,00:00.0,00:00.0,1,8.98
+686,SPECD,SPECD,Spécialités du monde,Dominique Perrier,Marketing Manager,10907,SPECD,6,00:00.0,00:00.0,00:00.0,3,9.19
+130,CONSH,CONSH,Consolidated Holdings,Elizabeth Brown,Sales Representative,10435,CONSH,8,00:00.0,00:00.0,00:00.0,2,9.21
+761,VICTE,VICTE,Victuailles en stock,Mary Saveley,Sales Agent,10843,VICTE,4,00:00.0,00:00.0,00:00.0,2,9.26
+34,BERGS,BERGS,Berglunds snabbköp,Christina Berglund,Order Administrator,10445,BERGS,3,00:00.0,00:00.0,00:00.0,1,9.3
+527,QUEDE,QUEDE,Que Delícia,Bernardo Batista,Accounting Manager,10720,QUEDE,8,00:00.0,00:00.0,00:00.0,2,9.53
+680,SIMOB,SIMOB,Simons bistro,Jytte Petersen,Owner,10556,SIMOB,2,00:00.0,00:00.0,00:00.0,1,9.8
+244,GALED,GALED,Galería del gastrónomo,Eduardo Saavedra,Marketing Manager,10366,GALED,8,00:00.0,00:00.0,00:00.0,2,10.14
+69,BONAP,BONAP,Bon app',Laurence Lebihan,Owner,10331,BONAP,9,00:00.0,00:00.0,00:00.0,1,10.19
+471,MORGK,MORGK,Morgenstern Gesundkost,Alexander Feuer,Marketing Assistant,10945,MORGK,4,00:00.0,00:00.0,00:00.0,1,10.22
+371,LAMAI,LAMAI,La maison d'Asie,Annette Roulet,Sales Manager,10493,LAMAI,4,00:00.0,00:00.0,00:00.0,3,10.64
+187,FAMIA,FAMIA,Familia Arquibaldo,Aria Cruz,Marketing Assistant,10725,FAMIA,4,00:00.0,00:00.0,00:00.0,3,10.83
+353,KOENE,KOENE,Königlich Essen,Philip Cramer,Sales Associate,10542,KOENE,1,00:00.0,00:00.0,00:00.0,3,10.95
+22,AROUT,AROUT,Around the Horn,Thomas Hardy,Sales Representative,10741,AROUT,4,00:00.0,00:00.0,00:00.0,3,10.96
+235,FRANS,FRANS,Franchi S.p.A.,Paolo Accorti,Sales Representative,11060,FRANS,2,00:00.0,00:00.0,00:00.0,2,10.98
+74,BONAP,BONAP,Bon app',Laurence Lebihan,Owner,10525,BONAP,1,00:00.0,00:00.0,00:00.0,2,11.06
+767,VINET,VINET,Vins et alcools Chevalier,Paul Henriot,Accounting Manager,10739,VINET,3,00:00.0,00:00.0,00:00.0,3,11.08
+595,REGGC,REGGC,Reggiani Caseifici,Maurizio Moroni,Sales Associate,10428,REGGC,7,00:00.0,00:00.0,00:00.0,1,11.09
+168,ERNSH,ERNSH,Ernst Handel,Roland Mendel,Sales Manager,10771,ERNSH,9,00:00.0,00:00.0,00:00.0,2,11.19
+188,FOLIG,FOLIG,Folies gourmandes,Martine Rancé,Assistant Sales Agent,10408,FOLIG,8,00:00.0,00:00.0,00:00.0,1,11.26
+350,KOENE,KOENE,Königlich Essen,Philip Cramer,Sales Associate,10457,KOENE,2,00:00.0,00:00.0,00:00.0,1,11.57
+717,TOMSP,TOMSP,Toms Spezialitäten,Karin Josephs,Marketing Manager,10249,TOMSP,6,00:00.0,00:00.0,00:00.0,1,11.61
+436,LONEP,LONEP,Lonesome Pine Restaurant,Fran Wilson,Sales Manager,11018,LONEP,4,00:00.0,00:00.0,00:00.0,2,11.65
+383,LAZYK,LAZYK,Lazy K Kountry Store,John Steel,Marketing Manager,10545,LAZYK,8,00:00.0,00:00.0,00:00.0,2,11.92
+126,COMMI,COMMI,Comércio Mineiro,Pedro Afonso,Sales Associate,10466,COMMI,4,00:00.0,00:00.0,00:00.0,1,11.93
+8,ANATR,ANATR,Ana Trujillo Emparedados y helados,Ana Trujillo,Owner,10759,ANATR,3,00:00.0,00:00.0,00:00.0,3,11.99
+826,WOLZA,WOLZA,Wolski  Zajazd,Zbyszek Piestrzeniewicz,Owner,10870,WOLZA,5,00:00.0,00:00.0,00:00.0,3,12.04
+104,BSBEV,BSBEV,B's Beverages,Victoria Ashworth,Sales Representative,10539,BSBEV,6,00:00.0,00:00.0,00:00.0,3,12.36
+284,HANAR,HANAR,Hanari Carnes,Mario Pontes,Accounting Manager,10645,HANAR,4,00:00.0,00:00.0,00:00.0,1,12.41
+582,RATTC,RATTC,Rattlesnake Canyon Grocery,Paula Wilson,Assistant Sales Representative,10401,RATTC,1,00:00.0,00:00.0,00:00.0,1,12.51
+430,LONEP,LONEP,Lonesome Pine Restaurant,Fran Wilson,Sales Manager,10317,LONEP,6,00:00.0,00:00.0,00:00.0,1,12.69
+628,ROMEY,ROMEY,Romero y tomillo,Alejandra Camino,Accounting Manager,10282,ROMEY,4,00:00.0,00:00.0,00:00.0,1,12.69
+405,LILAS,LILAS,LILA-Supermercado,Carlos González,Accounting Manager,10330,LILAS,3,00:00.0,00:00.0,00:00.0,1,12.75
+606,RICAR,RICAR,Ricardo Adocicados,Janete Limeira,Assistant Sales Agent,10287,RICAR,8,00:00.0,00:00.0,00:00.0,3,12.76
+415,LILAS,LILAS,LILA-Supermercado,Carlos González,Accounting Manager,11065,LILAS,8,00:00.0,00:00.0,,1,12.91
+697,SPLIR,SPLIR,Split Rail Beer & Ale,Art Braunschweiger,Sales Manager,10974,SPLIR,3,00:00.0,00:00.0,00:00.0,3,12.96
+519,PRINI,PRINI,Princesa Isabel Vinhos,Isabel de Castro,Sales Representative,10477,PRINI,5,00:00.0,00:00.0,00:00.0,2,13.02
+43,BERGS,BERGS,Berglunds snabbköp,Christina Berglund,Order Administrator,10837,BERGS,9,00:00.0,00:00.0,00:00.0,3,13.32
+633,SANTG,SANTG,Santé Gourmet,Jonas Bergulfsen,Owner,10520,SANTG,7,00:00.0,00:00.0,00:00.0,1,13.37
+795,WELLI,WELLI,Wellington Importadora,Paula Parente,Sales Manager,10585,WELLI,7,00:00.0,00:00.0,00:00.0,1,13.41
+40,BERGS,BERGS,Berglunds snabbköp,Christina Berglund,Order Administrator,10689,BERGS,1,00:00.0,00:00.0,00:00.0,2,13.42
+742,VAFFE,VAFFE,Vaffeljernet,Palle Ibsen,Sales Manager,10367,VAFFE,7,00:00.0,00:00.0,00:00.0,3,13.55
+623,RICSU,RICSU,Richter Supermarkt,Michael Holz,Sales Manager,10931,RICSU,4,00:00.0,00:00.0,00:00.0,2,13.6
+800,WELLI,WELLI,Wellington Importadora,Paula Parente,Sales Manager,10905,WELLI,9,00:00.0,00:00.0,00:00.0,2,13.72
+399,LETSS,LETSS,Let's Stop N Shop,Jaime Yorres,Owner,10579,LETSS,1,00:00.0,00:00.0,00:00.0,2,13.73
+584,RATTC,RATTC,Rattlesnake Canyon Grocery,Paula Wilson,Assistant Sales Representative,10564,RATTC,4,00:00.0,00:00.0,00:00.0,3,13.75
+723,TORTU,TORTU,Tortuga Restaurante,Miguel Angel Paolino,Owner,10276,TORTU,8,00:00.0,00:00.0,00:00.0,3,13.84
+596,REGGC,REGGC,Reggiani Caseifici,Maurizio Moroni,Sales Associate,10443,REGGC,8,00:00.0,00:00.0,00:00.0,1,13.95
+793,WELLI,WELLI,Wellington Importadora,Paula Parente,Sales Manager,10256,WELLI,3,00:00.0,00:00.0,00:00.0,2,13.97
+182,FAMIA,FAMIA,Familia Arquibaldo,Aria Cruz,Marketing Assistant,10386,FAMIA,9,00:00.0,00:00.0,00:00.0,3,13.99
+278,GREAL,GREAL,Great Lakes Food Market,Howard Snyder,Marketing Manager,11061,GREAL,4,00:00.0,00:00.0,,3,14.01
+96,BOTTM,BOTTM,Bottom-Dollar Markets,Elizabeth Lincoln,Accounting Manager,10982,BOTTM,2,00:00.0,00:00.0,00:00.0,1,14.01
+612,RICAR,RICAR,Ricardo Adocicados,Janete Limeira,Assistant Sales Agent,10648,RICAR,5,00:00.0,00:00.0,00:00.0,2,14.25
+658,SAVEA,SAVEA,Save-a-lot Markets,Jose Pavarotti,Sales Representative,10815,SAVEA,2,00:00.0,00:00.0,00:00.0,3,14.62
+719,TOMSP,TOMSP,Toms Spezialitäten,Karin Josephs,Marketing Manager,10446,TOMSP,6,00:00.0,00:00.0,00:00.0,1,14.68
+701,SUPRD,SUPRD,Suprêmes délices,Pascale Cartrain,Accounting Manager,10463,SUPRD,5,00:00.0,00:00.0,00:00.0,3,14.78
+716,THECR,THECR,The Cracker Box,Liu Wong,Marketing Assistant,11003,THECR,3,00:00.0,00:00.0,00:00.0,3,14.91
+812,WHITC,WHITC,White Clover Markets,Karl Jablonski,Owner,10861,WHITC,4,00:00.0,00:00.0,00:00.0,2,14.93
+364,LACOR,LACOR,La corne d'abondance,Daniel Tonini,Sales Representative,10973,LACOR,6,00:00.0,00:00.0,00:00.0,2,15.17
+805,WHITC,WHITC,White Clover Markets,Karl Jablonski,Owner,10483,WHITC,7,00:00.0,00:00.0,00:00.0,2,15.28
+516,PRINI,PRINI,Princesa Isabel Vinhos,Isabel de Castro,Sales Representative,10336,PRINI,7,00:00.0,00:00.0,00:00.0,2,15.51
+707,SUPRD,SUPRD,Suprêmes délices,Pascale Cartrain,Accounting Manager,10930,SUPRD,4,00:00.0,00:00.0,00:00.0,3,15.55
+12,ANTON,ANTON,Antonio Moreno Taquería,Antonio Moreno,Owner,10535,ANTON,4,00:00.0,00:00.0,00:00.0,1,15.64
+455,MEREP,MEREP,Mère Paillarde,Jean Fresnière,Marketing Assistant,10339,MEREP,2,00:00.0,00:00.0,00:00.0,2,15.66
+732,TORTU,TORTU,Tortuga Restaurante,Miguel Angel Paolino,Owner,11069,TORTU,1,00:00.0,00:00.0,00:00.0,2,15.67
+285,HANAR,HANAR,Hanari Carnes,Mario Pontes,Accounting Manager,10690,HANAR,1,00:00.0,00:00.0,00:00.0,1,15.8
+68,BOLID,BOLID,Bólido Comidas preparadas,Martín Sommer,Owner,10970,BOLID,9,00:00.0,00:00.0,00:00.0,1,16.16
+197,FOLKO,FOLKO,Folk och fä HB,Maria Larsson,Owner,10460,FOLKO,8,00:00.0,00:00.0,00:00.0,1,16.27
+807,WHITC,WHITC,White Clover Markets,Karl Jablonski,Owner,10596,WHITC,8,00:00.0,00:00.0,00:00.0,1,16.34
+340,ISLAT,ISLAT,Island Trading,Helen Bennett,Marketing Manager,10473,ISLAT,1,00:00.0,00:00.0,00:00.0,3,16.37
+146,EASTC,EASTC,Eastern Connection,Ann Devon,Sales Agent,10726,EASTC,4,00:00.0,00:00.0,00:00.0,1,16.56
+79,BONAP,BONAP,Bon app',Laurence Lebihan,Owner,10755,BONAP,4,00:00.0,00:00.0,00:00.0,2,16.71
+818,WILMK,WILMK,Wilman Kala,Matti Karttunen,Owner/Marketing Assistant,10695,WILMK,7,00:00.0,00:00.0,00:00.0,1,16.72
+324,HUNGO,HUNGO,Hungry Owl All-Night Grocers,Patricia McKenna,Sales Associate,10503,HUNGO,6,00:00.0,00:00.0,00:00.0,2,16.74
+223,FRANK,FRANK,Frankenversand,Peter Franken,Marketing Manager,10791,FRANK,6,00:00.0,00:00.0,00:00.0,2,16.85
+239,FURIB,FURIB,Furia Bacalhau e Frutos do Mar,Lino Rodriguez,Sales Manager,10491,FURIB,8,00:00.0,00:00.0,00:00.0,3,16.96
+78,BONAP,BONAP,Bon app',Laurence Lebihan,Owner,10732,BONAP,3,00:00.0,00:00.0,00:00.0,1,16.97
+110,CACTU,CACTU,Cactus Comidas para llevar,Patricio Simpson,Sales Agent,10521,CACTU,8,00:00.0,00:00.0,00:00.0,2,17.22
+710,THEBI,THEBI,The Big Cheese,Liz Nixon,Marketing Manager,10310,THEBI,8,00:00.0,00:00.0,00:00.0,2,17.52
+328,HUNGO,HUNGO,Hungry Owl All-Night Grocers,Patricia McKenna,Sales Associate,10661,HUNGO,7,00:00.0,00:00.0,00:00.0,3,17.55
+549,QUICK,QUICK,QUICK-Stop,Horst Kloss,Accounting Manager,10418,QUICK,4,00:00.0,00:00.0,00:00.0,1,17.55
+438,MAGAA,MAGAA,Magazzini Alimentari Riuniti,Giovanni Rovelli,Marketing Manager,10300,MAGAA,2,00:00.0,00:00.0,00:00.0,2,17.68
+196,FOLKO,FOLKO,Folk och fä HB,Maria Larsson,Owner,10434,FOLKO,3,00:00.0,00:00.0,00:00.0,2,17.92
+603,REGGC,REGGC,Reggiani Caseifici,Maurizio Moroni,Sales Associate,10942,REGGC,9,00:00.0,00:00.0,00:00.0,3,17.95
+684,SIMOB,SIMOB,Simons bistro,Jytte Petersen,Owner,11074,SIMOB,7,00:00.0,00:00.0,,2,18.44
+271,GREAL,GREAL,Great Lakes Food Market,Howard Snyder,Marketing Manager,10617,GREAL,4,00:00.0,00:00.0,00:00.0,2,18.53
+728,TORTU,TORTU,Tortuga Restaurante,Miguel Angel Paolino,Owner,10576,TORTU,3,00:00.0,00:00.0,00:00.0,3,18.56
+587,RATTC,RATTC,Rattlesnake Canyon Grocery,Paula Wilson,Assistant Sales Representative,10761,RATTC,5,00:00.0,00:00.0,00:00.0,2,18.66
+245,GALED,GALED,Galería del gastrónomo,Eduardo Saavedra,Marketing Manager,10426,GALED,4,00:00.0,00:00.0,00:00.0,1,18.69
+277,GREAL,GREAL,Great Lakes Food Market,Howard Snyder,Marketing Manager,11040,GREAL,4,00:00.0,00:00.0,,3,18.84
+228,FRANR,FRANR,France restauration,Carine Schmitt,Marketing Manager,10860,FRANR,3,00:00.0,00:00.0,00:00.0,3,19.26
+253,GODOS,GODOS,Godos Cocina Típica,José Pedro Freyre,Sales Manager,10874,GODOS,5,00:00.0,00:00.0,00:00.0,2,19.58
+366,LAMAI,LAMAI,La maison d'Asie,Annette Roulet,Sales Manager,10358,LAMAI,5,00:00.0,00:00.0,00:00.0,1,19.64
+112,CACTU,CACTU,Cactus Comidas para llevar,Patricio Simpson,Sales Agent,10819,CACTU,2,00:00.0,00:00.0,00:00.0,3,19.76
+84,BONAP,BONAP,Bon app',Laurence Lebihan,Owner,10940,BONAP,8,00:00.0,00:00.0,00:00.0,3,19.77
+362,LACOR,LACOR,La corne d'abondance,Daniel Tonini,Sales Representative,10927,LACOR,4,00:00.0,00:00.0,00:00.0,1,19.79
+425,LINOD,LINOD,LINO-Delicateses,Felipe Izquierdo,Owner,10919,LINOD,2,00:00.0,00:00.0,00:00.0,2,19.8
+784,WARTH,WARTH,Wartian Herkku,Pirkko Koskitalo,Accounting Manager,10437,WARTH,8,00:00.0,00:00.0,00:00.0,1,19.97
+313,HUNGC,HUNGC,Hungry Coyote Import Store,Yoshi Latimer,Sales Representative,10375,HUNGC,3,00:00.0,00:00.0,00:00.0,2,20.12
+77,BONAP,BONAP,Bon app',Laurence Lebihan,Owner,10730,BONAP,5,00:00.0,00:00.0,00:00.0,1,20.12
+715,THECR,THECR,The Cracker Box,Liu Wong,Marketing Assistant,10775,THECR,7,00:00.0,00:00.0,00:00.0,1,20.25
+828,WOLZA,WOLZA,Wolski  Zajazd,Zbyszek Piestrzeniewicz,Owner,10998,WOLZA,8,00:00.0,00:00.0,00:00.0,2,20.31
+396,LEHMS,LEHMS,Lehmanns Marktstand,Renate Messner,Sales Representative,10891,LEHMS,7,00:00.0,00:00.0,00:00.0,2,20.37
+456,MEREP,MEREP,Mère Paillarde,Jean Fresnière,Marketing Assistant,10376,MEREP,1,00:00.0,00:00.0,00:00.0,2,20.39
+775,WANDK,WANDK,Die Wandernde Kuh,Rita Müller,Sales Representative,10651,WANDK,8,00:00.0,00:00.0,00:00.0,2,20.6
+724,TORTU,TORTU,Tortuga Restaurante,Miguel Angel Paolino,Owner,10293,TORTU,1,00:00.0,00:00.0,00:00.0,3,21.18
+540,QUEEN,QUEEN,Queen Cozinha,Lúcia Carvalho,Marketing Assistant,10914,QUEEN,6,00:00.0,00:00.0,00:00.0,1,21.19
+352,KOENE,KOENE,Königlich Essen,Philip Cramer,Sales Associate,10506,KOENE,9,00:00.0,00:00.0,00:00.0,2,21.19
+183,FAMIA,FAMIA,Familia Arquibaldo,Aria Cruz,Marketing Assistant,10414,FAMIA,2,00:00.0,00:00.0,00:00.0,3,21.48
+528,QUEDE,QUEDE,Que Delícia,Bernardo Batista,Accounting Manager,10794,QUEDE,6,00:00.0,00:00.0,00:00.0,1,21.49
+810,WHITC,WHITC,White Clover Markets,Karl Jablonski,Owner,10723,WHITC,3,00:00.0,00:00.0,00:00.0,1,21.72
+21,AROUT,AROUT,Around the Horn,Thomas Hardy,Sales Representative,10707,AROUT,4,00:00.0,00:00.0,00:00.0,3,21.74
+10,ANTON,ANTON,Antonio Moreno Taquería,Antonio Moreno,Owner,10365,ANTON,3,00:00.0,00:00.0,00:00.0,2,22.0
+759,VICTE,VICTE,Victuailles en stock,Mary Saveley,Sales Agent,10806,VICTE,3,00:00.0,00:00.0,00:00.0,2,22.11
+670,SEVES,SEVES,Seven Seas Imports,Hari Kumar,Sales Manager,10377,SEVES,1,00:00.0,00:00.0,00:00.0,3,22.21
+572,RANCH,RANCH,Rancho grande,Sergio Gutiérrez,Sales Representative,10716,RANCH,4,00:00.0,00:00.0,00:00.0,2,22.57
+783,WARTH,WARTH,Wartian Herkku,Pirkko Koskitalo,Accounting Manager,10416,WARTH,8,00:00.0,00:00.0,00:00.0,3,22.72
+817,WILMK,WILMK,Wilman Kala,Matti Karttunen,Owner/Marketing Assistant,10673,WILMK,2,00:00.0,00:00.0,00:00.0,1,22.76
+100,BSBEV,BSBEV,B's Beverages,Victoria Ashworth,Sales Representative,10289,BSBEV,7,00:00.0,00:00.0,00:00.0,3,22.77
+597,REGGC,REGGC,Reggiani Caseifici,Maurizio Moroni,Sales Associate,10562,REGGC,1,00:00.0,00:00.0,00:00.0,1,22.95
+117,CHOPS,CHOPS,Chop-suey Chinese,Yang Wang,Owner,10254,CHOPS,5,00:00.0,00:00.0,00:00.0,2,22.98
+660,SAVEA,SAVEA,Save-a-lot Markets,Jose Pavarotti,Sales Representative,10882,SAVEA,4,00:00.0,00:00.0,00:00.0,3,23.1
+803,WHITC,WHITC,White Clover Markets,Karl Jablonski,Owner,10344,WHITC,4,00:00.0,00:00.0,00:00.0,2,23.29
+256,GODOS,GODOS,Godos Cocina Típica,José Pedro Freyre,Sales Manager,10948,GODOS,3,00:00.0,00:00.0,00:00.0,3,23.39
+774,WANDK,WANDK,Die Wandernde Kuh,Rita Müller,Sales Representative,10640,WANDK,4,00:00.0,00:00.0,00:00.0,1,23.55
+427,LINOD,LINOD,LINO-Delicateses,Felipe Izquierdo,Owner,11014,LINOD,2,00:00.0,00:00.0,00:00.0,3,23.6
+88,BOTTM,BOTTM,Bottom-Dollar Markets,Elizabeth Lincoln,Accounting Manager,10411,BOTTM,9,00:00.0,00:00.0,00:00.0,3,23.65
+23,AROUT,AROUT,Around the Horn,Thomas Hardy,Sales Representative,10743,AROUT,1,00:00.0,00:00.0,00:00.0,2,23.72
+28,AROUT,AROUT,Around the Horn,Thomas Hardy,Sales Representative,10953,AROUT,9,00:00.0,00:00.0,00:00.0,2,23.72
+341,ISLAT,ISLAT,Island Trading,Helen Bennett,Marketing Manager,10621,ISLAT,4,00:00.0,00:00.0,00:00.0,2,23.73
+825,WOLZA,WOLZA,Wolski  Zajazd,Zbyszek Piestrzeniewicz,Owner,10792,WOLZA,1,00:00.0,00:00.0,00:00.0,3,23.79
+2,ALFKI,ALFKI,Alfreds Futterkiste,Maria Anders,Sales Representative,10702,ALFKI,4,00:00.0,00:00.0,00:00.0,1,23.94
+99,BOTTM,BOTTM,Bottom-Dollar Markets,Elizabeth Lincoln,Accounting Manager,11048,BOTTM,7,00:00.0,00:00.0,00:00.0,3,24.12
+682,SIMOB,SIMOB,Simons bistro,Jytte Petersen,Owner,10669,SIMOB,2,00:00.0,00:00.0,00:00.0,1,24.39
+654,SAVEA,SAVEA,Save-a-lot Markets,Jose Pavarotti,Sales Representative,10714,SAVEA,5,00:00.0,00:00.0,00:00.0,3,24.49
+259,GOURL,GOURL,Gourmet Lanchonetes,André Fonseca,Sales Associate,10423,GOURL,6,00:00.0,00:00.0,00:00.0,3,24.5
+139,DUMON,DUMON,Du monde entier,Janine Labrune,Owner,10311,DUMON,1,00:00.0,00:00.0,00:00.0,3,24.69
+431,LONEP,LONEP,Lonesome Pine Restaurant,Fran Wilson,Sales Manager,10544,LONEP,4,00:00.0,00:00.0,00:00.0,1,24.91
+505,PERIC,PERIC,Pericles Comidas clásicas,Guillermo Fernández,Sales Representative,11073,PERIC,2,00:00.0,00:00.0,,2,24.95
+756,VICTE,VICTE,Victuailles en stock,Mary Saveley,Sales Agent,10459,VICTE,4,00:00.0,00:00.0,00:00.0,2,25.09
+276,GREAL,GREAL,Great Lakes Food Market,Howard Snyder,Marketing Manager,11006,GREAL,3,00:00.0,00:00.0,00:00.0,2,25.19
+514,PICCO,PICCO,Piccolo und mehr,Georg Pipps,Sales Manager,10844,PICCO,8,00:00.0,00:00.0,00:00.0,2,25.22
+19,AROUT,AROUT,Around the Horn,Thomas Hardy,Sales Representative,10453,AROUT,1,00:00.0,00:00.0,00:00.0,2,25.36
+740,TRAIH,TRAIH,Trail's Head Gourmet Provisioners,Helvetius Nagy,Sales Associate,10577,TRAIH,9,00:00.0,00:00.0,00:00.0,2,25.41
+778,WARTH,WARTH,Wartian Herkku,Pirkko Koskitalo,Accounting Manager,10266,WARTH,3,00:00.0,00:00.0,00:00.0,3,25.73
+384,LEHMS,LEHMS,Lehmanns Marktstand,Renate Messner,Sales Representative,10279,LEHMS,8,00:00.0,00:00.0,00:00.0,2,25.83
+162,ERNSH,ERNSH,Ernst Handel,Roland Mendel,Sales Manager,10571,ERNSH,8,00:00.0,00:00.0,00:00.0,3,26.06
+827,WOLZA,WOLZA,Wolski  Zajazd,Zbyszek Piestrzeniewicz,Owner,10906,WOLZA,4,00:00.0,00:00.0,00:00.0,3,26.29
+433,LONEP,LONEP,Lonesome Pine Restaurant,Fran Wilson,Sales Manager,10665,LONEP,1,00:00.0,00:00.0,00:00.0,2,26.31
+306,HILAA,HILAA,HILARION-Abastos,Carlos Hernández,Sales Representative,10796,HILAA,3,00:00.0,00:00.0,00:00.0,1,26.52
+484,OLDWO,OLDWO,Old World Delicatessen,Rene Phillips,Sales Representative,10680,OLDWO,1,00:00.0,00:00.0,00:00.0,1,26.61
+373,LAMAI,LAMAI,La maison d'Asie,Annette Roulet,Sales Manager,10610,LAMAI,8,00:00.0,00:00.0,00:00.0,1,26.78
+678,SIMOB,SIMOB,Simons bistro,Jytte Petersen,Owner,10341,SIMOB,7,00:00.0,00:00.0,00:00.0,3,26.78
+437,MAGAA,MAGAA,Magazzini Alimentari Riuniti,Giovanni Rovelli,Marketing Manager,10275,MAGAA,1,00:00.0,00:00.0,00:00.0,1,26.93
+122,CHOPS,CHOPS,Chop-suey Chinese,Yang Wang,Owner,10966,CHOPS,4,00:00.0,00:00.0,00:00.0,1,27.19
+751,VAFFE,VAFFE,Vaffeljernet,Palle Ibsen,Sales Manager,10946,VAFFE,1,00:00.0,00:00.0,00:00.0,2,27.2
+676,SEVES,SEVES,Seven Seas Imports,Hari Kumar,Sales Manager,10804,SEVES,6,00:00.0,00:00.0,00:00.0,2,27.33
+743,VAFFE,VAFFE,Vaffeljernet,Palle Ibsen,Sales Manager,10399,VAFFE,8,00:00.0,00:00.0,00:00.0,3,27.36
+50,BLAUS,BLAUS,Blauer See Delikatessen,Hanna Moos,Sales Representative,10582,BLAUS,3,00:00.0,00:00.0,00:00.0,2,27.71
+721,TOMSP,TOMSP,Toms Spezialitäten,Karin Josephs,Marketing Manager,10608,TOMSP,4,00:00.0,00:00.0,00:00.0,2,27.79
+426,LINOD,LINOD,LINO-Delicateses,Felipe Izquierdo,Owner,10954,LINOD,5,00:00.0,00:00.0,00:00.0,1,27.91
+64,BLONP,BLONP,Blondesddsl père et fils,Frédérique Citeaux,Marketing Manager,10679,BLONP,8,00:00.0,00:00.0,00:00.0,3,27.94
+389,LEHMS,LEHMS,Lehmanns Marktstand,Renate Messner,Sales Representative,10534,LEHMS,8,00:00.0,00:00.0,00:00.0,2,27.94
+265,GOURL,GOURL,Gourmet Lanchonetes,André Fonseca,Sales Associate,10790,GOURL,6,00:00.0,00:00.0,00:00.0,1,28.23
+604,REGGC,REGGC,Reggiani Caseifici,Maurizio Moroni,Sales Associate,11010,REGGC,2,00:00.0,00:00.0,00:00.0,2,28.71
+792,WARTH,WARTH,Wartian Herkku,Pirkko Koskitalo,Accounting Manager,11025,WARTH,6,00:00.0,00:00.0,00:00.0,3,29.17
+0,ALFKI,ALFKI,Alfreds Futterkiste,Maria Anders,Sales Representative,10643,ALFKI,6,00:00.0,00:00.0,00:00.0,1,29.46
+360,KOENE,KOENE,Königlich Essen,Philip Cramer,Sales Associate,11028,KOENE,2,00:00.0,00:00.0,00:00.0,1,29.59
+709,SUPRD,SUPRD,Suprêmes délices,Pascale Cartrain,Accounting Manager,11038,SUPRD,1,00:00.0,00:00.0,00:00.0,2,29.59
+105,BSBEV,BSBEV,B's Beverages,Victoria Ashworth,Sales Representative,10578,BSBEV,4,00:00.0,00:00.0,00:00.0,3,29.6
+27,AROUT,AROUT,Around the Horn,Thomas Hardy,Sales Representative,10920,AROUT,4,00:00.0,00:00.0,00:00.0,2,29.61
+300,HILAA,HILAA,HILARION-Abastos,Carlos Hernández,Sales Representative,10498,HILAA,8,00:00.0,00:00.0,00:00.0,2,29.75
+607,RICAR,RICAR,Ricardo Adocicados,Janete Limeira,Assistant Sales Agent,10299,RICAR,4,00:00.0,00:00.0,00:00.0,2,29.76
+737,TRADH,TRADH,Tradição Hipermercados,Anabela Domingues,Sales Representative,10834,TRADH,1,00:00.0,00:00.0,00:00.0,3,29.78
+475,OCEAN,OCEAN,Océano Atlántico Ltda.,Yvonne Moncada,Sales Agent,10409,OCEAN,3,00:00.0,00:00.0,00:00.0,1,29.83
+605,REGGC,REGGC,Reggiani Caseifici,Maurizio Moroni,Sales Associate,11062,REGGC,4,00:00.0,00:00.0,,2,29.93
+106,BSBEV,BSBEV,B's Beverages,Victoria Ashworth,Sales Representative,10599,BSBEV,6,00:00.0,00:00.0,00:00.0,3,29.98
+129,COMMI,COMMI,Comércio Mineiro,Pedro Afonso,Sales Associate,11042,COMMI,2,00:00.0,00:00.0,00:00.0,1,29.99
+668,SAVEA,SAVEA,Save-a-lot Markets,Jose Pavarotti,Sales Representative,11064,SAVEA,1,00:00.0,00:00.0,00:00.0,1,30.09
+307,HILAA,HILAA,HILARION-Abastos,Carlos Hernández,Sales Representative,10863,HILAA,4,00:00.0,00:00.0,00:00.0,2,30.26
+227,FRANR,FRANR,France restauration,Carine Schmitt,Marketing Manager,10671,FRANR,1,00:00.0,00:00.0,00:00.0,1,30.34
+314,HUNGC,HUNGC,Hungry Coyote Import Store,Yoshi Latimer,Sales Representative,10394,HUNGC,1,00:00.0,00:00.0,00:00.0,3,30.34
+63,BLONP,BLONP,Blondesddsl père et fils,Frédérique Citeaux,Marketing Manager,10628,BLONP,4,00:00.0,00:00.0,00:00.0,3,30.36
+298,HILAA,HILAA,HILARION-Abastos,Carlos Hernández,Sales Representative,10486,HILAA,1,00:00.0,00:00.0,00:00.0,2,30.53
+133,DRACD,DRACD,Drachenblut Delikatessen,Sven Ottlieb,Order Administrator,10363,DRACD,4,00:00.0,00:00.0,00:00.0,3,30.54
+356,KOENE,KOENE,Königlich Essen,Philip Cramer,Sales Associate,10799,KOENE,9,00:00.0,00:00.0,00:00.0,3,30.76
+624,RICSU,RICSU,Richter Supermarkt,Michael Holz,Sales Manager,10951,RICSU,9,00:00.0,00:00.0,00:00.0,2,30.85
+693,SPLIR,SPLIR,Split Rail Beer & Ale,Art Braunschweiger,Sales Manager,10385,SPLIR,1,00:00.0,00:00.0,00:00.0,2,30.96
+54,BLAUS,BLAUS,Blauer See Delikatessen,Hanna Moos,Sales Representative,11058,BLAUS,9,00:00.0,00:00.0,,3,31.14
+422,LINOD,LINOD,LINO-Delicateses,Felipe Izquierdo,Owner,10811,LINOD,8,00:00.0,00:00.0,00:00.0,1,31.22
+508,PICCO,PICCO,Piccolo und mehr,Georg Pipps,Sales Manager,10427,PICCO,4,00:00.0,00:00.0,00:00.0,2,31.29
+121,CHOPS,CHOPS,Chop-suey Chinese,Yang Wang,Owner,10746,CHOPS,1,00:00.0,00:00.0,00:00.0,3,31.43
+114,CACTU,CACTU,Cactus Comidas para llevar,Patricio Simpson,Sales Agent,10937,CACTU,7,00:00.0,00:00.0,00:00.0,3,31.51
+221,FRANK,FRANK,Frankenversand,Peter Franken,Marketing Manager,10675,FRANK,5,00:00.0,00:00.0,00:00.0,2,31.85
+566,QUICK,QUICK,QUICK-Stop,Horst Kloss,Accounting Manager,10938,QUICK,3,00:00.0,00:00.0,00:00.0,2,31.89
+397,LEHMS,LEHMS,Lehmanns Marktstand,Renate Messner,Sales Representative,10934,LEHMS,3,00:00.0,00:00.0,00:00.0,3,32.01
+472,NORTS,NORTS,North/South,Simon Crowther,Sales Associate,10517,NORTS,3,00:00.0,00:00.0,00:00.0,3,32.07
+392,LEHMS,LEHMS,Lehmanns Marktstand,Renate Messner,Sales Representative,10592,LEHMS,3,00:00.0,00:00.0,00:00.0,1,32.1
+95,BOTTM,BOTTM,Bottom-Dollar Markets,Elizabeth Lincoln,Accounting Manager,10975,BOTTM,1,00:00.0,00:00.0,00:00.0,3,32.27
+354,KOENE,KOENE,Königlich Essen,Philip Cramer,Sales Associate,10630,KOENE,1,00:00.0,00:00.0,00:00.0,2,32.35
+46,BERGS,BERGS,Berglunds snabbköp,Christina Berglund,Order Administrator,10875,BERGS,4,00:00.0,00:00.0,00:00.0,2,32.37
+763,VINET,VINET,Vins et alcools Chevalier,Paul Henriot,Accounting Manager,10248,VINET,5,00:00.0,00:00.0,00:00.0,3,32.38
+451,MAISD,MAISD,Maison Dewey,Catherine Dewey,Sales Agent,10896,MAISD,7,00:00.0,00:00.0,00:00.0,3,32.45
+142,DUMON,DUMON,Du monde entier,Janine Labrune,Owner,10890,DUMON,7,00:00.0,00:00.0,00:00.0,1,32.76
+452,MAISD,MAISD,Maison Dewey,Catherine Dewey,Sales Agent,10978,MAISD,9,00:00.0,00:00.0,00:00.0,2,32.82
+602,REGGC,REGGC,Reggiani Caseifici,Maurizio Moroni,Sales Associate,10908,REGGC,4,00:00.0,00:00.0,00:00.0,2,32.96
+631,ROMEY,ROMEY,Romero y tomillo,Alejandra Camino,Accounting Manager,11013,ROMEY,2,00:00.0,00:00.0,00:00.0,1,32.99
+539,QUEEN,QUEEN,Queen Cozinha,Lúcia Carvalho,Marketing Assistant,10913,QUEEN,4,00:00.0,00:00.0,00:00.0,1,33.05
+135,DRACD,DRACD,Drachenblut Delikatessen,Sven Ottlieb,Order Administrator,10797,DRACD,7,00:00.0,00:00.0,00:00.0,2,33.35
+275,GREAL,GREAL,Great Lakes Food Market,Howard Snyder,Marketing Manager,10936,GREAL,3,00:00.0,00:00.0,00:00.0,2,33.68
+261,GOURL,GOURL,Gourmet Lanchonetes,André Fonseca,Sales Associate,10685,GOURL,4,00:00.0,00:00.0,00:00.0,2,33.75
+29,AROUT,AROUT,Around the Horn,Thomas Hardy,Sales Representative,11016,AROUT,9,00:00.0,00:00.0,00:00.0,2,33.8
+225,FRANK,FRANK,Frankenversand,Peter Franken,Marketing Manager,10929,FRANK,6,00:00.0,00:00.0,00:00.0,1,33.93
+326,HUNGO,HUNGO,Hungry Owl All-Night Grocers,Patricia McKenna,Sales Associate,10567,HUNGO,1,00:00.0,00:00.0,00:00.0,1,33.97
+18,AROUT,AROUT,Around the Horn,Thomas Hardy,Sales Representative,10383,AROUT,8,00:00.0,00:00.0,00:00.0,3,34.24
+780,WARTH,WARTH,Wartian Herkku,Pirkko Koskitalo,Accounting Manager,10320,WARTH,5,00:00.0,00:00.0,00:00.0,3,34.57
+529,QUEDE,QUEDE,Que Delícia,Bernardo Batista,Accounting Manager,10989,QUEDE,2,00:00.0,00:00.0,00:00.0,1,34.76
+417,LINOD,LINOD,LINO-Delicateses,Felipe Izquierdo,Owner,10405,LINOD,1,00:00.0,00:00.0,00:00.0,1,34.82
+671,SEVES,SEVES,Seven Seas Imports,Hari Kumar,Sales Manager,10388,SEVES,2,00:00.0,00:00.0,00:00.0,1,34.86
+406,LILAS,LILAS,LILA-Supermercado,Carlos González,Accounting Manager,10357,LILAS,1,00:00.0,00:00.0,00:00.0,3,34.88
+322,HUNGO,HUNGO,Hungry Owl All-Night Grocers,Patricia McKenna,Sales Associate,10380,HUNGO,8,00:00.0,00:00.0,00:00.0,3,35.03
+511,PICCO,PICCO,Piccolo und mehr,Georg Pipps,Sales Manager,10597,PICCO,7,00:00.0,00:00.0,00:00.0,3,35.12
+738,TRADH,TRADH,Tradição Hipermercados,Anabela Domingues,Sales Representative,10839,TRADH,3,00:00.0,00:00.0,00:00.0,3,35.43
+15,ANTON,ANTON,Antonio Moreno Taquería,Antonio Moreno,Owner,10682,ANTON,3,00:00.0,00:00.0,00:00.0,2,36.13
+387,LEHMS,LEHMS,Lehmanns Marktstand,Renate Messner,Sales Representative,10497,LEHMS,7,00:00.0,00:00.0,00:00.0,1,36.21
+217,FRANK,FRANK,Frankenversand,Peter Franken,Marketing Manager,10560,FRANK,8,00:00.0,00:00.0,00:00.0,1,36.65
+696,SPLIR,SPLIR,Split Rail Beer & Ale,Art Braunschweiger,Sales Manager,10821,SPLIR,1,00:00.0,00:00.0,00:00.0,1,36.68
+289,HANAR,HANAR,Hanari Carnes,Mario Pontes,Accounting Manager,10903,HANAR,3,00:00.0,00:00.0,00:00.0,3,36.71
+771,WANDK,WANDK,Die Wandernde Kuh,Rita Müller,Sales Representative,10356,WANDK,6,00:00.0,00:00.0,00:00.0,2,36.71
+191,FOLIG,FOLIG,Folies gourmandes,Martine Rancé,Assistant Sales Agent,10763,FOLIG,3,00:00.0,00:00.0,00:00.0,3,37.35
+588,RATTC,RATTC,Rattlesnake Canyon Grocery,Paula Wilson,Assistant Sales Representative,10820,RATTC,3,00:00.0,00:00.0,00:00.0,2,37.52
+739,TRAIH,TRAIH,Trail's Head Gourmet Provisioners,Helvetius Nagy,Sales Associate,10574,TRAIH,4,00:00.0,00:00.0,00:00.0,2,37.6
+311,HILAA,HILAA,HILARION-Abastos,Carlos Hernández,Sales Representative,10976,HILAA,1,00:00.0,00:00.0,00:00.0,1,37.97
+615,RICAR,RICAR,Ricardo Adocicados,Janete Limeira,Assistant Sales Agent,10877,RICAR,1,00:00.0,00:00.0,00:00.0,1,38.06
+821,WILMK,WILMK,Wilman Kala,Matti Karttunen,Owner/Marketing Assistant,10910,WILMK,1,00:00.0,00:00.0,00:00.0,3,38.11
+255,GODOS,GODOS,Godos Cocina Típica,José Pedro Freyre,Sales Manager,10911,GODOS,3,00:00.0,00:00.0,00:00.0,1,38.19
+132,CONSH,CONSH,Consolidated Holdings,Elizabeth Brown,Sales Representative,10848,CONSH,7,00:00.0,00:00.0,00:00.0,2,38.24
+85,BONAP,BONAP,Bon app',Laurence Lebihan,Owner,11076,BONAP,4,00:00.0,00:00.0,,2,38.28
+568,QUICK,QUICK,QUICK-Stop,Horst Kloss,Accounting Manager,10991,QUICK,1,00:00.0,00:00.0,00:00.0,1,38.51
+634,SANTG,SANTG,Santé Gourmet,Jonas Bergulfsen,Owner,10639,SANTG,7,00:00.0,00:00.0,00:00.0,3,38.64
+571,RANCH,RANCH,Rancho grande,Sergio Gutiérrez,Sales Representative,10448,RANCH,4,00:00.0,00:00.0,00:00.0,2,38.82
+9,ANATR,ANATR,Ana Trujillo Emparedados y helados,Ana Trujillo,Owner,10926,ANATR,4,00:00.0,00:00.0,00:00.0,3,39.92
+769,WANDK,WANDK,Die Wandernde Kuh,Rita Müller,Sales Representative,10312,WANDK,2,00:00.0,00:00.0,00:00.0,2,40.26
+489,OLDWO,OLDWO,Old World Delicatessen,Rene Phillips,Sales Representative,11034,OLDWO,8,00:00.0,00:00.0,00:00.0,1,40.32
+4,ALFKI,ALFKI,Alfreds Futterkiste,Maria Anders,Sales Representative,10952,ALFKI,1,00:00.0,00:00.0,00:00.0,1,40.42
+753,VICTE,VICTE,Victuailles en stock,Mary Saveley,Sales Agent,10251,VICTE,3,00:00.0,00:00.0,00:00.0,1,41.34
+773,WANDK,WANDK,Die Wandernde Kuh,Rita Müller,Sales Representative,10632,WANDK,8,00:00.0,00:00.0,00:00.0,1,41.38
+337,ISLAT,ISLAT,Island Trading,Helen Bennett,Marketing Manager,10315,ISLAT,4,00:00.0,00:00.0,00:00.0,2,41.76
+681,SIMOB,SIMOB,Simons bistro,Jytte Petersen,Owner,10642,SIMOB,7,00:00.0,00:00.0,00:00.0,3,41.89
+552,QUICK,QUICK,QUICK-Stop,Horst Kloss,Accounting Manager,10527,QUICK,7,00:00.0,00:00.0,00:00.0,1,41.9
+17,AROUT,AROUT,Around the Horn,Thomas Hardy,Sales Representative,10355,AROUT,6,00:00.0,00:00.0,00:00.0,1,41.95
+320,HUNGO,HUNGO,Hungry Owl All-Night Grocers,Patricia McKenna,Sales Associate,10335,HUNGO,7,00:00.0,00:00.0,00:00.0,2,42.11
+411,LILAS,LILAS,LILA-Supermercado,Carlos González,Accounting Manager,10780,LILAS,2,00:00.0,00:00.0,00:00.0,1,42.13
+372,LAMAI,LAMAI,La maison d'Asie,Annette Roulet,Sales Manager,10500,LAMAI,6,00:00.0,00:00.0,00:00.0,1,42.68
+562,QUICK,QUICK,QUICK-Stop,Horst Kloss,Accounting Manager,10788,QUICK,1,00:00.0,00:00.0,00:00.0,2,42.7
+561,QUICK,QUICK,QUICK-Stop,Horst Kloss,Accounting Manager,10765,QUICK,3,00:00.0,00:00.0,00:00.0,3,42.74
+376,LAMAI,LAMAI,La maison d'Asie,Annette Roulet,Sales Manager,10832,LAMAI,2,00:00.0,00:00.0,00:00.0,2,43.26
+499,OTTIK,OTTIK,Ottilies Käseladen,Henriette Pfalzheim,Owner,11020,OTTIK,2,00:00.0,00:00.0,00:00.0,2,43.3
+7,ANATR,ANATR,Ana Trujillo Emparedados y helados,Ana Trujillo,Owner,10625,ANATR,3,00:00.0,00:00.0,00:00.0,1,43.9
+332,HUNGO,HUNGO,Hungry Owl All-Night Grocers,Patricia McKenna,Sales Associate,10736,HUNGO,9,00:00.0,00:00.0,00:00.0,2,44.1
+351,KOENE,KOENE,Königlich Essen,Philip Cramer,Sales Associate,10468,KOENE,3,00:00.0,00:00.0,00:00.0,3,44.12
+794,WELLI,WELLI,Wellington Importadora,Paula Parente,Sales Manager,10420,WELLI,3,00:00.0,00:00.0,00:00.0,1,44.12
+205,FOLKO,FOLKO,Folk och fä HB,Maria Larsson,Owner,10902,FOLKO,1,00:00.0,00:00.0,00:00.0,1,44.15
+89,BOTTM,BOTTM,Bottom-Dollar Markets,Elizabeth Lincoln,Accounting Manager,10431,BOTTM,4,00:00.0,00:00.0,00:00.0,2,44.17
+586,RATTC,RATTC,Rattlesnake Canyon Grocery,Paula Wilson,Assistant Sales Representative,10598,RATTC,1,00:00.0,00:00.0,00:00.0,3,44.42
+53,BLAUS,BLAUS,Blauer See Delikatessen,Hanna Moos,Sales Representative,10956,BLAUS,6,00:00.0,00:00.0,00:00.0,2,44.65
+815,WHITC,WHITC,White Clover Markets,Karl Jablonski,Owner,11066,WHITC,7,00:00.0,00:00.0,00:00.0,2,44.72
+462,MEREP,MEREP,Mère Paillarde,Jean Fresnière,Marketing Assistant,10590,MEREP,4,00:00.0,00:00.0,00:00.0,3,44.77
+453,MAISD,MAISD,Maison Dewey,Catherine Dewey,Sales Agent,11004,MAISD,3,00:00.0,00:00.0,00:00.0,1,44.84
+523,QUEDE,QUEDE,Que Delícia,Bernardo Batista,Accounting Manager,10379,QUEDE,2,00:00.0,00:00.0,00:00.0,1,45.03
+768,WANDK,WANDK,Die Wandernde Kuh,Rita Müller,Sales Representative,10301,WANDK,8,00:00.0,00:00.0,00:00.0,2,45.08
+316,HUNGC,HUNGC,Hungry Coyote Import Store,Yoshi Latimer,Sales Representative,10600,HUNGC,4,00:00.0,00:00.0,00:00.0,1,45.13
+388,LEHMS,LEHMS,Lehmanns Marktstand,Renate Messner,Sales Representative,10522,LEHMS,4,00:00.0,00:00.0,00:00.0,1,45.33
+420,LINOD,LINOD,LINO-Delicateses,Felipe Izquierdo,Owner,10697,LINOD,3,00:00.0,00:00.0,00:00.0,1,45.52
+486,OLDWO,OLDWO,Old World Delicatessen,Rene Phillips,Sales Representative,10808,OLDWO,2,00:00.0,00:00.0,00:00.0,3,45.53
+526,QUEDE,QUEDE,Que Delícia,Bernardo Batista,Accounting Manager,10647,QUEDE,4,00:00.0,00:00.0,00:00.0,2,45.54
+101,BSBEV,BSBEV,B's Beverages,Victoria Ashworth,Sales Representative,10471,BSBEV,2,00:00.0,00:00.0,00:00.0,3,45.59
+401,LETSS,LETSS,Let's Stop N Shop,Jaime Yorres,Owner,10735,LETSS,6,00:00.0,00:00.0,00:00.0,2,45.97
+504,PERIC,PERIC,Pericles Comidas clásicas,Guillermo Fernández,Sales Representative,10995,PERIC,1,00:00.0,00:00.0,00:00.0,3,46.0
+149,EASTC,EASTC,Eastern Connection,Ann Devon,Sales Agent,11047,EASTC,7,00:00.0,00:00.0,00:00.0,3,46.62
+565,QUICK,QUICK,QUICK-Stop,Horst Kloss,Accounting Manager,10878,QUICK,4,00:00.0,00:00.0,00:00.0,1,46.69
+734,TRADH,TRADH,Tradição Hipermercados,Anabela Domingues,Sales Representative,10496,TRADH,7,00:00.0,00:00.0,00:00.0,2,46.77
+234,FRANS,FRANS,Franchi S.p.A.,Paolo Accorti,Sales Representative,11026,FRANS,4,00:00.0,00:00.0,00:00.0,1,47.09
+776,WANDK,WANDK,Die Wandernde Kuh,Rita Müller,Sales Representative,10668,WANDK,1,00:00.0,00:00.0,00:00.0,2,47.22
+319,HUNGO,HUNGO,Hungry Owl All-Night Grocers,Patricia McKenna,Sales Associate,10309,HUNGO,3,00:00.0,00:00.0,00:00.0,1,47.3
+613,RICAR,RICAR,Ricardo Adocicados,Janete Limeira,Assistant Sales Agent,10813,RICAR,1,00:00.0,00:00.0,00:00.0,1,47.38
+86,BOTTM,BOTTM,Bottom-Dollar Markets,Elizabeth Lincoln,Accounting Manager,10389,BOTTM,4,00:00.0,00:00.0,00:00.0,2,47.42
+11,ANTON,ANTON,Antonio Moreno Taquería,Antonio Moreno,Owner,10507,ANTON,7,00:00.0,00:00.0,00:00.0,1,47.45
+441,MAGAA,MAGAA,Magazzini Alimentari Riuniti,Giovanni Rovelli,Marketing Manager,10635,MAGAA,8,00:00.0,00:00.0,00:00.0,3,47.46
+801,WELLI,WELLI,Wellington Importadora,Paula Parente,Sales Manager,10935,WELLI,4,00:00.0,00:00.0,00:00.0,3,47.59
+123,CHOPS,CHOPS,Chop-suey Chinese,Yang Wang,Owner,11029,CHOPS,4,00:00.0,00:00.0,00:00.0,1,47.84
+160,ERNSH,ERNSH,Ernst Handel,Roland Mendel,Sales Manager,10442,ERNSH,3,00:00.0,00:00.0,00:00.0,2,47.94
+410,LILAS,LILAS,LILA-Supermercado,Carlos González,Accounting Manager,10543,LILAS,8,00:00.0,00:00.0,00:00.0,2,48.17
+202,FOLKO,FOLKO,Folk och fä HB,Maria Larsson,Owner,10774,FOLKO,4,00:00.0,00:00.0,00:00.0,1,48.2
+124,CHOPS,CHOPS,Chop-suey Chinese,Yang Wang,Owner,11041,CHOPS,3,00:00.0,00:00.0,00:00.0,2,48.22
+576,RATTC,RATTC,Rattlesnake Canyon Grocery,Paula Wilson,Assistant Sales Representative,10262,RATTC,8,00:00.0,00:00.0,00:00.0,3,48.29
+645,SAVEA,SAVEA,Save-a-lot Markets,Jose Pavarotti,Sales Representative,10603,SAVEA,8,00:00.0,00:00.0,00:00.0,2,48.77
+92,BOTTM,BOTTM,Bottom-Dollar Markets,Elizabeth Lincoln,Accounting Manager,10918,BOTTM,3,00:00.0,00:00.0,00:00.0,3,48.83
+559,QUICK,QUICK,QUICK-Stop,Horst Kloss,Accounting Manager,10721,QUICK,5,00:00.0,00:00.0,00:00.0,3,48.92
+762,VICTE,VICTE,Victuailles en stock,Mary Saveley,Sales Agent,10850,VICTE,1,00:00.0,00:00.0,00:00.0,1,49.19
+478,OCEAN,OCEAN,Océano Atlántico Ltda.,Yvonne Moncada,Sales Agent,10958,OCEAN,7,00:00.0,00:00.0,00:00.0,2,49.56
+611,RICAR,RICAR,Ricardo Adocicados,Janete Limeira,Assistant Sales Agent,10622,RICAR,4,00:00.0,00:00.0,00:00.0,3,50.97
+698,SUPRD,SUPRD,Suprêmes délices,Pascale Cartrain,Accounting Manager,10252,SUPRD,4,00:00.0,00:00.0,00:00.0,2,51.3
+400,LETSS,LETSS,Let's Stop N Shop,Jaime Yorres,Owner,10719,LETSS,8,00:00.0,00:00.0,00:00.0,2,51.44
+254,GODOS,GODOS,Godos Cocina Típica,José Pedro Freyre,Sales Manager,10888,GODOS,1,00:00.0,00:00.0,00:00.0,2,51.87
+652,SAVEA,SAVEA,Save-a-lot Markets,Jose Pavarotti,Sales Representative,10711,SAVEA,5,00:00.0,00:00.0,00:00.0,2,52.41
+361,LACOR,LACOR,La corne d'abondance,Daniel Tonini,Sales Representative,10858,LACOR,2,00:00.0,00:00.0,00:00.0,1,52.51
+97,BOTTM,BOTTM,Bottom-Dollar Markets,Elizabeth Lincoln,Accounting Manager,11027,BOTTM,1,00:00.0,00:00.0,00:00.0,1,52.52
+454,MEREP,MEREP,Mère Paillarde,Jean Fresnière,Marketing Assistant,10332,MEREP,3,00:00.0,00:00.0,00:00.0,2,52.84
+93,BOTTM,BOTTM,Bottom-Dollar Markets,Elizabeth Lincoln,Accounting Manager,10944,BOTTM,6,00:00.0,00:00.0,00:00.0,3,52.92
+515,PICCO,PICCO,Piccolo und mehr,Georg Pipps,Sales Manager,11053,PICCO,2,00:00.0,00:00.0,00:00.0,2,53.05
+636,SANTG,SANTG,Santé Gourmet,Jonas Bergulfsen,Owner,10909,SANTG,1,00:00.0,00:00.0,00:00.0,2,53.05
+395,LEHMS,LEHMS,Lehmanns Marktstand,Renate Messner,Sales Representative,10862,LEHMS,8,00:00.0,00:00.0,00:00.0,2,53.23
+59,BLONP,BLONP,Blondesddsl père et fils,Frédérique Citeaux,Marketing Manager,10449,BLONP,3,00:00.0,00:00.0,00:00.0,2,53.3
+501,PERIC,PERIC,Pericles Comidas clásicas,Guillermo Fernández,Sales Representative,10354,PERIC,8,00:00.0,00:00.0,00:00.0,3,53.8
+52,BLAUS,BLAUS,Blauer See Delikatessen,Hanna Moos,Sales Representative,10853,BLAUS,9,00:00.0,00:00.0,00:00.0,2,53.83
+346,ISLAT,ISLAT,Island Trading,Helen Bennett,Marketing Manager,10933,ISLAT,6,00:00.0,00:00.0,00:00.0,3,54.15
+730,TORTU,TORTU,Tortuga Restaurante,Miguel Angel Paolino,Owner,10842,TORTU,1,00:00.0,00:00.0,00:00.0,3,54.42
+214,FRANK,FRANK,Frankenversand,Peter Franken,Marketing Manager,10342,FRANK,4,00:00.0,00:00.0,00:00.0,2,54.83
+490,OTTIK,OTTIK,Ottilies Käseladen,Henriette Pfalzheim,Owner,10260,OTTIK,4,00:00.0,00:00.0,00:00.0,1,55.09
+592,RATTC,RATTC,Rattlesnake Canyon Grocery,Paula Wilson,Assistant Sales Representative,11000,RATTC,2,00:00.0,00:00.0,00:00.0,3,55.12
+797,WELLI,WELLI,Wellington Importadora,Paula Parente,Sales Manager,10803,WELLI,4,00:00.0,00:00.0,00:00.0,1,55.23
+38,BERGS,BERGS,Berglunds snabbköp,Christina Berglund,Order Administrator,10654,BERGS,5,00:00.0,00:00.0,00:00.0,1,55.26
+55,BLONP,BLONP,Blondesddsl père et fils,Frédérique Citeaux,Marketing Manager,10265,BLONP,2,00:00.0,00:00.0,00:00.0,1,55.28
+745,VAFFE,VAFFE,Vaffeljernet,Palle Ibsen,Sales Manager,10591,VAFFE,1,00:00.0,00:00.0,00:00.0,1,55.92
+705,SUPRD,SUPRD,Suprêmes délices,Pascale Cartrain,Accounting Manager,10846,SUPRD,2,00:00.0,00:00.0,00:00.0,3,56.46
+323,HUNGO,HUNGO,Hungry Owl All-Night Grocers,Patricia McKenna,Sales Associate,10429,HUNGO,3,00:00.0,00:00.0,00:00.0,2,56.63
+272,GREAL,GREAL,Great Lakes Food Market,Howard Snyder,Marketing Manager,10656,GREAL,6,00:00.0,00:00.0,00:00.0,1,57.15
+466,MEREP,MEREP,Mère Paillarde,Jean Fresnière,Marketing Assistant,10724,MEREP,8,00:00.0,00:00.0,00:00.0,2,57.75
+470,MORGK,MORGK,Morgenstern Gesundkost,Alexander Feuer,Marketing Assistant,10779,MORGK,3,00:00.0,00:00.0,00:00.0,2,58.13
+282,HANAR,HANAR,Hanari Carnes,Mario Pontes,Accounting Manager,10253,HANAR,3,00:00.0,00:00.0,00:00.0,2,58.17
+302,HILAA,HILAA,HILARION-Abastos,Carlos Hernández,Sales Representative,10601,HILAA,7,00:00.0,00:00.0,00:00.0,1,58.3
+536,QUEEN,QUEEN,Queen Cozinha,Lúcia Carvalho,Marketing Assistant,10728,QUEEN,4,00:00.0,00:00.0,00:00.0,2,58.33
+16,ANTON,ANTON,Antonio Moreno Taquería,Antonio Moreno,Owner,10856,ANTON,3,00:00.0,00:00.0,00:00.0,2,58.43
+786,WARTH,WARTH,Wartian Herkku,Pirkko Koskitalo,Accounting Manager,10526,WARTH,4,00:00.0,00:00.0,00:00.0,2,58.59
+390,LEHMS,LEHMS,Lehmanns Marktstand,Renate Messner,Sales Representative,10536,LEHMS,3,00:00.0,00:00.0,00:00.0,2,58.88
+585,RATTC,RATTC,Rattlesnake Canyon Grocery,Paula Wilson,Assistant Sales Representative,10569,RATTC,5,00:00.0,00:00.0,00:00.0,1,58.98
+257,GODOS,GODOS,Godos Cocina Típica,José Pedro Freyre,Sales Manager,11009,GODOS,2,00:00.0,00:00.0,00:00.0,1,59.11
+806,WHITC,WHITC,White Clover Markets,Karl Jablonski,Owner,10504,WHITC,4,00:00.0,00:00.0,00:00.0,3,59.13
+62,BLONP,BLONP,Blondesddsl père et fils,Frédérique Citeaux,Marketing Manager,10584,BLONP,4,00:00.0,00:00.0,00:00.0,1,59.14
+222,FRANK,FRANK,Frankenversand,Peter Franken,Marketing Manager,10717,FRANK,1,00:00.0,00:00.0,00:00.0,2,59.25
+423,LINOD,LINOD,LINO-Delicateses,Felipe Izquierdo,Owner,10838,LINOD,3,00:00.0,00:00.0,00:00.0,3,59.28
+211,FOLKO,FOLKO,Folk och fä HB,Maria Larsson,Owner,11050,FOLKO,8,00:00.0,00:00.0,00:00.0,2,59.41
+601,REGGC,REGGC,Reggiani Caseifici,Maurizio Moroni,Sales Associate,10812,REGGC,5,00:00.0,00:00.0,00:00.0,1,59.78
+804,WHITC,WHITC,White Clover Markets,Karl Jablonski,Owner,10469,WHITC,1,00:00.0,00:00.0,00:00.0,1,60.18
+517,PRINI,PRINI,Princesa Isabel Vinhos,Isabel de Castro,Sales Representative,10397,PRINI,5,00:00.0,00:00.0,00:00.0,1,60.26
+82,BONAP,BONAP,Bon app',Laurence Lebihan,Owner,10876,BONAP,7,00:00.0,00:00.0,00:00.0,3,60.42
+610,RICAR,RICAR,Ricardo Adocicados,Janete Limeira,Assistant Sales Agent,10563,RICAR,2,00:00.0,00:00.0,00:00.0,2,60.43
+1,ALFKI,ALFKI,Alfreds Futterkiste,Maria Anders,Sales Representative,10692,ALFKI,4,00:00.0,00:00.0,00:00.0,2,61.02
+591,RATTC,RATTC,Rattlesnake Canyon Grocery,Paula Wilson,Assistant Sales Representative,10988,RATTC,3,00:00.0,00:00.0,00:00.0,2,61.14
+343,ISLAT,ISLAT,Island Trading,Helen Bennett,Marketing Manager,10749,ISLAT,4,00:00.0,00:00.0,00:00.0,2,61.53
+308,HILAA,HILAA,HILARION-Abastos,Carlos Hernández,Sales Representative,10901,HILAA,4,00:00.0,00:00.0,00:00.0,1,62.09
+722,TOMSP,TOMSP,Toms Spezialitäten,Karin Josephs,Marketing Manager,10967,TOMSP,2,00:00.0,00:00.0,00:00.0,2,62.22
+525,QUEDE,QUEDE,Que Delícia,Bernardo Batista,Accounting Manager,10587,QUEDE,1,00:00.0,00:00.0,00:00.0,1,62.52
+290,HANAR,HANAR,Hanari Carnes,Mario Pontes,Accounting Manager,10922,HANAR,5,00:00.0,00:00.0,00:00.0,3,62.74
+325,HUNGO,HUNGO,Hungry Owl All-Night Grocers,Patricia McKenna,Sales Associate,10516,HUNGO,2,00:00.0,00:00.0,00:00.0,3,62.78
+90,BOTTM,BOTTM,Bottom-Dollar Markets,Elizabeth Lincoln,Accounting Manager,10492,BOTTM,3,00:00.0,00:00.0,00:00.0,1,62.89
+76,BONAP,BONAP,Bon app',Laurence Lebihan,Owner,10715,BONAP,3,00:00.0,00:00.0,00:00.0,1,63.2
+194,FOLKO,FOLKO,Folk och fä HB,Maria Larsson,Owner,10327,FOLKO,2,00:00.0,00:00.0,00:00.0,1,63.36
+80,BONAP,BONAP,Bon app',Laurence Lebihan,Owner,10827,BONAP,1,00:00.0,00:00.0,00:00.0,2,63.54
+574,RANCH,RANCH,Rancho grande,Sergio Gutiérrez,Sales Representative,10916,RANCH,1,00:00.0,00:00.0,00:00.0,2,63.77
+725,TORTU,TORTU,Tortuga Restaurante,Miguel Angel Paolino,Owner,10304,TORTU,1,00:00.0,00:00.0,00:00.0,2,63.79
+365,LAMAI,LAMAI,La maison d'Asie,Annette Roulet,Sales Manager,10350,LAMAI,6,00:00.0,00:00.0,00:00.0,2,64.19
+609,RICAR,RICAR,Ricardo Adocicados,Janete Limeira,Assistant Sales Agent,10481,RICAR,8,00:00.0,00:00.0,00:00.0,2,64.33
+418,LINOD,LINOD,LINO-Delicateses,Felipe Izquierdo,Owner,10485,LINOD,4,00:00.0,00:00.0,00:00.0,2,64.45
+726,TORTU,TORTU,Tortuga Restaurante,Miguel Angel Paolino,Owner,10319,TORTU,7,00:00.0,00:00.0,00:00.0,3,64.5
+72,BONAP,BONAP,Bon app',Laurence Lebihan,Owner,10470,BONAP,4,00:00.0,00:00.0,00:00.0,2,64.56
+348,KOENE,KOENE,Königlich Essen,Philip Cramer,Sales Associate,10325,KOENE,1,00:00.0,00:00.0,00:00.0,3,64.86
+428,LINOD,LINOD,LINO-Delicateses,Felipe Izquierdo,Owner,11039,LINOD,1,00:00.0,00:00.0,,2,65.0
+749,VAFFE,VAFFE,Vaffeljernet,Palle Ibsen,Sales Manager,10769,VAFFE,3,00:00.0,00:00.0,00:00.0,1,65.06
+651,SAVEA,SAVEA,Save-a-lot Markets,Jose Pavarotti,Sales Representative,10700,SAVEA,3,00:00.0,00:00.0,00:00.0,1,65.1
+444,MAGAA,MAGAA,Magazzini Alimentari Riuniti,Giovanni Rovelli,Marketing Manager,10818,MAGAA,7,00:00.0,00:00.0,00:00.0,3,65.48
+752,VAFFE,VAFFE,Vaffeljernet,Palle Ibsen,Sales Manager,10994,VAFFE,2,00:00.0,00:00.0,00:00.0,3,65.53
+281,HANAR,HANAR,Hanari Carnes,Mario Pontes,Accounting Manager,10250,HANAR,4,00:00.0,00:00.0,00:00.0,2,65.83
+127,COMMI,COMMI,Comércio Mineiro,Pedro Afonso,Sales Associate,10494,COMMI,4,00:00.0,00:00.0,00:00.0,2,65.99
+279,GROSR,GROSR,GROSELLA-Restaurante,Manuel Pereira,Owner,10268,GROSR,8,00:00.0,00:00.0,00:00.0,3,66.29
+447,MAISD,MAISD,Maison Dewey,Catherine Dewey,Sales Agent,10529,MAISD,5,00:00.0,00:00.0,00:00.0,2,66.69
+294,HANAR,HANAR,Hanari Carnes,Mario Pontes,Accounting Manager,11052,HANAR,3,00:00.0,00:00.0,00:00.0,1,67.26
+157,ERNSH,ERNSH,Ernst Handel,Roland Mendel,Sales Manager,10402,ERNSH,8,00:00.0,00:00.0,00:00.0,2,67.88
+377,LAMAI,LAMAI,La maison d'Asie,Annette Roulet,Sales Manager,10923,LAMAI,7,00:00.0,00:00.0,00:00.0,3,68.26
+702,SUPRD,SUPRD,Suprêmes délices,Pascale Cartrain,Accounting Manager,10475,SUPRD,9,00:00.0,00:00.0,00:00.0,1,68.52
+283,HANAR,HANAR,Hanari Carnes,Mario Pontes,Accounting Manager,10541,HANAR,2,00:00.0,00:00.0,00:00.0,1,68.65
+608,RICAR,RICAR,Ricardo Adocicados,Janete Limeira,Assistant Sales Agent,10447,RICAR,4,00:00.0,00:00.0,00:00.0,2,68.66
+748,VAFFE,VAFFE,Vaffeljernet,Palle Ibsen,Sales Manager,10744,VAFFE,6,00:00.0,00:00.0,00:00.0,1,69.19
+503,PERIC,PERIC,Pericles Comidas clásicas,Guillermo Fernández,Sales Representative,10502,PERIC,2,00:00.0,00:00.0,00:00.0,1,69.32
+3,ALFKI,ALFKI,Alfreds Futterkiste,Maria Anders,Sales Representative,10835,ALFKI,1,00:00.0,00:00.0,00:00.0,3,69.53
+443,MAGAA,MAGAA,Magazzini Alimentari Riuniti,Giovanni Rovelli,Marketing Manager,10784,MAGAA,4,00:00.0,00:00.0,00:00.0,3,70.09
+679,SIMOB,SIMOB,Simons bistro,Jytte Petersen,Owner,10417,SIMOB,4,00:00.0,00:00.0,00:00.0,3,70.29
+98,BOTTM,BOTTM,Bottom-Dollar Markets,Elizabeth Lincoln,Accounting Manager,11045,BOTTM,6,00:00.0,00:00.0,,2,70.58
+532,QUEEN,QUEEN,Queen Cozinha,Lúcia Carvalho,Marketing Assistant,10487,QUEEN,2,00:00.0,00:00.0,00:00.0,2,71.07
+497,OTTIK,OTTIK,Ottilies Käseladen,Henriette Pfalzheim,Owner,10833,OTTIK,6,00:00.0,00:00.0,00:00.0,2,71.49
+777,WANDK,WANDK,Die Wandernde Kuh,Rita Müller,Sales Representative,11046,WANDK,8,00:00.0,00:00.0,00:00.0,2,71.64
+143,EASTC,EASTC,Eastern Connection,Ann Devon,Sales Agent,10364,EASTC,1,00:00.0,00:00.0,00:00.0,1,71.97
+635,SANTG,SANTG,Santé Gourmet,Jonas Bergulfsen,Owner,10831,SANTG,3,00:00.0,00:00.0,00:00.0,2,72.19
+240,FURIB,FURIB,Furia Bacalhau e Frutos do Mar,Lino Rodriguez,Sales Manager,10551,FURIB,4,00:00.0,00:00.0,00:00.0,3,72.95
+20,AROUT,AROUT,Around the Horn,Thomas Hardy,Sales Representative,10558,AROUT,1,00:00.0,00:00.0,00:00.0,2,72.97
+482,OLDWO,OLDWO,Old World Delicatessen,Rene Phillips,Sales Representative,10441,OLDWO,3,00:00.0,00:00.0,00:00.0,2,73.02
+791,WARTH,WARTH,Wartian Herkku,Pirkko Koskitalo,Accounting Manager,10781,WARTH,2,00:00.0,00:00.0,00:00.0,3,73.16
+695,SPLIR,SPLIR,Split Rail Beer & Ale,Art Braunschweiger,Sales Manager,10756,SPLIR,8,00:00.0,00:00.0,00:00.0,2,73.21
+158,ERNSH,ERNSH,Ernst Handel,Roland Mendel,Sales Manager,10403,ERNSH,4,00:00.0,00:00.0,00:00.0,3,73.79
+518,PRINI,PRINI,Princesa Isabel Vinhos,Isabel de Castro,Sales Representative,10433,PRINI,3,00:00.0,00:00.0,00:00.0,3,73.83
+414,LILAS,LILAS,LILA-Supermercado,Carlos González,Accounting Manager,10997,LILAS,8,00:00.0,00:00.0,00:00.0,2,73.91
+579,RATTC,RATTC,Rattlesnake Canyon Grocery,Paula Wilson,Assistant Sales Representative,10314,RATTC,1,00:00.0,00:00.0,00:00.0,2,74.16
+148,EASTC,EASTC,Eastern Connection,Ann Devon,Sales Agent,11024,EASTC,4,00:00.0,00:00.0,00:00.0,1,74.36
+94,BOTTM,BOTTM,Bottom-Dollar Markets,Elizabeth Lincoln,Accounting Manager,10949,BOTTM,2,00:00.0,00:00.0,00:00.0,3,74.44
+145,EASTC,EASTC,Eastern Connection,Ann Devon,Sales Agent,10532,EASTC,7,00:00.0,00:00.0,00:00.0,3,74.46
+655,SAVEA,SAVEA,Save-a-lot Markets,Jose Pavarotti,Sales Representative,10722,SAVEA,8,00:00.0,00:00.0,00:00.0,1,74.58
+175,ERNSH,ERNSH,Ernst Handel,Roland Mendel,Sales Manager,10968,ERNSH,1,00:00.0,00:00.0,00:00.0,3,74.6
+494,OTTIK,OTTIK,Ottilies Käseladen,Henriette Pfalzheim,Owner,10580,OTTIK,4,00:00.0,00:00.0,00:00.0,3,75.89
+543,QUICK,QUICK,QUICK-Stop,Horst Kloss,Accounting Manager,10273,QUICK,3,00:00.0,00:00.0,00:00.0,3,76.07
+224,FRANK,FRANK,Frankenversand,Peter Franken,Marketing Manager,10859,FRANK,1,00:00.0,00:00.0,00:00.0,2,76.1
+273,GREAL,GREAL,Great Lakes Food Market,Howard Snyder,Marketing Manager,10681,GREAL,3,00:00.0,00:00.0,00:00.0,3,76.13
+445,MAGAA,MAGAA,Magazzini Alimentari Riuniti,Giovanni Rovelli,Marketing Manager,10939,MAGAA,2,00:00.0,00:00.0,00:00.0,2,76.33
+385,LEHMS,LEHMS,Lehmanns Marktstand,Renate Messner,Sales Representative,10284,LEHMS,4,00:00.0,00:00.0,00:00.0,1,76.56
+544,QUICK,QUICK,QUICK-Stop,Horst Kloss,Accounting Manager,10285,QUICK,1,00:00.0,00:00.0,00:00.0,2,76.83
+673,SEVES,SEVES,Seven Seas Imports,Hari Kumar,Sales Manager,10523,SEVES,7,00:00.0,00:00.0,00:00.0,2,77.63
+359,KOENE,KOENE,Königlich Essen,Philip Cramer,Sales Associate,10893,KOENE,9,00:00.0,00:00.0,00:00.0,2,77.78
+66,BOLID,BOLID,Bólido Comidas preparadas,Martín Sommer,Owner,10326,BOLID,4,00:00.0,00:00.0,00:00.0,2,77.92
+165,ERNSH,ERNSH,Ernst Handel,Roland Mendel,Sales Manager,10667,ERNSH,7,00:00.0,00:00.0,00:00.0,1,78.09
+619,RICSU,RICSU,Richter Supermarkt,Michael Holz,Sales Manager,10537,RICSU,1,00:00.0,00:00.0,00:00.0,1,78.85
+136,DRACD,DRACD,Drachenblut Delikatessen,Sven Ottlieb,Order Administrator,10825,DRACD,1,00:00.0,00:00.0,00:00.0,1,79.25
+790,WARTH,WARTH,Wartian Herkku,Pirkko Koskitalo,Accounting Manager,10750,WARTH,9,00:00.0,00:00.0,00:00.0,1,79.3
+735,TRADH,TRADH,Tradição Hipermercados,Anabela Domingues,Sales Representative,10606,TRADH,4,00:00.0,00:00.0,00:00.0,3,79.4
+178,ERNSH,ERNSH,Ernst Handel,Roland Mendel,Sales Manager,11008,ERNSH,7,00:00.0,00:00.0,,3,79.46
+125,COMMI,COMMI,Comércio Mineiro,Pedro Afonso,Sales Associate,10290,COMMI,8,00:00.0,00:00.0,00:00.0,1,79.7
+824,WOLZA,WOLZA,Wolski  Zajazd,Zbyszek Piestrzeniewicz,Owner,10611,WOLZA,6,00:00.0,00:00.0,00:00.0,2,80.65
+336,HUNGO,HUNGO,Hungry Owl All-Night Grocers,Patricia McKenna,Sales Associate,11063,HUNGO,3,00:00.0,00:00.0,00:00.0,2,81.73
+542,QUEEN,QUEEN,Queen Cozinha,Lúcia Carvalho,Marketing Assistant,11068,QUEEN,8,00:00.0,00:00.0,,2,81.75
+736,TRADH,TRADH,Tradição Hipermercados,Anabela Domingues,Sales Representative,10830,TRADH,4,00:00.0,00:00.0,00:00.0,2,81.83
+811,WHITC,WHITC,White Clover Markets,Karl Jablonski,Owner,10740,WHITC,4,00:00.0,00:00.0,00:00.0,2,81.88
+295,HILAA,HILAA,HILARION-Abastos,Carlos Hernández,Sales Representative,10257,HILAA,4,00:00.0,00:00.0,00:00.0,3,81.91
+301,HILAA,HILAA,HILARION-Abastos,Carlos Hernández,Sales Representative,10552,HILAA,2,00:00.0,00:00.0,00:00.0,1,83.22
+502,PERIC,PERIC,Pericles Comidas clásicas,Guillermo Fernández,Sales Representative,10474,PERIC,5,00:00.0,00:00.0,00:00.0,2,83.49
+144,EASTC,EASTC,Eastern Connection,Ann Devon,Sales Agent,10400,EASTC,1,00:00.0,00:00.0,00:00.0,3,83.93
+481,OLDWO,OLDWO,Old World Delicatessen,Rene Phillips,Sales Representative,10338,OLDWO,4,00:00.0,00:00.0,00:00.0,3,84.21
+625,RICSU,RICSU,Richter Supermarkt,Michael Holz,Sales Manager,11033,RICSU,7,00:00.0,00:00.0,00:00.0,3,84.74
+403,LILAS,LILAS,LILA-Supermercado,Carlos González,Accounting Manager,10283,LILAS,3,00:00.0,00:00.0,00:00.0,3,84.81
+13,ANTON,ANTON,Antonio Moreno Taquería,Antonio Moreno,Owner,10573,ANTON,7,00:00.0,00:00.0,00:00.0,3,84.84
+251,GODOS,GODOS,Godos Cocina Típica,José Pedro Freyre,Sales Manager,10629,GODOS,4,00:00.0,00:00.0,00:00.0,3,85.46
+616,RICAR,RICAR,Ricardo Adocicados,Janete Limeira,Assistant Sales Agent,11059,RICAR,2,00:00.0,00:00.0,,2,85.8
+641,SAVEA,SAVEA,Save-a-lot Markets,Jose Pavarotti,Sales Representative,10440,SAVEA,4,00:00.0,00:00.0,00:00.0,2,86.53
+236,FURIB,FURIB,Furia Bacalhau e Frutos do Mar,Lino Rodriguez,Sales Manager,10328,FURIB,4,00:00.0,00:00.0,00:00.0,3,87.03
+687,SPECD,SPECD,Spécialités du monde,Dominique Perrier,Marketing Manager,10964,SPECD,3,00:00.0,00:00.0,00:00.0,2,87.38
+204,FOLKO,FOLKO,Folk och fä HB,Maria Larsson,Owner,10880,FOLKO,7,00:00.0,00:00.0,00:00.0,1,88.01
+61,BLONP,BLONP,Blondesddsl père et fils,Frédérique Citeaux,Marketing Manager,10566,BLONP,9,00:00.0,00:00.0,00:00.0,1,88.4
+238,FURIB,FURIB,Furia Bacalhau e Frutos do Mar,Lino Rodriguez,Sales Manager,10464,FURIB,4,00:00.0,00:00.0,00:00.0,2,89.0
+640,SAVEA,SAVEA,Save-a-lot Markets,Jose Pavarotti,Sales Representative,10398,SAVEA,2,00:00.0,00:00.0,00:00.0,3,89.16
+600,REGGC,REGGC,Reggiani Caseifici,Maurizio Moroni,Sales Associate,10727,REGGC,2,00:00.0,00:00.0,00:00.0,1,89.9
+331,HUNGO,HUNGO,Hungry Owl All-Night Grocers,Patricia McKenna,Sales Associate,10712,HUNGO,3,00:00.0,00:00.0,00:00.0,1,89.93
+573,RANCH,RANCH,Rancho grande,Sergio Gutiérrez,Sales Representative,10828,RANCH,9,00:00.0,00:00.0,00:00.0,1,90.85
+402,LETSS,LETSS,Let's Stop N Shop,Jaime Yorres,Owner,10884,LETSS,4,00:00.0,00:00.0,00:00.0,2,90.97
+465,MEREP,MEREP,Mère Paillarde,Jean Fresnière,Marketing Assistant,10619,MEREP,3,00:00.0,00:00.0,00:00.0,3,91.05
+394,LEHMS,LEHMS,Lehmanns Marktstand,Renate Messner,Sales Representative,10772,LEHMS,3,00:00.0,00:00.0,00:00.0,2,91.28
+491,OTTIK,OTTIK,Ottilies Käseladen,Henriette Pfalzheim,Owner,10407,OTTIK,2,00:00.0,00:00.0,00:00.0,2,91.48
+335,HUNGO,HUNGO,Hungry Owl All-Night Grocers,Patricia McKenna,Sales Associate,10985,HUNGO,2,00:00.0,00:00.0,00:00.0,1,91.51
+119,CHOPS,CHOPS,Chop-suey Chinese,Yang Wang,Owner,10519,CHOPS,6,00:00.0,00:00.0,00:00.0,3,91.76
+30,BERGS,BERGS,Berglunds snabbköp,Christina Berglund,Order Administrator,10278,BERGS,8,00:00.0,00:00.0,00:00.0,2,92.69
+219,FRANK,FRANK,Frankenversand,Peter Franken,Marketing Manager,10653,FRANK,1,00:00.0,00:00.0,00:00.0,1,93.25
+632,SANTG,SANTG,Santé Gourmet,Jonas Bergulfsen,Owner,10387,SANTG,1,00:00.0,00:00.0,00:00.0,2,93.63
+155,ERNSH,ERNSH,Ernst Handel,Roland Mendel,Sales Manager,10382,ERNSH,4,00:00.0,00:00.0,00:00.0,1,94.77
+714,THECR,THECR,The Cracker Box,Liu Wong,Marketing Assistant,10624,THECR,4,00:00.0,00:00.0,00:00.0,2,94.8
+368,LAMAI,LAMAI,La maison d'Asie,Annette Roulet,Sales Manager,10413,LAMAI,3,00:00.0,00:00.0,00:00.0,2,95.66
+39,BERGS,BERGS,Berglunds snabbköp,Christina Berglund,Order Administrator,10672,BERGS,9,00:00.0,00:00.0,00:00.0,2,95.75
+71,BONAP,BONAP,Bon app',Laurence Lebihan,Owner,10362,BONAP,3,00:00.0,00:00.0,00:00.0,1,96.04
+498,OTTIK,OTTIK,Ottilies Käseladen,Henriette Pfalzheim,Owner,10999,OTTIK,6,00:00.0,00:00.0,00:00.0,2,96.35
+169,ERNSH,ERNSH,Ernst Handel,Roland Mendel,Sales Manager,10773,ERNSH,1,00:00.0,00:00.0,00:00.0,3,96.43
+512,PICCO,PICCO,Piccolo und mehr,Georg Pipps,Sales Manager,10686,PICCO,2,00:00.0,00:00.0,00:00.0,1,96.5
+120,CHOPS,CHOPS,Chop-suey Chinese,Yang Wang,Owner,10731,CHOPS,7,00:00.0,00:00.0,00:00.0,1,96.65
+391,LEHMS,LEHMS,Lehmanns Marktstand,Renate Messner,Sales Representative,10557,LEHMS,9,00:00.0,00:00.0,00:00.0,2,96.72
+163,ERNSH,ERNSH,Ernst Handel,Roland Mendel,Sales Manager,10595,ERNSH,2,00:00.0,00:00.0,00:00.0,1,96.78
+67,BOLID,BOLID,Bólido Comidas preparadas,Martín Sommer,Owner,10801,BOLID,4,00:00.0,00:00.0,00:00.0,2,97.09
+218,FRANK,FRANK,Frankenversand,Peter Franken,Marketing Manager,10623,FRANK,8,00:00.0,00:00.0,00:00.0,2,97.18
+577,RATTC,RATTC,Rattlesnake Canyon Grocery,Paula Wilson,Assistant Sales Representative,10272,RATTC,6,00:00.0,00:00.0,00:00.0,2,98.03
+524,QUEDE,QUEDE,Que Delícia,Bernardo Batista,Accounting Manager,10421,QUEDE,8,00:00.0,00:00.0,00:00.0,1,99.23
+173,ERNSH,ERNSH,Ernst Handel,Roland Mendel,Sales Manager,10854,ERNSH,3,00:00.0,00:00.0,00:00.0,2,100.22
+192,FOLIG,FOLIG,Folies gourmandes,Martine Rancé,Assistant Sales Agent,10789,FOLIG,1,00:00.0,00:00.0,00:00.0,2,100.6
+154,ERNSH,ERNSH,Ernst Handel,Roland Mendel,Sales Manager,10368,ERNSH,2,00:00.0,00:00.0,00:00.0,2,101.95
+409,LILAS,LILAS,LILA-Supermercado,Carlos González,Accounting Manager,10499,LILAS,4,00:00.0,00:00.0,00:00.0,2,102.02
+809,WHITC,WHITC,White Clover Markets,Karl Jablonski,Owner,10696,WHITC,8,00:00.0,00:00.0,00:00.0,3,102.55
+541,QUEEN,QUEEN,Queen Cozinha,Lúcia Carvalho,Marketing Assistant,10961,QUEEN,8,00:00.0,00:00.0,00:00.0,1,104.47
+309,HILAA,HILAA,HILARION-Abastos,Carlos Hernández,Sales Representative,10957,HILAA,8,00:00.0,00:00.0,00:00.0,3,105.36
+772,WANDK,WANDK,Die Wandernde Kuh,Rita Müller,Sales Representative,10513,WANDK,7,00:00.0,00:00.0,00:00.0,1,105.65
+534,QUEEN,QUEEN,Queen Cozinha,Lúcia Carvalho,Marketing Assistant,10659,QUEEN,7,00:00.0,00:00.0,00:00.0,2,105.81
+648,SAVEA,SAVEA,Save-a-lot Markets,Jose Pavarotti,Sales Representative,10627,SAVEA,8,00:00.0,00:00.0,00:00.0,3,107.46
+249,GODOS,GODOS,Godos Cocina Típica,José Pedro Freyre,Sales Manager,10303,GODOS,7,00:00.0,00:00.0,00:00.0,2,107.83
+531,QUEEN,QUEEN,Queen Cozinha,Lúcia Carvalho,Marketing Assistant,10406,QUEEN,7,00:00.0,00:00.0,00:00.0,1,108.04
+213,FRANK,FRANK,Frankenversand,Peter Franken,Marketing Manager,10337,FRANK,4,00:00.0,00:00.0,00:00.0,3,108.26
+45,BERGS,BERGS,Berglunds snabbköp,Christina Berglund,Order Administrator,10866,BERGS,5,00:00.0,00:00.0,00:00.0,1,109.11
+41,BERGS,BERGS,Berglunds snabbköp,Christina Berglund,Order Administrator,10733,BERGS,1,00:00.0,00:00.0,00:00.0,3,110.11
+386,LEHMS,LEHMS,Lehmanns Marktstand,Renate Messner,Sales Representative,10343,LEHMS,4,00:00.0,00:00.0,00:00.0,1,110.37
+537,QUEEN,QUEEN,Queen Cozinha,Lúcia Carvalho,Marketing Assistant,10786,QUEEN,8,00:00.0,00:00.0,00:00.0,1,110.87
+317,HUNGC,HUNGC,Hungry Coyote Import Store,Yoshi Latimer,Sales Representative,10660,HUNGC,8,00:00.0,00:00.0,00:00.0,1,111.29
+81,BONAP,BONAP,Bon app',Laurence Lebihan,Owner,10871,BONAP,9,00:00.0,00:00.0,00:00.0,2,112.27
+75,BONAP,BONAP,Bon app',Laurence Lebihan,Owner,10663,BONAP,2,00:00.0,00:00.0,00:00.0,2,113.15
+661,SAVEA,SAVEA,Save-a-lot Markets,Jose Pavarotti,Sales Representative,10894,SAVEA,1,00:00.0,00:00.0,00:00.0,1,116.13
+36,BERGS,BERGS,Berglunds snabbköp,Christina Berglund,Order Administrator,10572,BERGS,3,00:00.0,00:00.0,00:00.0,2,116.43
+270,GREAL,GREAL,Great Lakes Food Market,Howard Snyder,Marketing Manager,10616,GREAL,1,00:00.0,00:00.0,00:00.0,2,116.53
+513,PICCO,PICCO,Piccolo und mehr,Georg Pipps,Sales Manager,10747,PICCO,6,00:00.0,00:00.0,00:00.0,1,117.33
+177,ERNSH,ERNSH,Ernst Handel,Roland Mendel,Sales Manager,10990,ERNSH,2,00:00.0,00:00.0,00:00.0,3,117.61
+450,MAISD,MAISD,Maison Dewey,Catherine Dewey,Sales Agent,10892,MAISD,4,00:00.0,00:00.0,00:00.0,2,120.27
+312,HILAA,HILAA,HILARION-Abastos,Carlos Hernández,Sales Representative,11055,HILAA,7,00:00.0,00:00.0,00:00.0,2,120.92
+493,OTTIK,OTTIK,Ottilies Käseladen,Henriette Pfalzheim,Owner,10554,OTTIK,4,00:00.0,00:00.0,00:00.0,3,120.97
+229,FRANR,FRANR,France restauration,Carine Schmitt,Marketing Manager,10971,FRANR,2,00:00.0,00:00.0,00:00.0,2,121.82
+507,PICCO,PICCO,Piccolo und mehr,Georg Pipps,Sales Manager,10392,PICCO,2,00:00.0,00:00.0,00:00.0,3,122.46
+109,BSBEV,BSBEV,B's Beverages,Victoria Ashworth,Sales Representative,11023,BSBEV,1,00:00.0,00:00.0,00:00.0,2,123.83
+321,HUNGO,HUNGO,Hungry Owl All-Night Grocers,Patricia McKenna,Sales Associate,10373,HUNGO,4,00:00.0,00:00.0,00:00.0,3,124.12
+287,HANAR,HANAR,Hanari Carnes,Mario Pontes,Accounting Manager,10783,HANAR,4,00:00.0,00:00.0,00:00.0,2,124.98
+467,MORGK,MORGK,Morgenstern Gesundkost,Alexander Feuer,Marketing Assistant,10277,MORGK,2,00:00.0,00:00.0,00:00.0,3,125.77
+156,ERNSH,ERNSH,Ernst Handel,Roland Mendel,Sales Manager,10390,ERNSH,6,00:00.0,00:00.0,00:00.0,1,126.38
+639,SAVEA,SAVEA,Save-a-lot Markets,Jose Pavarotti,Sales Representative,10393,SAVEA,1,00:00.0,00:00.0,00:00.0,3,126.56
+171,ERNSH,ERNSH,Ernst Handel,Roland Mendel,Sales Manager,10795,ERNSH,8,00:00.0,00:00.0,00:00.0,2,126.66
+468,MORGK,MORGK,Morgenstern Gesundkost,Alexander Feuer,Marketing Assistant,10575,MORGK,5,00:00.0,00:00.0,00:00.0,1,127.34
+621,RICSU,RICSU,Richter Supermarkt,Michael Holz,Sales Manager,10751,RICSU,3,00:00.0,00:00.0,00:00.0,3,130.79
+760,VICTE,VICTE,Victuailles en stock,Mary Saveley,Sales Agent,10814,VICTE,3,00:00.0,00:00.0,00:00.0,3,130.94
+57,BLONP,BLONP,Blondesddsl père et fils,Frédérique Citeaux,Marketing Manager,10360,BLONP,4,00:00.0,00:00.0,00:00.0,3,131.7
+83,BONAP,BONAP,Bon app',Laurence Lebihan,Owner,10932,BONAP,8,00:00.0,00:00.0,00:00.0,1,134.64
+215,FRANK,FRANK,Frankenversand,Peter Franken,Marketing Manager,10396,FRANK,1,00:00.0,00:00.0,00:00.0,3,135.35
+485,OLDWO,OLDWO,Old World Delicatessen,Rene Phillips,Sales Representative,10706,OLDWO,8,00:00.0,00:00.0,00:00.0,3,135.63
+398,LEHMS,LEHMS,Lehmanns Marktstand,Renate Messner,Sales Representative,11070,LEHMS,2,00:00.0,00:00.0,,1,136.0
+779,WARTH,WARTH,Wartian Herkku,Pirkko Koskitalo,Accounting Manager,10270,WARTH,1,00:00.0,00:00.0,00:00.0,1,136.54
+618,RICSU,RICSU,Richter Supermarkt,Michael Holz,Sales Manager,10419,RICSU,4,00:00.0,00:00.0,00:00.0,2,137.35
+675,SEVES,SEVES,Seven Seas Imports,Hari Kumar,Sales Manager,10800,SEVES,1,00:00.0,00:00.0,00:00.0,3,137.44
+622,RICSU,RICSU,Richter Supermarkt,Michael Holz,Sales Manager,10758,RICSU,3,00:00.0,00:00.0,00:00.0,3,138.17
+37,BERGS,BERGS,Berglunds snabbköp,Christina Berglund,Order Administrator,10626,BERGS,1,00:00.0,00:00.0,00:00.0,2,138.69
+808,WHITC,WHITC,White Clover Markets,Karl Jablonski,Owner,10693,WHITC,3,00:00.0,00:00.0,00:00.0,3,139.34
+642,SAVEA,SAVEA,Save-a-lot Markets,Jose Pavarotti,Sales Representative,10452,SAVEA,8,00:00.0,00:00.0,00:00.0,1,140.26
+151,ERNSH,ERNSH,Ernst Handel,Roland Mendel,Sales Manager,10258,ERNSH,1,00:00.0,00:00.0,00:00.0,1,140.51
+421,LINOD,LINOD,LINO-Delicateses,Felipe Izquierdo,Owner,10729,LINOD,8,00:00.0,00:00.0,00:00.0,3,141.06
+665,SAVEA,SAVEA,Save-a-lot Markets,Jose Pavarotti,Sales Representative,11002,SAVEA,4,00:00.0,00:00.0,00:00.0,1,141.16
+581,RATTC,RATTC,Rattlesnake Canyon Grocery,Paula Wilson,Assistant Sales Representative,10346,RATTC,3,00:00.0,00:00.0,00:00.0,3,142.08
+327,HUNGO,HUNGO,Hungry Owl All-Night Grocers,Patricia McKenna,Sales Associate,10646,HUNGO,9,00:00.0,00:00.0,00:00.0,3,142.33
+677,SEVES,SEVES,Seven Seas Imports,Hari Kumar,Sales Manager,10869,SEVES,5,00:00.0,00:00.0,00:00.0,1,143.28
+488,OLDWO,OLDWO,Old World Delicatessen,Rene Phillips,Sales Representative,10965,OLDWO,6,00:00.0,00:00.0,00:00.0,3,144.38
+744,VAFFE,VAFFE,Vaffeljernet,Palle Ibsen,Sales Manager,10465,VAFFE,1,00:00.0,00:00.0,00:00.0,3,145.04
+167,ERNSH,ERNSH,Ernst Handel,Roland Mendel,Sales Manager,10764,ERNSH,6,00:00.0,00:00.0,00:00.0,3,145.45
+495,OTTIK,OTTIK,Ottilies Käseladen,Henriette Pfalzheim,Owner,10684,OTTIK,3,00:00.0,00:00.0,00:00.0,1,145.63
+152,ERNSH,ERNSH,Ernst Handel,Roland Mendel,Sales Manager,10263,ERNSH,9,00:00.0,00:00.0,00:00.0,3,146.06
+24,AROUT,AROUT,Around the Horn,Thomas Hardy,Sales Representative,10768,AROUT,3,00:00.0,00:00.0,00:00.0,2,146.32
+700,SUPRD,SUPRD,Suprêmes délices,Pascale Cartrain,Accounting Manager,10458,SUPRD,7,00:00.0,00:00.0,00:00.0,3,147.06
+578,RATTC,RATTC,Rattlesnake Canyon Grocery,Paula Wilson,Assistant Sales Representative,10294,RATTC,4,00:00.0,00:00.0,00:00.0,2,147.26
+617,RICSU,RICSU,Richter Supermarkt,Michael Holz,Sales Manager,10255,RICSU,9,00:00.0,00:00.0,00:00.0,3,148.33
+408,LILAS,LILAS,LILA-Supermercado,Carlos González,Accounting Manager,10461,LILAS,1,00:00.0,00:00.0,00:00.0,3,148.61
+137,DRACD,DRACD,Drachenblut Delikatessen,Sven Ottlieb,Order Administrator,11036,DRACD,8,00:00.0,00:00.0,00:00.0,3,149.47
+787,WARTH,WARTH,Wartian Herkku,Pirkko Koskitalo,Accounting Manager,10553,WARTH,2,00:00.0,00:00.0,00:00.0,2,149.49
+580,RATTC,RATTC,Rattlesnake Canyon Grocery,Paula Wilson,Assistant Sales Representative,10316,RATTC,1,00:00.0,00:00.0,00:00.0,3,150.15
+47,BERGS,BERGS,Berglunds snabbköp,Christina Berglund,Order Administrator,10924,BERGS,3,00:00.0,00:00.0,00:00.0,2,151.52
+200,FOLKO,FOLKO,Folk och fä HB,Maria Larsson,Owner,10703,FOLKO,6,00:00.0,00:00.0,00:00.0,2,152.3
+464,MEREP,MEREP,Mère Paillarde,Jean Fresnière,Marketing Assistant,10618,MEREP,1,00:00.0,00:00.0,00:00.0,1,154.68
+345,ISLAT,ISLAT,Island Trading,Helen Bennett,Marketing Manager,10829,ISLAT,9,00:00.0,00:00.0,00:00.0,1,154.72
+449,MAISD,MAISD,Maison Dewey,Catherine Dewey,Sales Agent,10760,MAISD,4,00:00.0,00:00.0,00:00.0,1,155.64
+439,MAGAA,MAGAA,Magazzini Alimentari Riuniti,Giovanni Rovelli,Marketing Manager,10404,MAGAA,2,00:00.0,00:00.0,00:00.0,1,155.97
+58,BLONP,BLONP,Blondesddsl père et fils,Frédérique Citeaux,Marketing Manager,10436,BLONP,3,00:00.0,00:00.0,00:00.0,2,156.66
+496,OTTIK,OTTIK,Ottilies Käseladen,Henriette Pfalzheim,Owner,10766,OTTIK,4,00:00.0,00:00.0,00:00.0,1,157.55
+419,LINOD,LINOD,LINO-Delicateses,Felipe Izquierdo,Owner,10638,LINOD,3,00:00.0,00:00.0,00:00.0,1,158.44
+614,RICAR,RICAR,Ricardo Adocicados,Janete Limeira,Assistant Sales Agent,10851,RICAR,5,00:00.0,00:00.0,00:00.0,1,160.55
+153,ERNSH,ERNSH,Ernst Handel,Roland Mendel,Sales Manager,10351,ERNSH,1,00:00.0,00:00.0,00:00.0,1,162.33
+174,ERNSH,ERNSH,Ernst Handel,Roland Mendel,Sales Manager,10895,ERNSH,3,00:00.0,00:00.0,00:00.0,1,162.75
+813,WHITC,WHITC,White Clover Markets,Karl Jablonski,Owner,10904,WHITC,3,00:00.0,00:00.0,00:00.0,3,162.95
+412,LILAS,LILAS,LILA-Supermercado,Carlos González,Accounting Manager,10823,LILAS,5,00:00.0,00:00.0,00:00.0,2,163.97
+70,BONAP,BONAP,Bon app',Laurence Lebihan,Owner,10340,BONAP,1,00:00.0,00:00.0,00:00.0,3,166.31
+653,SAVEA,SAVEA,Save-a-lot Markets,Jose Pavarotti,Sales Representative,10713,SAVEA,1,00:00.0,00:00.0,00:00.0,1,167.05
+318,HUNGO,HUNGO,Hungry Owl All-Night Grocers,Patricia McKenna,Sales Associate,10298,HUNGO,6,00:00.0,00:00.0,00:00.0,2,168.22
+32,BERGS,BERGS,Berglunds snabbköp,Christina Berglund,Order Administrator,10384,BERGS,3,00:00.0,00:00.0,00:00.0,3,168.64
+355,KOENE,KOENE,Königlich Essen,Philip Cramer,Sales Associate,10718,KOENE,1,00:00.0,00:00.0,00:00.0,3,170.88
+487,OLDWO,OLDWO,Old World Delicatessen,Rene Phillips,Sales Representative,10855,OLDWO,3,00:00.0,00:00.0,00:00.0,1,170.97
+554,QUICK,QUICK,QUICK-Stop,Horst Kloss,Accounting Manager,10549,QUICK,5,00:00.0,00:00.0,00:00.0,1,171.24
+589,RATTC,RATTC,Rattlesnake Canyon Grocery,Paula Wilson,Assistant Sales Representative,10852,RATTC,8,00:00.0,00:00.0,00:00.0,1,174.05
+393,LEHMS,LEHMS,Lehmanns Marktstand,Renate Messner,Sales Representative,10593,LEHMS,7,00:00.0,00:00.0,00:00.0,2,174.2
+252,GODOS,GODOS,Godos Cocina Típica,José Pedro Freyre,Sales Manager,10872,GODOS,5,00:00.0,00:00.0,00:00.0,2,175.32
+750,VAFFE,VAFFE,Vaffeljernet,Palle Ibsen,Sales Manager,10921,VAFFE,1,00:00.0,00:00.0,00:00.0,1,176.48
+186,FAMIA,FAMIA,Familia Arquibaldo,Aria Cruz,Marketing Assistant,10650,FAMIA,5,00:00.0,00:00.0,00:00.0,3,176.81
+674,SEVES,SEVES,Seven Seas Imports,Hari Kumar,Sales Manager,10547,SEVES,3,00:00.0,00:00.0,00:00.0,2,178.43
+304,HILAA,HILAA,HILARION-Abastos,Carlos Hernández,Sales Representative,10641,HILAA,4,00:00.0,00:00.0,00:00.0,2,179.61
+785,WARTH,WARTH,Wartian Herkku,Pirkko Koskitalo,Accounting Manager,10455,WARTH,8,00:00.0,00:00.0,00:00.0,2,180.45
+548,QUICK,QUICK,QUICK-Stop,Horst Kloss,Accounting Manager,10361,QUICK,1,00:00.0,00:00.0,00:00.0,2,183.17
+296,HILAA,HILAA,HILARION-Abastos,Carlos Hernández,Sales Representative,10395,HILAA,6,00:00.0,00:00.0,00:00.0,1,184.41
+147,EASTC,EASTC,Eastern Connection,Ann Devon,Sales Agent,10987,EASTC,8,00:00.0,00:00.0,00:00.0,1,185.48
+198,FOLKO,FOLKO,Folk och fä HB,Maria Larsson,Owner,10533,FOLKO,8,00:00.0,00:00.0,00:00.0,1,188.04
+44,BERGS,BERGS,Berglunds snabbköp,Christina Berglund,Order Administrator,10857,BERGS,8,00:00.0,00:00.0,00:00.0,2,188.85
+461,MEREP,MEREP,Mère Paillarde,Jean Fresnière,Marketing Assistant,10570,MEREP,3,00:00.0,00:00.0,00:00.0,3,188.99
+550,QUICK,QUICK,QUICK-Stop,Horst Kloss,Accounting Manager,10451,QUICK,4,00:00.0,00:00.0,00:00.0,3,189.09
+538,QUEEN,QUEEN,Queen Cozinha,Lúcia Carvalho,Marketing Assistant,10868,QUEEN,7,00:00.0,00:00.0,00:00.0,2,191.27
+690,SPLIR,SPLIR,Split Rail Beer & Ale,Art Braunschweiger,Sales Manager,10329,SPLIR,4,00:00.0,00:00.0,00:00.0,2,191.67
+292,HANAR,HANAR,Hanari Carnes,Mario Pontes,Accounting Manager,10981,HANAR,1,00:00.0,00:00.0,00:00.0,2,193.37
+555,QUICK,QUICK,QUICK-Stop,Horst Kloss,Accounting Manager,10588,QUICK,2,00:00.0,00:00.0,00:00.0,3,194.67
+758,VICTE,VICTE,Victuailles en stock,Mary Saveley,Sales Agent,10546,VICTE,1,00:00.0,00:00.0,00:00.0,3,194.72
+692,SPLIR,SPLIR,Split Rail Beer & Ale,Art Braunschweiger,Sales Manager,10369,SPLIR,8,00:00.0,00:00.0,00:00.0,2,195.68
+210,FOLKO,FOLKO,Folk och fä HB,Maria Larsson,Owner,11001,FOLKO,2,00:00.0,00:00.0,00:00.0,2,197.3
+646,SAVEA,SAVEA,Save-a-lot Markets,Jose Pavarotti,Sales Representative,10607,SAVEA,5,00:00.0,00:00.0,00:00.0,1,200.24
+533,QUEEN,QUEEN,Queen Cozinha,Lúcia Carvalho,Marketing Assistant,10637,QUEEN,6,00:00.0,00:00.0,00:00.0,1,201.29
+520,PRINI,PRINI,Princesa Isabel Vinhos,Isabel de Castro,Sales Representative,11007,PRINI,8,00:00.0,00:00.0,00:00.0,2,202.24
+220,FRANK,FRANK,Frankenversand,Peter Franken,Marketing Manager,10670,FRANK,4,00:00.0,00:00.0,00:00.0,1,203.48
+551,QUICK,QUICK,QUICK-Stop,Horst Kloss,Accounting Manager,10515,QUICK,2,00:00.0,00:00.0,00:00.0,1,204.47
+207,FOLKO,FOLKO,Folk och fä HB,Maria Larsson,Owner,10977,FOLKO,8,00:00.0,00:00.0,00:00.0,3,208.5
+212,FRANK,FRANK,Frankenversand,Peter Franken,Marketing Manager,10267,FRANK,4,00:00.0,00:00.0,00:00.0,1,208.58
+299,HILAA,HILAA,HILARION-Abastos,Carlos Hernández,Sales Representative,10490,HILAA,7,00:00.0,00:00.0,00:00.0,2,210.19
+262,GOURL,GOURL,Gourmet Lanchonetes,André Fonseca,Sales Associate,10709,GOURL,1,00:00.0,00:00.0,00:00.0,3,210.8
+664,SAVEA,SAVEA,Save-a-lot Markets,Jose Pavarotti,Sales Representative,10984,SAVEA,1,00:00.0,00:00.0,00:00.0,3,211.22
+563,QUICK,QUICK,QUICK-Stop,Horst Kloss,Accounting Manager,10845,QUICK,8,00:00.0,00:00.0,00:00.0,1,212.98
+638,SAVEA,SAVEA,Save-a-lot Markets,Jose Pavarotti,Sales Representative,10324,SAVEA,9,00:00.0,00:00.0,00:00.0,1,214.27
+479,OCEAN,OCEAN,Océano Atlántico Ltda.,Yvonne Moncada,Sales Agent,10986,OCEAN,8,00:00.0,00:00.0,00:00.0,2,217.86
+727,TORTU,TORTU,Tortuga Restaurante,Miguel Angel Paolino,Owner,10518,TORTU,4,00:00.0,00:00.0,00:00.0,2,218.15
+330,HUNGO,HUNGO,Hungry Owl All-Night Grocers,Patricia McKenna,Sales Associate,10701,HUNGO,6,00:00.0,00:00.0,00:00.0,3,220.31
+667,SAVEA,SAVEA,Save-a-lot Markets,Jose Pavarotti,Sales Representative,11031,SAVEA,6,00:00.0,00:00.0,00:00.0,2,227.22
+545,QUICK,QUICK,QUICK-Stop,Horst Kloss,Accounting Manager,10286,QUICK,8,00:00.0,00:00.0,00:00.0,3,229.24
+620,RICSU,RICSU,Richter Supermarkt,Michael Holz,Sales Manager,10666,RICSU,7,00:00.0,00:00.0,00:00.0,2,232.42
+656,SAVEA,SAVEA,Save-a-lot Markets,Jose Pavarotti,Sales Representative,10748,SAVEA,3,00:00.0,00:00.0,00:00.0,1,232.55
+712,THEBI,THEBI,The Big Cheese,Liz Nixon,Marketing Manager,10805,THEBI,2,00:00.0,00:00.0,00:00.0,3,237.34
+199,FOLKO,FOLKO,Folk och fä HB,Maria Larsson,Owner,10561,FOLKO,2,00:00.0,00:00.0,00:00.0,2,242.21
+226,FRANK,FRANK,Frankenversand,Peter Franken,Marketing Manager,11012,FRANK,1,00:00.0,00:00.0,00:00.0,3,242.95
+91,BOTTM,BOTTM,Bottom-Dollar Markets,Elizabeth Lincoln,Accounting Manager,10742,BOTTM,3,00:00.0,00:00.0,00:00.0,3,243.73
+35,BERGS,BERGS,Berglunds snabbköp,Christina Berglund,Order Administrator,10524,BERGS,1,00:00.0,00:00.0,00:00.0,2,244.79
+547,QUICK,QUICK,QUICK-Stop,Horst Kloss,Accounting Manager,10345,QUICK,2,00:00.0,00:00.0,00:00.0,2,249.06
+375,LAMAI,LAMAI,La maison d'Asie,Annette Roulet,Sales Manager,10787,LAMAI,2,00:00.0,00:00.0,00:00.0,1,249.93
+644,SAVEA,SAVEA,Save-a-lot Markets,Jose Pavarotti,Sales Representative,10555,SAVEA,6,00:00.0,00:00.0,00:00.0,3,252.49
+683,SIMOB,SIMOB,Simons bistro,Jytte Petersen,Owner,10802,SIMOB,4,00:00.0,00:00.0,00:00.0,2,257.26
+480,OLDWO,OLDWO,Old World Delicatessen,Rene Phillips,Sales Representative,10305,OLDWO,8,00:00.0,00:00.0,00:00.0,3,257.62
+180,ERNSH,ERNSH,Ernst Handel,Roland Mendel,Sales Manager,11072,ERNSH,4,00:00.0,00:00.0,,2,258.64
+166,ERNSH,ERNSH,Ernst Handel,Roland Mendel,Sales Manager,10698,ERNSH,4,00:00.0,00:00.0,00:00.0,1,272.47
+567,QUICK,QUICK,QUICK-Stop,Horst Kloss,Accounting Manager,10962,QUICK,8,00:00.0,00:00.0,00:00.0,2,275.79
+150,EASTC,EASTC,Eastern Connection,Ann Devon,Sales Agent,11056,EASTC,8,00:00.0,00:00.0,00:00.0,2,278.96
+590,RATTC,RATTC,Rattlesnake Canyon Grocery,Paula Wilson,Assistant Sales Representative,10889,RATTC,9,00:00.0,00:00.0,00:00.0,3,280.61
+669,SEVES,SEVES,Seven Seas Imports,Hari Kumar,Sales Manager,10359,SEVES,5,00:00.0,00:00.0,00:00.0,3,288.43
+329,HUNGO,HUNGO,Hungry Owl All-Night Grocers,Patricia McKenna,Sales Associate,10687,HUNGO,9,00:00.0,00:00.0,00:00.0,2,296.43
+570,QUICK,QUICK,QUICK-Stop,Horst Kloss,Accounting Manager,11021,QUICK,3,00:00.0,00:00.0,00:00.0,1,297.18
+747,VAFFE,VAFFE,Vaffeljernet,Palle Ibsen,Sales Manager,10688,VAFFE,4,00:00.0,00:00.0,00:00.0,2,299.09
+357,KOENE,KOENE,Königlich Essen,Philip Cramer,Sales Associate,10817,KOENE,3,00:00.0,00:00.0,00:00.0,2,306.07
+201,FOLKO,FOLKO,Folk och fä HB,Maria Larsson,Owner,10762,FOLKO,3,00:00.0,00:00.0,00:00.0,1,328.74
+510,PICCO,PICCO,Piccolo und mehr,Georg Pipps,Sales Manager,10530,PICCO,3,00:00.0,00:00.0,00:00.0,2,339.22
+564,QUICK,QUICK,QUICK-Stop,Horst Kloss,Accounting Manager,10865,QUICK,2,00:00.0,00:00.0,00:00.0,1,348.14
+73,BONAP,BONAP,Bon app',Laurence Lebihan,Owner,10511,BONAP,4,00:00.0,00:00.0,00:00.0,3,350.64
+170,ERNSH,ERNSH,Ernst Handel,Roland Mendel,Sales Manager,10776,ERNSH,1,00:00.0,00:00.0,00:00.0,3,351.53
+649,SAVEA,SAVEA,Save-a-lot Markets,Jose Pavarotti,Sales Representative,10657,SAVEA,2,00:00.0,00:00.0,00:00.0,2,352.69
+176,ERNSH,ERNSH,Ernst Handel,Roland Mendel,Sales Manager,10979,ERNSH,8,00:00.0,00:00.0,00:00.0,2,353.07
+506,PICCO,PICCO,Piccolo und mehr,Georg Pipps,Sales Manager,10353,PICCO,7,00:00.0,00:00.0,00:00.0,3,360.63
+556,QUICK,QUICK,QUICK-Stop,Horst Kloss,Accounting Manager,10658,QUICK,4,00:00.0,00:00.0,00:00.0,1,364.15
+643,SAVEA,SAVEA,Save-a-lot Markets,Jose Pavarotti,Sales Representative,10510,SAVEA,6,00:00.0,00:00.0,00:00.0,3,367.63
+457,MEREP,MEREP,Mère Paillarde,Jean Fresnière,Marketing Assistant,10424,MEREP,7,00:00.0,00:00.0,00:00.0,2,370.61
+463,MEREP,MEREP,Mère Paillarde,Jean Fresnière,Marketing Assistant,10605,MEREP,1,00:00.0,00:00.0,00:00.0,2,379.13
+650,SAVEA,SAVEA,Save-a-lot Markets,Jose Pavarotti,Sales Representative,10678,SAVEA,7,00:00.0,00:00.0,00:00.0,3,388.98
+558,QUICK,QUICK,QUICK-Stop,Horst Kloss,Accounting Manager,10694,QUICK,8,00:00.0,00:00.0,00:00.0,3,398.36
+662,SAVEA,SAVEA,Save-a-lot Markets,Jose Pavarotti,Sales Representative,10941,SAVEA,7,00:00.0,00:00.0,00:00.0,2,400.81
+172,ERNSH,ERNSH,Ernst Handel,Roland Mendel,Sales Manager,10836,ERNSH,7,00:00.0,00:00.0,00:00.0,1,411.88
+704,SUPRD,SUPRD,Suprêmes délices,Pascale Cartrain,Accounting Manager,10841,SUPRD,5,00:00.0,00:00.0,00:00.0,2,424.3
+159,ERNSH,ERNSH,Ernst Handel,Roland Mendel,Sales Manager,10430,ERNSH,4,00:00.0,00:00.0,00:00.0,1,458.78
+164,ERNSH,ERNSH,Ernst Handel,Roland Mendel,Sales Manager,10633,ERNSH,7,00:00.0,00:00.0,00:00.0,3,477.9
+190,FOLIG,FOLIG,Folies gourmandes,Martine Rancé,Assistant Sales Agent,10634,FOLIG,4,00:00.0,00:00.0,00:00.0,3,487.38
+659,SAVEA,SAVEA,Save-a-lot Markets,Jose Pavarotti,Sales Representative,10847,SAVEA,4,00:00.0,00:00.0,00:00.0,3,487.57
+647,SAVEA,SAVEA,Save-a-lot Markets,Jose Pavarotti,Sales Representative,10612,SAVEA,1,00:00.0,00:00.0,00:00.0,2,544.08
+334,HUNGO,HUNGO,Hungry Owl All-Night Grocers,Patricia McKenna,Sales Associate,10912,HUNGO,2,00:00.0,00:00.0,00:00.0,2,580.91
+333,HUNGO,HUNGO,Hungry Owl All-Night Grocers,Patricia McKenna,Sales Associate,10897,HUNGO,3,00:00.0,00:00.0,00:00.0,2,603.54
+814,WHITC,WHITC,White Clover Markets,Karl Jablonski,Owner,11032,WHITC,2,00:00.0,00:00.0,00:00.0,3,606.19
+663,SAVEA,SAVEA,Save-a-lot Markets,Jose Pavarotti,Sales Representative,10983,SAVEA,2,00:00.0,00:00.0,00:00.0,2,657.54
+583,RATTC,RATTC,Rattlesnake Canyon Grocery,Paula Wilson,Assistant Sales Representative,10479,RATTC,3,00:00.0,00:00.0,00:00.0,3,708.95
+274,GREAL,GREAL,Great Lakes Food Market,Howard Snyder,Marketing Manager,10816,GREAL,4,00:00.0,00:00.0,00:00.0,2,719.78
+179,ERNSH,ERNSH,Ernst Handel,Roland Mendel,Sales Manager,11017,ERNSH,9,00:00.0,00:00.0,00:00.0,2,754.26
+161,ERNSH,ERNSH,Ernst Handel,Roland Mendel,Sales Manager,10514,ERNSH,3,00:00.0,00:00.0,00:00.0,2,789.95
+557,QUICK,QUICK,QUICK-Stop,Horst Kloss,Accounting Manager,10691,QUICK,2,00:00.0,00:00.0,00:00.0,2,810.05
+666,SAVEA,SAVEA,Save-a-lot Markets,Jose Pavarotti,Sales Representative,11030,SAVEA,7,00:00.0,00:00.0,00:00.0,2,830.75
+530,QUEEN,QUEEN,Queen Cozinha,Lúcia Carvalho,Marketing Assistant,10372,QUEEN,5,00:00.0,00:00.0,00:00.0,2,890.78
+553,QUICK,QUICK,QUICK-Stop,Horst Kloss,Accounting Manager,10540,QUICK,3,00:00.0,00:00.0,00:00.0,3,1007.64

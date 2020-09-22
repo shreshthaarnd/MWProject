@@ -1,0 +1,182 @@
+<!doctype html>
+{% load static %}
+<html class="no-js" lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>MW Project</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="{% static 'adminpages/vendors/bootstrap/dist/css/bootstrap.min.css' %}">
+    <link rel="stylesheet" href="{% static 'adminpages/vendors/font-awesome/css/font-awesome.min.css' %}">
+    <link rel="stylesheet" href="{% static 'adminpages/vendors/themify-icons/css/themify-icons.css' %}">
+    <link rel="stylesheet" href="{% static 'adminpages/vendors/flag-icon-css/css/flag-icon.min.css' %}">
+    <link rel="stylesheet" href="{% static 'adminpages/vendors/selectFX/css/cs-skin-elastic.css' %}">
+    <link rel="stylesheet" href="{% static 'adminpages/vendors/datatables.net-bs4/css/dataTables.bootstrap4.min.css' %}">
+    <link rel="stylesheet" href="{% static 'adminpages/vendors/datatables.net-buttons-bs4/css/buttons.bootstrap4.min.css' %}">
+
+    <link rel="stylesheet" href="{% static 'adminpages/assets/css/style.css' %}">
+    <link rel="stylesheet" href="{% static 'w3.css' %}">
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+    <div class="content mt-3">
+        <div class="row">
+            <div class="col-lg-4">
+                <div class="card" style="height:505px;">
+                    <div class="card-header">
+                        <strong>1. Upload CSV File</strong>
+                    </div>
+                    <div class="card-body card-block">
+                       <form action="/saveCSV/" method="POST" enctype="multipart/form-data">
+                            <div class="form-group">
+                                <label for="company" class=" form-control-label">Select CSV File</label>
+                                <input type="file" name="filesrc" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <input type="submit" value="Upload" class="btn btn-success" onclick="document.getElementById('process').style.display='block';document.getElementById('msg').style.display='none';"><br>
+                                <label id="process" style="display:none;color:green;font-weight:bold;">Uploading Please Wait...</label>
+                                <label id="msg" style="color:green;font-weight:bold;">{{ msg|safe }}</label>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="card" style="height:505px;overflow-y:auto;">
+                    <div class="card-header">
+                        <strong>2. Select Source</strong>
+                    </div>
+                    <div class="card-body card-block">
+                       {% for x in data %}
+                       <div class="w3-card w3-hover-light-grey" style="padding:10px;font-weight:bold;border-radius:10px;cursor:pointer;margin-top:10px;" onclick="document.getElementById('{{ x.File_ID|safe }}feilds').style.display='block';{% for a in data %}{% if not x.File_ID == a.File_ID %}document.getElementById('{{ a.File_ID|safe }}feilds').style.display='none';{% endif %}{% endfor %}">
+                            {{ x.File_Name|safe }} <i class="fa fa-angle-double-down" aria-hidden="true"></i>
+                        </div>
+                        <div class="content mt-3" style="display:none;" id="{{ x.File_ID|safe }}feilds">
+                            <form action="/gendf/" method="POST">
+                                <table style="width:100%;text-align:center;">
+                                    <tr>
+                                        <td></td>
+                                        <td></td>
+                                        <td style="font-weight:bold;">Primary Key</td>
+                                    </tr>
+                                    {% for y in fields %}
+                                    {% if y.fileid == x.File_ID %}
+                                    {% for z in y.fields %}
+                                    <tr>
+                                        <td><input type="checkbox" name="{{ y.fileid|safe }}{{ z|safe }}fields" value="{{ z|safe }}"></td>
+                                        <td>{{ z|safe }}</td>
+                                        <td><input type="checkbox" name="{{ y.fileid|safe }}{{ z|safe }}" value="{{ z|safe }}"></td>
+                                    </tr>
+                                    {% endfor %}
+                                    {% endif %}
+                                    {% endfor %}
+                                </table>
+                        </div>
+                        {% endfor %}
+                        <div class="form-group" style="margin-top:20px;">
+                                <input type="submit" value="Proceed" class="btn btn-success" onclick="document.getElementById('process').style.display='block';document.getElementById('msg').style.display='none';"><br>
+                                <label id="process" style="display:none;color:green;font-weight:bold;">Processing Please Wait...</label>
+                                <label id="msg" style="color:green;font-weight:bold;">{{ msg|safe }}</label>
+                            </div>
+                            </form>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="card" style="">
+                    <div class="card-header">
+                        <strong>3. Visualizer</strong>
+                    </div>
+                    <div class="card-body card-block">
+                       <form action="/genjoin/" method="GET">
+                            <div class="form-group">
+                                <label for="company" class=" form-control-label">Verify Primary Key</label>
+                                <select name="primary" id="select" class="form-control">
+                                    {% for x in primary %}
+                                    {% if not x == None %}
+                                    <option value="{{ x|safe }}">{{ x|safe }}</option>
+                                    {% endif %}
+                                    {% endfor %}
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="company" class=" form-control-label">Select Column to Sort</label>
+                                <select name="sortcol" id="select" class="form-control">
+                                    {% for x in selected_fields %}
+                                    <option value="{{ x|safe }}">{{ x|safe }}</option>
+                                    {% endfor %}
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="company" class=" form-control-label">Select Sorting Type</label>
+                                <select name="sorttype" id="select" class="form-control">
+                                    <option value="0">Ascending</option>
+                                    <option value="1">Descending</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="company" class=" form-control-label">Select Join Type</label>
+                                <select name="jointype" id="select" class="form-control">
+                                    <option value="inner">Inner</option>
+                                    <option value="outer">Outer</option>
+                                    <option value="right">Right</option>
+                                    <option value="left">Left</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <input type="submit" value="Run the Mapping" class="btn btn-success" onclick="document.getElementById('process').style.display='block';document.getElementById('msg').style.display='none';"><br>
+                                <label id="process" style="display:none;color:green;font-weight:bold;">Processing Please Wait...</label>
+                                <label id="msg" style="color:green;font-weight:bold;">{{ msg|safe }}</label>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header">
+                <strong>Advance Preview</strong>
+            </div>
+            <div class="card-body">
+                <a href="/downloadCSV/" class="btn btn-primary">Download Output CSV File</a>
+                
+                <div style="width:1200px;height:500px;overflow-y:auto;overflow-x:auto;">
+                    <table id="bootstrap-data-table-export" class="table table-striped table-bordered">
+                       {{ outdata|safe }} 
+                    </table>
+                </div>
+            </div>
+        </div>
+    
+    </div>
+    <!-- Left Panel -->
+
+    
+    <!-- Right Panel -->
+
+
+    <script src="{% static 'adminpages/vendors/jquery/dist/jquery.min.js' %}"></script>
+    <script src="{% static 'adminpages/vendors/popper.js/dist/umd/popper.min.js' %}"></script>
+    <script src="{% static 'adminpages/vendors/bootstrap/dist/js/bootstrap.min.js' %}"></script>
+    <script src="{% static 'adminpages/assets/js/main.js' %}"></script>
+
+
+    <script src="{% static 'adminpages/vendors/datatables.net/js/jquery.dataTables.min.js' %}"></script>
+    <script src="{% static 'adminpages/vendors/datatables.net-bs4/js/dataTables.bootstrap4.min.js' %}"></script>
+    <script src="{% static 'adminpages/vendors/datatables.net-buttons/js/dataTables.buttons.min.js' %}"></script>
+    <script src="{% static 'adminpages/vendors/datatables.net-buttons-bs4/js/buttons.bootstrap4.min.js' %}"></script>
+    <script src="{% static 'adminpages/vendors/jszip/dist/jszip.min.js' %}"></script>
+    <script src="{% static 'adminpages/vendors/pdfmake/build/pdfmake.min.js' %}"></script>
+    <script src="{% static 'adminpages/vendors/pdfmake/build/vfs_fonts.js' %}"></script>
+    <script src="{% static 'adminpages/vendors/datatables.net-buttons/js/buttons.html5.min.js' %}"></script>
+    <script src="{% static 'adminpages/vendors/datatables.net-buttons/js/buttons.print.min.js' %}"></script>
+    <script src="{% static 'adminpages/vendors/datatables.net-buttons/js/buttons.colVis.min.js' %}"></script>
+    <script src="{% static 'adminpages/assets/js/init-scripts/data-table/datatables-init.js' %}"></script>
+
+
+</body>
+
+</html>
