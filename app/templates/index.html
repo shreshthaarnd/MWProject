@@ -25,20 +25,48 @@
     <div class="content mt-3">
         <div class="row">
             <div class="col-lg-4">
-                <div class="card" style="height:505px;">
+                <div class="card" style="height:570px;">
                     <div class="card-header">
-                        <strong>1. Upload CSV File</strong>
+                        <strong>1. Select Source</strong>
                     </div>
                     <div class="card-body card-block">
-                       <form action="/saveCSV/" method="POST" enctype="multipart/form-data">
+                       <button class="btn btn-primary" onclick="document.getElementById('csv').style.display='block';document.getElementById('sql').style.display='none';">CSV</button>
+                       <button class="btn btn-primary" onclick="document.getElementById('csv').style.display='none';document.getElementById('sql').style.display='block';">MYSQL</button>
+                       <form action="/saveCSV/" method="POST" enctype="multipart/form-data" style="margin-top:20px;" id="csv">
                             <div class="form-group">
                                 <label for="company" class=" form-control-label">Select CSV File</label>
                                 <input type="file" name="filesrc" class="form-control">
                             </div>
                             <div class="form-group">
+                                <input type="hidden" value="csv" name="mode">
                                 <input type="submit" value="Upload" class="btn btn-success" onclick="document.getElementById('process').style.display='block';document.getElementById('msg').style.display='none';">
                                 <a href="/resetdb/" class="btn btn-danger">Reset All</a><br>
                                 <label id="process" style="display:none;color:green;font-weight:bold;">Uploading Please Wait...</label>
+                                <label id="msg" style="color:green;font-weight:bold;">{{ msg1|safe }}</label>
+                            </div>
+                        </form>
+                        <form action="/saveCSV/" method="POST" enctype="multipart/form-data" style="margin-top:20px;display:none;" id="sql">
+                            <div class="form-group">
+                                <label for="company" class=" form-control-label">Enter DB Engine/Host</label>
+                                <input type="text" placeholder="Enter DB Engine Name/Host Name" name="engine" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <label for="company" class=" form-control-label">Enter Username</label>
+                                <input type="text" placeholder="Enter Username" name="user" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <label for="company" class=" form-control-label">Enter Database Name</label>
+                                <input type="text" placeholder="Enter Database Name" name="db" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <label for="company" class=" form-control-label">Enter Password</label>
+                                <input type="password" placeholder="Enter Password" name="password" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <input type="hidden" value="sql" name="mode">
+                                <input type="submit" value="Proceed" class="btn btn-success" onclick="document.getElementById('process').style.display='block';document.getElementById('msg').style.display='none';">
+                                <a href="/resetdb/" class="btn btn-danger">Reset All</a><br>
+                                <label id="process" style="display:none;color:green;font-weight:bold;">Processing Please Wait...</label>
                                 <label id="msg" style="color:green;font-weight:bold;">{{ msg1|safe }}</label>
                             </div>
                         </form>
@@ -46,12 +74,12 @@
                 </div>
             </div>
             <div class="col-lg-4">
-                <div class="card" style="height:505px;overflow-y:auto;">
+                <div class="card" style="height:570px;overflow-y:auto;">
                     <div class="card-header">
                         <strong>2. Select Source</strong>
                     </div>
                     <div class="card-body card-block">
-                       {% for x in data %}
+                        {% for x in data %}
                        <div class="w3-card w3-hover-light-grey" style="padding:10px;font-weight:bold;border-radius:10px;cursor:pointer;margin-top:10px;" onclick="document.getElementById('{{ x.File_ID|safe }}feilds').style.display='block';{% for a in data %}{% if not x.File_ID == a.File_ID %}document.getElementById('{{ a.File_ID|safe }}feilds').style.display='none';{% endif %}{% endfor %}">
                             {{ x.File_Name|safe }} <i class="fa fa-angle-double-down" aria-hidden="true"></i>
                         </div>
@@ -74,6 +102,34 @@
                                     {% endfor %}
                                     {% endif %}
                                     {% endfor %}
+                                    <input type="hidden" value="csv" name="mode">
+                                </table>
+                        </div>
+                        {% endfor %}
+                        {% for x in data2 %}
+                       <div class="w3-card w3-hover-light-grey" style="padding:10px;font-weight:bold;border-radius:10px;cursor:pointer;margin-top:10px;" onclick="document.getElementById('{{ x|safe }}feilds').style.display='block';{% for a in data2 %}{% if not x == a %}document.getElementById('{{ a|safe }}feilds').style.display='none';{% endif %}{% endfor %}">
+                            {{ x|safe }} <i class="fa fa-angle-double-down" aria-hidden="true"></i>
+                        </div>
+                        <div class="content mt-3" style="display:none;" id="{{ x|safe }}feilds">
+                            <form action="/gendf/" method="POST">
+                                <table style="width:100%;text-align:center;">
+                                    <tr>
+                                        <td></td>
+                                        <td></td>
+                                        <td style="font-weight:bold;">Primary Key</td>
+                                    </tr>
+                                    {% for y in fields2 %}
+                                    {% if y.table == x %}
+                                    {% for z in y.col %}
+                                    <tr>
+                                        <td><input type="checkbox" name="{{ y.table|safe }}{{ z|safe }}fields" value="{{ z|safe }}"></td>
+                                        <td>{{ z|safe }}</td>
+                                        <td><input type="checkbox" name="{{ y.table|safe }}{{ z|safe }}" value="{{ z|safe }}"></td>
+                                    </tr>
+                                    {% endfor %}
+                                    {% endif %}
+                                    {% endfor %}
+                                    <input type="hidden" value="sql" name="mode">
                                 </table>
                         </div>
                         {% endfor %}
@@ -87,7 +143,7 @@
                 </div>
             </div>
             <div class="col-lg-4">
-                <div class="card" style="">
+                <div class="card" style="height:570px;">
                     <div class="card-header">
                         <strong>3. Visualizer</strong>
                     </div>

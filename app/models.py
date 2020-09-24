@@ -7,3 +7,11 @@ class CSVData(models.Model):
 	File_Src=models.FileField(upload_to="csvfiles/")
 	class Meta:
 		db_table="CSVData"
+
+class DBData(models.Model):
+	Host=models.CharField(max_length=100)
+	Username=models.CharField(max_length=100)
+	Password=models.CharField(max_length=100)
+	Database=models.CharField(max_length=100)
+	class Meta:
+		db_table="DBData"
