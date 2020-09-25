@@ -1,0 +1,831 @@
+,CustomerID,CompanyName,ContactName,OrderID,EmployeeID,OrderDate
+0,ALFKI,Alfreds Futterkiste,Maria Anders,10643,6,00:00.0
+1,ALFKI,Alfreds Futterkiste,Maria Anders,10692,4,00:00.0
+2,ALFKI,Alfreds Futterkiste,Maria Anders,10702,4,00:00.0
+3,ALFKI,Alfreds Futterkiste,Maria Anders,10835,1,00:00.0
+4,ALFKI,Alfreds Futterkiste,Maria Anders,10952,1,00:00.0
+5,ALFKI,Alfreds Futterkiste,Maria Anders,11011,3,00:00.0
+6,ANATR,Ana Trujillo Emparedados y helados,Ana Trujillo,10308,7,00:00.0
+7,ANATR,Ana Trujillo Emparedados y helados,Ana Trujillo,10625,3,00:00.0
+8,ANATR,Ana Trujillo Emparedados y helados,Ana Trujillo,10759,3,00:00.0
+9,ANATR,Ana Trujillo Emparedados y helados,Ana Trujillo,10926,4,00:00.0
+10,ANTON,Antonio Moreno Taquería,Antonio Moreno,10365,3,00:00.0
+11,ANTON,Antonio Moreno Taquería,Antonio Moreno,10507,7,00:00.0
+12,ANTON,Antonio Moreno Taquería,Antonio Moreno,10535,4,00:00.0
+13,ANTON,Antonio Moreno Taquería,Antonio Moreno,10573,7,00:00.0
+14,ANTON,Antonio Moreno Taquería,Antonio Moreno,10677,1,00:00.0
+15,ANTON,Antonio Moreno Taquería,Antonio Moreno,10682,3,00:00.0
+16,ANTON,Antonio Moreno Taquería,Antonio Moreno,10856,3,00:00.0
+17,AROUT,Around the Horn,Thomas Hardy,10355,6,00:00.0
+18,AROUT,Around the Horn,Thomas Hardy,10383,8,00:00.0
+19,AROUT,Around the Horn,Thomas Hardy,10453,1,00:00.0
+20,AROUT,Around the Horn,Thomas Hardy,10558,1,00:00.0
+21,AROUT,Around the Horn,Thomas Hardy,10707,4,00:00.0
+22,AROUT,Around the Horn,Thomas Hardy,10741,4,00:00.0
+23,AROUT,Around the Horn,Thomas Hardy,10743,1,00:00.0
+24,AROUT,Around the Horn,Thomas Hardy,10768,3,00:00.0
+25,AROUT,Around the Horn,Thomas Hardy,10793,3,00:00.0
+26,AROUT,Around the Horn,Thomas Hardy,10864,4,00:00.0
+27,AROUT,Around the Horn,Thomas Hardy,10920,4,00:00.0
+28,AROUT,Around the Horn,Thomas Hardy,10953,9,00:00.0
+29,AROUT,Around the Horn,Thomas Hardy,11016,9,00:00.0
+30,BERGS,Berglunds snabbköp,Christina Berglund,10278,8,00:00.0
+31,BERGS,Berglunds snabbköp,Christina Berglund,10280,2,00:00.0
+32,BERGS,Berglunds snabbköp,Christina Berglund,10384,3,00:00.0
+33,BERGS,Berglunds snabbköp,Christina Berglund,10444,3,00:00.0
+34,BERGS,Berglunds snabbköp,Christina Berglund,10445,3,00:00.0
+35,BERGS,Berglunds snabbköp,Christina Berglund,10524,1,00:00.0
+36,BERGS,Berglunds snabbköp,Christina Berglund,10572,3,00:00.0
+37,BERGS,Berglunds snabbköp,Christina Berglund,10626,1,00:00.0
+38,BERGS,Berglunds snabbköp,Christina Berglund,10654,5,00:00.0
+39,BERGS,Berglunds snabbköp,Christina Berglund,10672,9,00:00.0
+40,BERGS,Berglunds snabbköp,Christina Berglund,10689,1,00:00.0
+41,BERGS,Berglunds snabbköp,Christina Berglund,10733,1,00:00.0
+42,BERGS,Berglunds snabbköp,Christina Berglund,10778,3,00:00.0
+43,BERGS,Berglunds snabbköp,Christina Berglund,10837,9,00:00.0
+44,BERGS,Berglunds snabbköp,Christina Berglund,10857,8,00:00.0
+45,BERGS,Berglunds snabbköp,Christina Berglund,10866,5,00:00.0
+46,BERGS,Berglunds snabbköp,Christina Berglund,10875,4,00:00.0
+47,BERGS,Berglunds snabbköp,Christina Berglund,10924,3,00:00.0
+48,BLAUS,Blauer See Delikatessen,Hanna Moos,10501,9,00:00.0
+49,BLAUS,Blauer See Delikatessen,Hanna Moos,10509,4,00:00.0
+50,BLAUS,Blauer See Delikatessen,Hanna Moos,10582,3,00:00.0
+51,BLAUS,Blauer See Delikatessen,Hanna Moos,10614,8,00:00.0
+52,BLAUS,Blauer See Delikatessen,Hanna Moos,10853,9,00:00.0
+53,BLAUS,Blauer See Delikatessen,Hanna Moos,10956,6,00:00.0
+54,BLAUS,Blauer See Delikatessen,Hanna Moos,11058,9,00:00.0
+55,BLONP,Blondesddsl père et fils,Frédérique Citeaux,10265,2,00:00.0
+56,BLONP,Blondesddsl père et fils,Frédérique Citeaux,10297,5,00:00.0
+57,BLONP,Blondesddsl père et fils,Frédérique Citeaux,10360,4,00:00.0
+58,BLONP,Blondesddsl père et fils,Frédérique Citeaux,10436,3,00:00.0
+59,BLONP,Blondesddsl père et fils,Frédérique Citeaux,10449,3,00:00.0
+60,BLONP,Blondesddsl père et fils,Frédérique Citeaux,10559,6,00:00.0
+61,BLONP,Blondesddsl père et fils,Frédérique Citeaux,10566,9,00:00.0
+62,BLONP,Blondesddsl père et fils,Frédérique Citeaux,10584,4,00:00.0
+63,BLONP,Blondesddsl père et fils,Frédérique Citeaux,10628,4,00:00.0
+64,BLONP,Blondesddsl père et fils,Frédérique Citeaux,10679,8,00:00.0
+65,BLONP,Blondesddsl père et fils,Frédérique Citeaux,10826,6,00:00.0
+66,BOLID,Bólido Comidas preparadas,Martín Sommer,10326,4,00:00.0
+67,BOLID,Bólido Comidas preparadas,Martín Sommer,10801,4,00:00.0
+68,BOLID,Bólido Comidas preparadas,Martín Sommer,10970,9,00:00.0
+69,BONAP,Bon app',Laurence Lebihan,10331,9,00:00.0
+70,BONAP,Bon app',Laurence Lebihan,10340,1,00:00.0
+71,BONAP,Bon app',Laurence Lebihan,10362,3,00:00.0
+72,BONAP,Bon app',Laurence Lebihan,10470,4,00:00.0
+73,BONAP,Bon app',Laurence Lebihan,10511,4,00:00.0
+74,BONAP,Bon app',Laurence Lebihan,10525,1,00:00.0
+75,BONAP,Bon app',Laurence Lebihan,10663,2,00:00.0
+76,BONAP,Bon app',Laurence Lebihan,10715,3,00:00.0
+77,BONAP,Bon app',Laurence Lebihan,10730,5,00:00.0
+78,BONAP,Bon app',Laurence Lebihan,10732,3,00:00.0
+79,BONAP,Bon app',Laurence Lebihan,10755,4,00:00.0
+80,BONAP,Bon app',Laurence Lebihan,10827,1,00:00.0
+81,BONAP,Bon app',Laurence Lebihan,10871,9,00:00.0
+82,BONAP,Bon app',Laurence Lebihan,10876,7,00:00.0
+83,BONAP,Bon app',Laurence Lebihan,10932,8,00:00.0
+84,BONAP,Bon app',Laurence Lebihan,10940,8,00:00.0
+85,BONAP,Bon app',Laurence Lebihan,11076,4,00:00.0
+86,BOTTM,Bottom-Dollar Markets,Elizabeth Lincoln,10389,4,00:00.0
+87,BOTTM,Bottom-Dollar Markets,Elizabeth Lincoln,10410,3,00:00.0
+88,BOTTM,Bottom-Dollar Markets,Elizabeth Lincoln,10411,9,00:00.0
+89,BOTTM,Bottom-Dollar Markets,Elizabeth Lincoln,10431,4,00:00.0
+90,BOTTM,Bottom-Dollar Markets,Elizabeth Lincoln,10492,3,00:00.0
+91,BOTTM,Bottom-Dollar Markets,Elizabeth Lincoln,10742,3,00:00.0
+92,BOTTM,Bottom-Dollar Markets,Elizabeth Lincoln,10918,3,00:00.0
+93,BOTTM,Bottom-Dollar Markets,Elizabeth Lincoln,10944,6,00:00.0
+94,BOTTM,Bottom-Dollar Markets,Elizabeth Lincoln,10949,2,00:00.0
+95,BOTTM,Bottom-Dollar Markets,Elizabeth Lincoln,10975,1,00:00.0
+96,BOTTM,Bottom-Dollar Markets,Elizabeth Lincoln,10982,2,00:00.0
+97,BOTTM,Bottom-Dollar Markets,Elizabeth Lincoln,11027,1,00:00.0
+98,BOTTM,Bottom-Dollar Markets,Elizabeth Lincoln,11045,6,00:00.0
+99,BOTTM,Bottom-Dollar Markets,Elizabeth Lincoln,11048,7,00:00.0
+100,BSBEV,B's Beverages,Victoria Ashworth,10289,7,00:00.0
+101,BSBEV,B's Beverages,Victoria Ashworth,10471,2,00:00.0
+102,BSBEV,B's Beverages,Victoria Ashworth,10484,3,00:00.0
+103,BSBEV,B's Beverages,Victoria Ashworth,10538,9,00:00.0
+104,BSBEV,B's Beverages,Victoria Ashworth,10539,6,00:00.0
+105,BSBEV,B's Beverages,Victoria Ashworth,10578,4,00:00.0
+106,BSBEV,B's Beverages,Victoria Ashworth,10599,6,00:00.0
+107,BSBEV,B's Beverages,Victoria Ashworth,10943,4,00:00.0
+108,BSBEV,B's Beverages,Victoria Ashworth,10947,3,00:00.0
+109,BSBEV,B's Beverages,Victoria Ashworth,11023,1,00:00.0
+110,CACTU,Cactus Comidas para llevar,Patricio Simpson,10521,8,00:00.0
+111,CACTU,Cactus Comidas para llevar,Patricio Simpson,10782,9,00:00.0
+112,CACTU,Cactus Comidas para llevar,Patricio Simpson,10819,2,00:00.0
+113,CACTU,Cactus Comidas para llevar,Patricio Simpson,10881,4,00:00.0
+114,CACTU,Cactus Comidas para llevar,Patricio Simpson,10937,7,00:00.0
+115,CACTU,Cactus Comidas para llevar,Patricio Simpson,11054,8,00:00.0
+116,CENTC,Centro comercial Moctezuma,Francisco Chang,10259,4,00:00.0
+117,CHOPS,Chop-suey Chinese,Yang Wang,10254,5,00:00.0
+118,CHOPS,Chop-suey Chinese,Yang Wang,10370,6,00:00.0
+119,CHOPS,Chop-suey Chinese,Yang Wang,10519,6,00:00.0
+120,CHOPS,Chop-suey Chinese,Yang Wang,10731,7,00:00.0
+121,CHOPS,Chop-suey Chinese,Yang Wang,10746,1,00:00.0
+122,CHOPS,Chop-suey Chinese,Yang Wang,10966,4,00:00.0
+123,CHOPS,Chop-suey Chinese,Yang Wang,11029,4,00:00.0
+124,CHOPS,Chop-suey Chinese,Yang Wang,11041,3,00:00.0
+125,COMMI,Comércio Mineiro,Pedro Afonso,10290,8,00:00.0
+126,COMMI,Comércio Mineiro,Pedro Afonso,10466,4,00:00.0
+127,COMMI,Comércio Mineiro,Pedro Afonso,10494,4,00:00.0
+128,COMMI,Comércio Mineiro,Pedro Afonso,10969,1,00:00.0
+129,COMMI,Comércio Mineiro,Pedro Afonso,11042,2,00:00.0
+130,CONSH,Consolidated Holdings,Elizabeth Brown,10435,8,00:00.0
+131,CONSH,Consolidated Holdings,Elizabeth Brown,10462,2,00:00.0
+132,CONSH,Consolidated Holdings,Elizabeth Brown,10848,7,00:00.0
+133,DRACD,Drachenblut Delikatessen,Sven Ottlieb,10363,4,00:00.0
+134,DRACD,Drachenblut Delikatessen,Sven Ottlieb,10391,3,00:00.0
+135,DRACD,Drachenblut Delikatessen,Sven Ottlieb,10797,7,00:00.0
+136,DRACD,Drachenblut Delikatessen,Sven Ottlieb,10825,1,00:00.0
+137,DRACD,Drachenblut Delikatessen,Sven Ottlieb,11036,8,00:00.0
+138,DRACD,Drachenblut Delikatessen,Sven Ottlieb,11067,1,00:00.0
+139,DUMON,Du monde entier,Janine Labrune,10311,1,00:00.0
+140,DUMON,Du monde entier,Janine Labrune,10609,7,00:00.0
+141,DUMON,Du monde entier,Janine Labrune,10683,2,00:00.0
+142,DUMON,Du monde entier,Janine Labrune,10890,7,00:00.0
+143,EASTC,Eastern Connection,Ann Devon,10364,1,00:00.0
+144,EASTC,Eastern Connection,Ann Devon,10400,1,00:00.0
+145,EASTC,Eastern Connection,Ann Devon,10532,7,00:00.0
+146,EASTC,Eastern Connection,Ann Devon,10726,4,00:00.0
+147,EASTC,Eastern Connection,Ann Devon,10987,8,00:00.0
+148,EASTC,Eastern Connection,Ann Devon,11024,4,00:00.0
+149,EASTC,Eastern Connection,Ann Devon,11047,7,00:00.0
+150,EASTC,Eastern Connection,Ann Devon,11056,8,00:00.0
+151,ERNSH,Ernst Handel,Roland Mendel,10258,1,00:00.0
+152,ERNSH,Ernst Handel,Roland Mendel,10263,9,00:00.0
+153,ERNSH,Ernst Handel,Roland Mendel,10351,1,00:00.0
+154,ERNSH,Ernst Handel,Roland Mendel,10368,2,00:00.0
+155,ERNSH,Ernst Handel,Roland Mendel,10382,4,00:00.0
+156,ERNSH,Ernst Handel,Roland Mendel,10390,6,00:00.0
+157,ERNSH,Ernst Handel,Roland Mendel,10402,8,00:00.0
+158,ERNSH,Ernst Handel,Roland Mendel,10403,4,00:00.0
+159,ERNSH,Ernst Handel,Roland Mendel,10430,4,00:00.0
+160,ERNSH,Ernst Handel,Roland Mendel,10442,3,00:00.0
+161,ERNSH,Ernst Handel,Roland Mendel,10514,3,00:00.0
+162,ERNSH,Ernst Handel,Roland Mendel,10571,8,00:00.0
+163,ERNSH,Ernst Handel,Roland Mendel,10595,2,00:00.0
+164,ERNSH,Ernst Handel,Roland Mendel,10633,7,00:00.0
+165,ERNSH,Ernst Handel,Roland Mendel,10667,7,00:00.0
+166,ERNSH,Ernst Handel,Roland Mendel,10698,4,00:00.0
+167,ERNSH,Ernst Handel,Roland Mendel,10764,6,00:00.0
+168,ERNSH,Ernst Handel,Roland Mendel,10771,9,00:00.0
+169,ERNSH,Ernst Handel,Roland Mendel,10773,1,00:00.0
+170,ERNSH,Ernst Handel,Roland Mendel,10776,1,00:00.0
+171,ERNSH,Ernst Handel,Roland Mendel,10795,8,00:00.0
+172,ERNSH,Ernst Handel,Roland Mendel,10836,7,00:00.0
+173,ERNSH,Ernst Handel,Roland Mendel,10854,3,00:00.0
+174,ERNSH,Ernst Handel,Roland Mendel,10895,3,00:00.0
+175,ERNSH,Ernst Handel,Roland Mendel,10968,1,00:00.0
+176,ERNSH,Ernst Handel,Roland Mendel,10979,8,00:00.0
+177,ERNSH,Ernst Handel,Roland Mendel,10990,2,00:00.0
+178,ERNSH,Ernst Handel,Roland Mendel,11008,7,00:00.0
+179,ERNSH,Ernst Handel,Roland Mendel,11017,9,00:00.0
+180,ERNSH,Ernst Handel,Roland Mendel,11072,4,00:00.0
+181,FAMIA,Familia Arquibaldo,Aria Cruz,10347,4,00:00.0
+182,FAMIA,Familia Arquibaldo,Aria Cruz,10386,9,00:00.0
+183,FAMIA,Familia Arquibaldo,Aria Cruz,10414,2,00:00.0
+184,FAMIA,Familia Arquibaldo,Aria Cruz,10512,7,00:00.0
+185,FAMIA,Familia Arquibaldo,Aria Cruz,10581,3,00:00.0
+186,FAMIA,Familia Arquibaldo,Aria Cruz,10650,5,00:00.0
+187,FAMIA,Familia Arquibaldo,Aria Cruz,10725,4,00:00.0
+188,FOLIG,Folies gourmandes,Martine Rancé,10408,8,00:00.0
+189,FOLIG,Folies gourmandes,Martine Rancé,10480,6,00:00.0
+190,FOLIG,Folies gourmandes,Martine Rancé,10634,4,00:00.0
+191,FOLIG,Folies gourmandes,Martine Rancé,10763,3,00:00.0
+192,FOLIG,Folies gourmandes,Martine Rancé,10789,1,00:00.0
+193,FOLKO,Folk och fä HB,Maria Larsson,10264,6,00:00.0
+194,FOLKO,Folk och fä HB,Maria Larsson,10327,2,00:00.0
+195,FOLKO,Folk och fä HB,Maria Larsson,10378,5,00:00.0
+196,FOLKO,Folk och fä HB,Maria Larsson,10434,3,00:00.0
+197,FOLKO,Folk och fä HB,Maria Larsson,10460,8,00:00.0
+198,FOLKO,Folk och fä HB,Maria Larsson,10533,8,00:00.0
+199,FOLKO,Folk och fä HB,Maria Larsson,10561,2,00:00.0
+200,FOLKO,Folk och fä HB,Maria Larsson,10703,6,00:00.0
+201,FOLKO,Folk och fä HB,Maria Larsson,10762,3,00:00.0
+202,FOLKO,Folk och fä HB,Maria Larsson,10774,4,00:00.0
+203,FOLKO,Folk och fä HB,Maria Larsson,10824,8,00:00.0
+204,FOLKO,Folk och fä HB,Maria Larsson,10880,7,00:00.0
+205,FOLKO,Folk och fä HB,Maria Larsson,10902,1,00:00.0
+206,FOLKO,Folk och fä HB,Maria Larsson,10955,8,00:00.0
+207,FOLKO,Folk och fä HB,Maria Larsson,10977,8,00:00.0
+208,FOLKO,Folk och fä HB,Maria Larsson,10980,4,00:00.0
+209,FOLKO,Folk och fä HB,Maria Larsson,10993,7,00:00.0
+210,FOLKO,Folk och fä HB,Maria Larsson,11001,2,00:00.0
+211,FOLKO,Folk och fä HB,Maria Larsson,11050,8,00:00.0
+212,FRANK,Frankenversand,Peter Franken,10267,4,00:00.0
+213,FRANK,Frankenversand,Peter Franken,10337,4,00:00.0
+214,FRANK,Frankenversand,Peter Franken,10342,4,00:00.0
+215,FRANK,Frankenversand,Peter Franken,10396,1,00:00.0
+216,FRANK,Frankenversand,Peter Franken,10488,8,00:00.0
+217,FRANK,Frankenversand,Peter Franken,10560,8,00:00.0
+218,FRANK,Frankenversand,Peter Franken,10623,8,00:00.0
+219,FRANK,Frankenversand,Peter Franken,10653,1,00:00.0
+220,FRANK,Frankenversand,Peter Franken,10670,4,00:00.0
+221,FRANK,Frankenversand,Peter Franken,10675,5,00:00.0
+222,FRANK,Frankenversand,Peter Franken,10717,1,00:00.0
+223,FRANK,Frankenversand,Peter Franken,10791,6,00:00.0
+224,FRANK,Frankenversand,Peter Franken,10859,1,00:00.0
+225,FRANK,Frankenversand,Peter Franken,10929,6,00:00.0
+226,FRANK,Frankenversand,Peter Franken,11012,1,00:00.0
+227,FRANR,France restauration,Carine Schmitt,10671,1,00:00.0
+228,FRANR,France restauration,Carine Schmitt,10860,3,00:00.0
+229,FRANR,France restauration,Carine Schmitt,10971,2,00:00.0
+230,FRANS,Franchi S.p.A.,Paolo Accorti,10422,2,00:00.0
+231,FRANS,Franchi S.p.A.,Paolo Accorti,10710,1,00:00.0
+232,FRANS,Franchi S.p.A.,Paolo Accorti,10753,3,00:00.0
+233,FRANS,Franchi S.p.A.,Paolo Accorti,10807,4,00:00.0
+234,FRANS,Franchi S.p.A.,Paolo Accorti,11026,4,00:00.0
+235,FRANS,Franchi S.p.A.,Paolo Accorti,11060,2,00:00.0
+236,FURIB,Furia Bacalhau e Frutos do Mar,Lino Rodriguez,10328,4,00:00.0
+237,FURIB,Furia Bacalhau e Frutos do Mar,Lino Rodriguez,10352,3,00:00.0
+238,FURIB,Furia Bacalhau e Frutos do Mar,Lino Rodriguez,10464,4,00:00.0
+239,FURIB,Furia Bacalhau e Frutos do Mar,Lino Rodriguez,10491,8,00:00.0
+240,FURIB,Furia Bacalhau e Frutos do Mar,Lino Rodriguez,10551,4,00:00.0
+241,FURIB,Furia Bacalhau e Frutos do Mar,Lino Rodriguez,10604,1,00:00.0
+242,FURIB,Furia Bacalhau e Frutos do Mar,Lino Rodriguez,10664,1,00:00.0
+243,FURIB,Furia Bacalhau e Frutos do Mar,Lino Rodriguez,10963,9,00:00.0
+244,GALED,Galería del gastrónomo,Eduardo Saavedra,10366,8,00:00.0
+245,GALED,Galería del gastrónomo,Eduardo Saavedra,10426,4,00:00.0
+246,GALED,Galería del gastrónomo,Eduardo Saavedra,10568,3,00:00.0
+247,GALED,Galería del gastrónomo,Eduardo Saavedra,10887,8,00:00.0
+248,GALED,Galería del gastrónomo,Eduardo Saavedra,10928,1,00:00.0
+249,GODOS,Godos Cocina Típica,José Pedro Freyre,10303,7,00:00.0
+250,GODOS,Godos Cocina Típica,José Pedro Freyre,10550,7,00:00.0
+251,GODOS,Godos Cocina Típica,José Pedro Freyre,10629,4,00:00.0
+252,GODOS,Godos Cocina Típica,José Pedro Freyre,10872,5,00:00.0
+253,GODOS,Godos Cocina Típica,José Pedro Freyre,10874,5,00:00.0
+254,GODOS,Godos Cocina Típica,José Pedro Freyre,10888,1,00:00.0
+255,GODOS,Godos Cocina Típica,José Pedro Freyre,10911,3,00:00.0
+256,GODOS,Godos Cocina Típica,José Pedro Freyre,10948,3,00:00.0
+257,GODOS,Godos Cocina Típica,José Pedro Freyre,11009,2,00:00.0
+258,GODOS,Godos Cocina Típica,José Pedro Freyre,11037,7,00:00.0
+259,GOURL,Gourmet Lanchonetes,André Fonseca,10423,6,00:00.0
+260,GOURL,Gourmet Lanchonetes,André Fonseca,10652,4,00:00.0
+261,GOURL,Gourmet Lanchonetes,André Fonseca,10685,4,00:00.0
+262,GOURL,Gourmet Lanchonetes,André Fonseca,10709,1,00:00.0
+263,GOURL,Gourmet Lanchonetes,André Fonseca,10734,2,00:00.0
+264,GOURL,Gourmet Lanchonetes,André Fonseca,10777,7,00:00.0
+265,GOURL,Gourmet Lanchonetes,André Fonseca,10790,6,00:00.0
+266,GOURL,Gourmet Lanchonetes,André Fonseca,10959,6,00:00.0
+267,GOURL,Gourmet Lanchonetes,André Fonseca,11049,3,00:00.0
+268,GREAL,Great Lakes Food Market,Howard Snyder,10528,6,00:00.0
+269,GREAL,Great Lakes Food Market,Howard Snyder,10589,8,00:00.0
+270,GREAL,Great Lakes Food Market,Howard Snyder,10616,1,00:00.0
+271,GREAL,Great Lakes Food Market,Howard Snyder,10617,4,00:00.0
+272,GREAL,Great Lakes Food Market,Howard Snyder,10656,6,00:00.0
+273,GREAL,Great Lakes Food Market,Howard Snyder,10681,3,00:00.0
+274,GREAL,Great Lakes Food Market,Howard Snyder,10816,4,00:00.0
+275,GREAL,Great Lakes Food Market,Howard Snyder,10936,3,00:00.0
+276,GREAL,Great Lakes Food Market,Howard Snyder,11006,3,00:00.0
+277,GREAL,Great Lakes Food Market,Howard Snyder,11040,4,00:00.0
+278,GREAL,Great Lakes Food Market,Howard Snyder,11061,4,00:00.0
+279,GROSR,GROSELLA-Restaurante,Manuel Pereira,10268,8,00:00.0
+280,GROSR,GROSELLA-Restaurante,Manuel Pereira,10785,1,00:00.0
+281,HANAR,Hanari Carnes,Mario Pontes,10250,4,00:00.0
+282,HANAR,Hanari Carnes,Mario Pontes,10253,3,00:00.0
+283,HANAR,Hanari Carnes,Mario Pontes,10541,2,00:00.0
+284,HANAR,Hanari Carnes,Mario Pontes,10645,4,00:00.0
+285,HANAR,Hanari Carnes,Mario Pontes,10690,1,00:00.0
+286,HANAR,Hanari Carnes,Mario Pontes,10770,8,00:00.0
+287,HANAR,Hanari Carnes,Mario Pontes,10783,4,00:00.0
+288,HANAR,Hanari Carnes,Mario Pontes,10886,1,00:00.0
+289,HANAR,Hanari Carnes,Mario Pontes,10903,3,00:00.0
+290,HANAR,Hanari Carnes,Mario Pontes,10922,5,00:00.0
+291,HANAR,Hanari Carnes,Mario Pontes,10925,3,00:00.0
+292,HANAR,Hanari Carnes,Mario Pontes,10981,1,00:00.0
+293,HANAR,Hanari Carnes,Mario Pontes,11022,9,00:00.0
+294,HANAR,Hanari Carnes,Mario Pontes,11052,3,00:00.0
+295,HILAA,HILARION-Abastos,Carlos Hernández,10257,4,00:00.0
+296,HILAA,HILARION-Abastos,Carlos Hernández,10395,6,00:00.0
+297,HILAA,HILARION-Abastos,Carlos Hernández,10476,8,00:00.0
+298,HILAA,HILARION-Abastos,Carlos Hernández,10486,1,00:00.0
+299,HILAA,HILARION-Abastos,Carlos Hernández,10490,7,00:00.0
+300,HILAA,HILARION-Abastos,Carlos Hernández,10498,8,00:00.0
+301,HILAA,HILARION-Abastos,Carlos Hernández,10552,2,00:00.0
+302,HILAA,HILARION-Abastos,Carlos Hernández,10601,7,00:00.0
+303,HILAA,HILARION-Abastos,Carlos Hernández,10613,4,00:00.0
+304,HILAA,HILARION-Abastos,Carlos Hernández,10641,4,00:00.0
+305,HILAA,HILARION-Abastos,Carlos Hernández,10705,9,00:00.0
+306,HILAA,HILARION-Abastos,Carlos Hernández,10796,3,00:00.0
+307,HILAA,HILARION-Abastos,Carlos Hernández,10863,4,00:00.0
+308,HILAA,HILARION-Abastos,Carlos Hernández,10901,4,00:00.0
+309,HILAA,HILARION-Abastos,Carlos Hernández,10957,8,00:00.0
+310,HILAA,HILARION-Abastos,Carlos Hernández,10960,3,00:00.0
+311,HILAA,HILARION-Abastos,Carlos Hernández,10976,1,00:00.0
+312,HILAA,HILARION-Abastos,Carlos Hernández,11055,7,00:00.0
+313,HUNGC,Hungry Coyote Import Store,Yoshi Latimer,10375,3,00:00.0
+314,HUNGC,Hungry Coyote Import Store,Yoshi Latimer,10394,1,00:00.0
+315,HUNGC,Hungry Coyote Import Store,Yoshi Latimer,10415,3,00:00.0
+316,HUNGC,Hungry Coyote Import Store,Yoshi Latimer,10600,4,00:00.0
+317,HUNGC,Hungry Coyote Import Store,Yoshi Latimer,10660,8,00:00.0
+318,HUNGO,Hungry Owl All-Night Grocers,Patricia McKenna,10298,6,00:00.0
+319,HUNGO,Hungry Owl All-Night Grocers,Patricia McKenna,10309,3,00:00.0
+320,HUNGO,Hungry Owl All-Night Grocers,Patricia McKenna,10335,7,00:00.0
+321,HUNGO,Hungry Owl All-Night Grocers,Patricia McKenna,10373,4,00:00.0
+322,HUNGO,Hungry Owl All-Night Grocers,Patricia McKenna,10380,8,00:00.0
+323,HUNGO,Hungry Owl All-Night Grocers,Patricia McKenna,10429,3,00:00.0
+324,HUNGO,Hungry Owl All-Night Grocers,Patricia McKenna,10503,6,00:00.0
+325,HUNGO,Hungry Owl All-Night Grocers,Patricia McKenna,10516,2,00:00.0
+326,HUNGO,Hungry Owl All-Night Grocers,Patricia McKenna,10567,1,00:00.0
+327,HUNGO,Hungry Owl All-Night Grocers,Patricia McKenna,10646,9,00:00.0
+328,HUNGO,Hungry Owl All-Night Grocers,Patricia McKenna,10661,7,00:00.0
+329,HUNGO,Hungry Owl All-Night Grocers,Patricia McKenna,10687,9,00:00.0
+330,HUNGO,Hungry Owl All-Night Grocers,Patricia McKenna,10701,6,00:00.0
+331,HUNGO,Hungry Owl All-Night Grocers,Patricia McKenna,10712,3,00:00.0
+332,HUNGO,Hungry Owl All-Night Grocers,Patricia McKenna,10736,9,00:00.0
+333,HUNGO,Hungry Owl All-Night Grocers,Patricia McKenna,10897,3,00:00.0
+334,HUNGO,Hungry Owl All-Night Grocers,Patricia McKenna,10912,2,00:00.0
+335,HUNGO,Hungry Owl All-Night Grocers,Patricia McKenna,10985,2,00:00.0
+336,HUNGO,Hungry Owl All-Night Grocers,Patricia McKenna,11063,3,00:00.0
+337,ISLAT,Island Trading,Helen Bennett,10315,4,00:00.0
+338,ISLAT,Island Trading,Helen Bennett,10318,8,00:00.0
+339,ISLAT,Island Trading,Helen Bennett,10321,3,00:00.0
+340,ISLAT,Island Trading,Helen Bennett,10473,1,00:00.0
+341,ISLAT,Island Trading,Helen Bennett,10621,4,00:00.0
+342,ISLAT,Island Trading,Helen Bennett,10674,4,00:00.0
+343,ISLAT,Island Trading,Helen Bennett,10749,4,00:00.0
+344,ISLAT,Island Trading,Helen Bennett,10798,2,00:00.0
+345,ISLAT,Island Trading,Helen Bennett,10829,9,00:00.0
+346,ISLAT,Island Trading,Helen Bennett,10933,6,00:00.0
+347,KOENE,Königlich Essen,Philip Cramer,10323,4,00:00.0
+348,KOENE,Königlich Essen,Philip Cramer,10325,1,00:00.0
+349,KOENE,Königlich Essen,Philip Cramer,10456,8,00:00.0
+350,KOENE,Königlich Essen,Philip Cramer,10457,2,00:00.0
+351,KOENE,Königlich Essen,Philip Cramer,10468,3,00:00.0
+352,KOENE,Königlich Essen,Philip Cramer,10506,9,00:00.0
+353,KOENE,Königlich Essen,Philip Cramer,10542,1,00:00.0
+354,KOENE,Königlich Essen,Philip Cramer,10630,1,00:00.0
+355,KOENE,Königlich Essen,Philip Cramer,10718,1,00:00.0
+356,KOENE,Königlich Essen,Philip Cramer,10799,9,00:00.0
+357,KOENE,Königlich Essen,Philip Cramer,10817,3,00:00.0
+358,KOENE,Königlich Essen,Philip Cramer,10849,9,00:00.0
+359,KOENE,Königlich Essen,Philip Cramer,10893,9,00:00.0
+360,KOENE,Königlich Essen,Philip Cramer,11028,2,00:00.0
+361,LACOR,La corne d'abondance,Daniel Tonini,10858,2,00:00.0
+362,LACOR,La corne d'abondance,Daniel Tonini,10927,4,00:00.0
+363,LACOR,La corne d'abondance,Daniel Tonini,10972,4,00:00.0
+364,LACOR,La corne d'abondance,Daniel Tonini,10973,6,00:00.0
+365,LAMAI,La maison d'Asie,Annette Roulet,10350,6,00:00.0
+366,LAMAI,La maison d'Asie,Annette Roulet,10358,5,00:00.0
+367,LAMAI,La maison d'Asie,Annette Roulet,10371,1,00:00.0
+368,LAMAI,La maison d'Asie,Annette Roulet,10413,3,00:00.0
+369,LAMAI,La maison d'Asie,Annette Roulet,10425,6,00:00.0
+370,LAMAI,La maison d'Asie,Annette Roulet,10454,4,00:00.0
+371,LAMAI,La maison d'Asie,Annette Roulet,10493,4,00:00.0
+372,LAMAI,La maison d'Asie,Annette Roulet,10500,6,00:00.0
+373,LAMAI,La maison d'Asie,Annette Roulet,10610,8,00:00.0
+374,LAMAI,La maison d'Asie,Annette Roulet,10631,8,00:00.0
+375,LAMAI,La maison d'Asie,Annette Roulet,10787,2,00:00.0
+376,LAMAI,La maison d'Asie,Annette Roulet,10832,2,00:00.0
+377,LAMAI,La maison d'Asie,Annette Roulet,10923,7,00:00.0
+378,LAMAI,La maison d'Asie,Annette Roulet,11051,7,00:00.0
+379,LAUGB,Laughing Bacchus Wine Cellars,Yoshi Tannamuri,10495,3,00:00.0
+380,LAUGB,Laughing Bacchus Wine Cellars,Yoshi Tannamuri,10620,2,00:00.0
+381,LAUGB,Laughing Bacchus Wine Cellars,Yoshi Tannamuri,10810,2,00:00.0
+382,LAZYK,Lazy K Kountry Store,John Steel,10482,1,00:00.0
+383,LAZYK,Lazy K Kountry Store,John Steel,10545,8,00:00.0
+384,LEHMS,Lehmanns Marktstand,Renate Messner,10279,8,00:00.0
+385,LEHMS,Lehmanns Marktstand,Renate Messner,10284,4,00:00.0
+386,LEHMS,Lehmanns Marktstand,Renate Messner,10343,4,00:00.0
+387,LEHMS,Lehmanns Marktstand,Renate Messner,10497,7,00:00.0
+388,LEHMS,Lehmanns Marktstand,Renate Messner,10522,4,00:00.0
+389,LEHMS,Lehmanns Marktstand,Renate Messner,10534,8,00:00.0
+390,LEHMS,Lehmanns Marktstand,Renate Messner,10536,3,00:00.0
+391,LEHMS,Lehmanns Marktstand,Renate Messner,10557,9,00:00.0
+392,LEHMS,Lehmanns Marktstand,Renate Messner,10592,3,00:00.0
+393,LEHMS,Lehmanns Marktstand,Renate Messner,10593,7,00:00.0
+394,LEHMS,Lehmanns Marktstand,Renate Messner,10772,3,00:00.0
+395,LEHMS,Lehmanns Marktstand,Renate Messner,10862,8,00:00.0
+396,LEHMS,Lehmanns Marktstand,Renate Messner,10891,7,00:00.0
+397,LEHMS,Lehmanns Marktstand,Renate Messner,10934,3,00:00.0
+398,LEHMS,Lehmanns Marktstand,Renate Messner,11070,2,00:00.0
+399,LETSS,Let's Stop N Shop,Jaime Yorres,10579,1,00:00.0
+400,LETSS,Let's Stop N Shop,Jaime Yorres,10719,8,00:00.0
+401,LETSS,Let's Stop N Shop,Jaime Yorres,10735,6,00:00.0
+402,LETSS,Let's Stop N Shop,Jaime Yorres,10884,4,00:00.0
+403,LILAS,LILA-Supermercado,Carlos González,10283,3,00:00.0
+404,LILAS,LILA-Supermercado,Carlos González,10296,6,00:00.0
+405,LILAS,LILA-Supermercado,Carlos González,10330,3,00:00.0
+406,LILAS,LILA-Supermercado,Carlos González,10357,1,00:00.0
+407,LILAS,LILA-Supermercado,Carlos González,10381,3,00:00.0
+408,LILAS,LILA-Supermercado,Carlos González,10461,1,00:00.0
+409,LILAS,LILA-Supermercado,Carlos González,10499,4,00:00.0
+410,LILAS,LILA-Supermercado,Carlos González,10543,8,00:00.0
+411,LILAS,LILA-Supermercado,Carlos González,10780,2,00:00.0
+412,LILAS,LILA-Supermercado,Carlos González,10823,5,00:00.0
+413,LILAS,LILA-Supermercado,Carlos González,10899,5,00:00.0
+414,LILAS,LILA-Supermercado,Carlos González,10997,8,00:00.0
+415,LILAS,LILA-Supermercado,Carlos González,11065,8,00:00.0
+416,LILAS,LILA-Supermercado,Carlos González,11071,1,00:00.0
+417,LINOD,LINO-Delicateses,Felipe Izquierdo,10405,1,00:00.0
+418,LINOD,LINO-Delicateses,Felipe Izquierdo,10485,4,00:00.0
+419,LINOD,LINO-Delicateses,Felipe Izquierdo,10638,3,00:00.0
+420,LINOD,LINO-Delicateses,Felipe Izquierdo,10697,3,00:00.0
+421,LINOD,LINO-Delicateses,Felipe Izquierdo,10729,8,00:00.0
+422,LINOD,LINO-Delicateses,Felipe Izquierdo,10811,8,00:00.0
+423,LINOD,LINO-Delicateses,Felipe Izquierdo,10838,3,00:00.0
+424,LINOD,LINO-Delicateses,Felipe Izquierdo,10840,4,00:00.0
+425,LINOD,LINO-Delicateses,Felipe Izquierdo,10919,2,00:00.0
+426,LINOD,LINO-Delicateses,Felipe Izquierdo,10954,5,00:00.0
+427,LINOD,LINO-Delicateses,Felipe Izquierdo,11014,2,00:00.0
+428,LINOD,LINO-Delicateses,Felipe Izquierdo,11039,1,00:00.0
+429,LONEP,Lonesome Pine Restaurant,Fran Wilson,10307,2,00:00.0
+430,LONEP,Lonesome Pine Restaurant,Fran Wilson,10317,6,00:00.0
+431,LONEP,Lonesome Pine Restaurant,Fran Wilson,10544,4,00:00.0
+432,LONEP,Lonesome Pine Restaurant,Fran Wilson,10662,3,00:00.0
+433,LONEP,Lonesome Pine Restaurant,Fran Wilson,10665,1,00:00.0
+434,LONEP,Lonesome Pine Restaurant,Fran Wilson,10867,6,00:00.0
+435,LONEP,Lonesome Pine Restaurant,Fran Wilson,10883,8,00:00.0
+436,LONEP,Lonesome Pine Restaurant,Fran Wilson,11018,4,00:00.0
+437,MAGAA,Magazzini Alimentari Riuniti,Giovanni Rovelli,10275,1,00:00.0
+438,MAGAA,Magazzini Alimentari Riuniti,Giovanni Rovelli,10300,2,00:00.0
+439,MAGAA,Magazzini Alimentari Riuniti,Giovanni Rovelli,10404,2,00:00.0
+440,MAGAA,Magazzini Alimentari Riuniti,Giovanni Rovelli,10467,8,00:00.0
+441,MAGAA,Magazzini Alimentari Riuniti,Giovanni Rovelli,10635,8,00:00.0
+442,MAGAA,Magazzini Alimentari Riuniti,Giovanni Rovelli,10754,6,00:00.0
+443,MAGAA,Magazzini Alimentari Riuniti,Giovanni Rovelli,10784,4,00:00.0
+444,MAGAA,Magazzini Alimentari Riuniti,Giovanni Rovelli,10818,7,00:00.0
+445,MAGAA,Magazzini Alimentari Riuniti,Giovanni Rovelli,10939,2,00:00.0
+446,MAGAA,Magazzini Alimentari Riuniti,Giovanni Rovelli,10950,1,00:00.0
+447,MAISD,Maison Dewey,Catherine Dewey,10529,5,00:00.0
+448,MAISD,Maison Dewey,Catherine Dewey,10649,5,00:00.0
+449,MAISD,Maison Dewey,Catherine Dewey,10760,4,00:00.0
+450,MAISD,Maison Dewey,Catherine Dewey,10892,4,00:00.0
+451,MAISD,Maison Dewey,Catherine Dewey,10896,7,00:00.0
+452,MAISD,Maison Dewey,Catherine Dewey,10978,9,00:00.0
+453,MAISD,Maison Dewey,Catherine Dewey,11004,3,00:00.0
+454,MEREP,Mère Paillarde,Jean Fresnière,10332,3,00:00.0
+455,MEREP,Mère Paillarde,Jean Fresnière,10339,2,00:00.0
+456,MEREP,Mère Paillarde,Jean Fresnière,10376,1,00:00.0
+457,MEREP,Mère Paillarde,Jean Fresnière,10424,7,00:00.0
+458,MEREP,Mère Paillarde,Jean Fresnière,10439,6,00:00.0
+459,MEREP,Mère Paillarde,Jean Fresnière,10505,3,00:00.0
+460,MEREP,Mère Paillarde,Jean Fresnière,10565,8,00:00.0
+461,MEREP,Mère Paillarde,Jean Fresnière,10570,3,00:00.0
+462,MEREP,Mère Paillarde,Jean Fresnière,10590,4,00:00.0
+463,MEREP,Mère Paillarde,Jean Fresnière,10605,1,00:00.0
+464,MEREP,Mère Paillarde,Jean Fresnière,10618,1,00:00.0
+465,MEREP,Mère Paillarde,Jean Fresnière,10619,3,00:00.0
+466,MEREP,Mère Paillarde,Jean Fresnière,10724,8,00:00.0
+467,MORGK,Morgenstern Gesundkost,Alexander Feuer,10277,2,00:00.0
+468,MORGK,Morgenstern Gesundkost,Alexander Feuer,10575,5,00:00.0
+469,MORGK,Morgenstern Gesundkost,Alexander Feuer,10699,3,00:00.0
+470,MORGK,Morgenstern Gesundkost,Alexander Feuer,10779,3,00:00.0
+471,MORGK,Morgenstern Gesundkost,Alexander Feuer,10945,4,00:00.0
+472,NORTS,North/South,Simon Crowther,10517,3,00:00.0
+473,NORTS,North/South,Simon Crowther,10752,2,00:00.0
+474,NORTS,North/South,Simon Crowther,11057,3,00:00.0
+475,OCEAN,Océano Atlántico Ltda.,Yvonne Moncada,10409,3,00:00.0
+476,OCEAN,Océano Atlántico Ltda.,Yvonne Moncada,10531,7,00:00.0
+477,OCEAN,Océano Atlántico Ltda.,Yvonne Moncada,10898,4,00:00.0
+478,OCEAN,Océano Atlántico Ltda.,Yvonne Moncada,10958,7,00:00.0
+479,OCEAN,Océano Atlántico Ltda.,Yvonne Moncada,10986,8,00:00.0
+480,OLDWO,Old World Delicatessen,Rene Phillips,10305,8,00:00.0
+481,OLDWO,Old World Delicatessen,Rene Phillips,10338,4,00:00.0
+482,OLDWO,Old World Delicatessen,Rene Phillips,10441,3,00:00.0
+483,OLDWO,Old World Delicatessen,Rene Phillips,10594,3,00:00.0
+484,OLDWO,Old World Delicatessen,Rene Phillips,10680,1,00:00.0
+485,OLDWO,Old World Delicatessen,Rene Phillips,10706,8,00:00.0
+486,OLDWO,Old World Delicatessen,Rene Phillips,10808,2,00:00.0
+487,OLDWO,Old World Delicatessen,Rene Phillips,10855,3,00:00.0
+488,OLDWO,Old World Delicatessen,Rene Phillips,10965,6,00:00.0
+489,OLDWO,Old World Delicatessen,Rene Phillips,11034,8,00:00.0
+490,OTTIK,Ottilies Käseladen,Henriette Pfalzheim,10260,4,00:00.0
+491,OTTIK,Ottilies Käseladen,Henriette Pfalzheim,10407,2,00:00.0
+492,OTTIK,Ottilies Käseladen,Henriette Pfalzheim,10508,1,00:00.0
+493,OTTIK,Ottilies Käseladen,Henriette Pfalzheim,10554,4,00:00.0
+494,OTTIK,Ottilies Käseladen,Henriette Pfalzheim,10580,4,00:00.0
+495,OTTIK,Ottilies Käseladen,Henriette Pfalzheim,10684,3,00:00.0
+496,OTTIK,Ottilies Käseladen,Henriette Pfalzheim,10766,4,00:00.0
+497,OTTIK,Ottilies Käseladen,Henriette Pfalzheim,10833,6,00:00.0
+498,OTTIK,Ottilies Käseladen,Henriette Pfalzheim,10999,6,00:00.0
+499,OTTIK,Ottilies Käseladen,Henriette Pfalzheim,11020,2,00:00.0
+500,PERIC,Pericles Comidas clásicas,Guillermo Fernández,10322,7,00:00.0
+501,PERIC,Pericles Comidas clásicas,Guillermo Fernández,10354,8,00:00.0
+502,PERIC,Pericles Comidas clásicas,Guillermo Fernández,10474,5,00:00.0
+503,PERIC,Pericles Comidas clásicas,Guillermo Fernández,10502,2,00:00.0
+504,PERIC,Pericles Comidas clásicas,Guillermo Fernández,10995,1,00:00.0
+505,PERIC,Pericles Comidas clásicas,Guillermo Fernández,11073,2,00:00.0
+506,PICCO,Piccolo und mehr,Georg Pipps,10353,7,00:00.0
+507,PICCO,Piccolo und mehr,Georg Pipps,10392,2,00:00.0
+508,PICCO,Piccolo und mehr,Georg Pipps,10427,4,00:00.0
+509,PICCO,Piccolo und mehr,Georg Pipps,10489,6,00:00.0
+510,PICCO,Piccolo und mehr,Georg Pipps,10530,3,00:00.0
+511,PICCO,Piccolo und mehr,Georg Pipps,10597,7,00:00.0
+512,PICCO,Piccolo und mehr,Georg Pipps,10686,2,00:00.0
+513,PICCO,Piccolo und mehr,Georg Pipps,10747,6,00:00.0
+514,PICCO,Piccolo und mehr,Georg Pipps,10844,8,00:00.0
+515,PICCO,Piccolo und mehr,Georg Pipps,11053,2,00:00.0
+516,PRINI,Princesa Isabel Vinhos,Isabel de Castro,10336,7,00:00.0
+517,PRINI,Princesa Isabel Vinhos,Isabel de Castro,10397,5,00:00.0
+518,PRINI,Princesa Isabel Vinhos,Isabel de Castro,10433,3,00:00.0
+519,PRINI,Princesa Isabel Vinhos,Isabel de Castro,10477,5,00:00.0
+520,PRINI,Princesa Isabel Vinhos,Isabel de Castro,11007,8,00:00.0
+521,QUEDE,Que Delícia,Bernardo Batista,10261,4,00:00.0
+522,QUEDE,Que Delícia,Bernardo Batista,10291,6,00:00.0
+523,QUEDE,Que Delícia,Bernardo Batista,10379,2,00:00.0
+524,QUEDE,Que Delícia,Bernardo Batista,10421,8,00:00.0
+525,QUEDE,Que Delícia,Bernardo Batista,10587,1,00:00.0
+526,QUEDE,Que Delícia,Bernardo Batista,10647,4,00:00.0
+527,QUEDE,Que Delícia,Bernardo Batista,10720,8,00:00.0
+528,QUEDE,Que Delícia,Bernardo Batista,10794,6,00:00.0
+529,QUEDE,Que Delícia,Bernardo Batista,10989,2,00:00.0
+530,QUEEN,Queen Cozinha,Lúcia Carvalho,10372,5,00:00.0
+531,QUEEN,Queen Cozinha,Lúcia Carvalho,10406,7,00:00.0
+532,QUEEN,Queen Cozinha,Lúcia Carvalho,10487,2,00:00.0
+533,QUEEN,Queen Cozinha,Lúcia Carvalho,10637,6,00:00.0
+534,QUEEN,Queen Cozinha,Lúcia Carvalho,10659,7,00:00.0
+535,QUEEN,Queen Cozinha,Lúcia Carvalho,10704,6,00:00.0
+536,QUEEN,Queen Cozinha,Lúcia Carvalho,10728,4,00:00.0
+537,QUEEN,Queen Cozinha,Lúcia Carvalho,10786,8,00:00.0
+538,QUEEN,Queen Cozinha,Lúcia Carvalho,10868,7,00:00.0
+539,QUEEN,Queen Cozinha,Lúcia Carvalho,10913,4,00:00.0
+540,QUEEN,Queen Cozinha,Lúcia Carvalho,10914,6,00:00.0
+541,QUEEN,Queen Cozinha,Lúcia Carvalho,10961,8,00:00.0
+542,QUEEN,Queen Cozinha,Lúcia Carvalho,11068,8,00:00.0
+543,QUICK,QUICK-Stop,Horst Kloss,10273,3,00:00.0
+544,QUICK,QUICK-Stop,Horst Kloss,10285,1,00:00.0
+545,QUICK,QUICK-Stop,Horst Kloss,10286,8,00:00.0
+546,QUICK,QUICK-Stop,Horst Kloss,10313,2,00:00.0
+547,QUICK,QUICK-Stop,Horst Kloss,10345,2,00:00.0
+548,QUICK,QUICK-Stop,Horst Kloss,10361,1,00:00.0
+549,QUICK,QUICK-Stop,Horst Kloss,10418,4,00:00.0
+550,QUICK,QUICK-Stop,Horst Kloss,10451,4,00:00.0
+551,QUICK,QUICK-Stop,Horst Kloss,10515,2,00:00.0
+552,QUICK,QUICK-Stop,Horst Kloss,10527,7,00:00.0
+553,QUICK,QUICK-Stop,Horst Kloss,10540,3,00:00.0
+554,QUICK,QUICK-Stop,Horst Kloss,10549,5,00:00.0
+555,QUICK,QUICK-Stop,Horst Kloss,10588,2,00:00.0
+556,QUICK,QUICK-Stop,Horst Kloss,10658,4,00:00.0
+557,QUICK,QUICK-Stop,Horst Kloss,10691,2,00:00.0
+558,QUICK,QUICK-Stop,Horst Kloss,10694,8,00:00.0
+559,QUICK,QUICK-Stop,Horst Kloss,10721,5,00:00.0
+560,QUICK,QUICK-Stop,Horst Kloss,10745,9,00:00.0
+561,QUICK,QUICK-Stop,Horst Kloss,10765,3,00:00.0
+562,QUICK,QUICK-Stop,Horst Kloss,10788,1,00:00.0
+563,QUICK,QUICK-Stop,Horst Kloss,10845,8,00:00.0
+564,QUICK,QUICK-Stop,Horst Kloss,10865,2,00:00.0
+565,QUICK,QUICK-Stop,Horst Kloss,10878,4,00:00.0
+566,QUICK,QUICK-Stop,Horst Kloss,10938,3,00:00.0
+567,QUICK,QUICK-Stop,Horst Kloss,10962,8,00:00.0
+568,QUICK,QUICK-Stop,Horst Kloss,10991,1,00:00.0
+569,QUICK,QUICK-Stop,Horst Kloss,10996,4,00:00.0
+570,QUICK,QUICK-Stop,Horst Kloss,11021,3,00:00.0
+571,RANCH,Rancho grande,Sergio Gutiérrez,10448,4,00:00.0
+572,RANCH,Rancho grande,Sergio Gutiérrez,10716,4,00:00.0
+573,RANCH,Rancho grande,Sergio Gutiérrez,10828,9,00:00.0
+574,RANCH,Rancho grande,Sergio Gutiérrez,10916,1,00:00.0
+575,RANCH,Rancho grande,Sergio Gutiérrez,11019,6,00:00.0
+576,RATTC,Rattlesnake Canyon Grocery,Paula Wilson,10262,8,00:00.0
+577,RATTC,Rattlesnake Canyon Grocery,Paula Wilson,10272,6,00:00.0
+578,RATTC,Rattlesnake Canyon Grocery,Paula Wilson,10294,4,00:00.0
+579,RATTC,Rattlesnake Canyon Grocery,Paula Wilson,10314,1,00:00.0
+580,RATTC,Rattlesnake Canyon Grocery,Paula Wilson,10316,1,00:00.0
+581,RATTC,Rattlesnake Canyon Grocery,Paula Wilson,10346,3,00:00.0
+582,RATTC,Rattlesnake Canyon Grocery,Paula Wilson,10401,1,00:00.0
+583,RATTC,Rattlesnake Canyon Grocery,Paula Wilson,10479,3,00:00.0
+584,RATTC,Rattlesnake Canyon Grocery,Paula Wilson,10564,4,00:00.0
+585,RATTC,Rattlesnake Canyon Grocery,Paula Wilson,10569,5,00:00.0
+586,RATTC,Rattlesnake Canyon Grocery,Paula Wilson,10598,1,00:00.0
+587,RATTC,Rattlesnake Canyon Grocery,Paula Wilson,10761,5,00:00.0
+588,RATTC,Rattlesnake Canyon Grocery,Paula Wilson,10820,3,00:00.0
+589,RATTC,Rattlesnake Canyon Grocery,Paula Wilson,10852,8,00:00.0
+590,RATTC,Rattlesnake Canyon Grocery,Paula Wilson,10889,9,00:00.0
+591,RATTC,Rattlesnake Canyon Grocery,Paula Wilson,10988,3,00:00.0
+592,RATTC,Rattlesnake Canyon Grocery,Paula Wilson,11000,2,00:00.0
+593,RATTC,Rattlesnake Canyon Grocery,Paula Wilson,11077,1,00:00.0
+594,REGGC,Reggiani Caseifici,Maurizio Moroni,10288,4,00:00.0
+595,REGGC,Reggiani Caseifici,Maurizio Moroni,10428,7,00:00.0
+596,REGGC,Reggiani Caseifici,Maurizio Moroni,10443,8,00:00.0
+597,REGGC,Reggiani Caseifici,Maurizio Moroni,10562,1,00:00.0
+598,REGGC,Reggiani Caseifici,Maurizio Moroni,10586,9,00:00.0
+599,REGGC,Reggiani Caseifici,Maurizio Moroni,10655,1,00:00.0
+600,REGGC,Reggiani Caseifici,Maurizio Moroni,10727,2,00:00.0
+601,REGGC,Reggiani Caseifici,Maurizio Moroni,10812,5,00:00.0
+602,REGGC,Reggiani Caseifici,Maurizio Moroni,10908,4,00:00.0
+603,REGGC,Reggiani Caseifici,Maurizio Moroni,10942,9,00:00.0
+604,REGGC,Reggiani Caseifici,Maurizio Moroni,11010,2,00:00.0
+605,REGGC,Reggiani Caseifici,Maurizio Moroni,11062,4,00:00.0
+606,RICAR,Ricardo Adocicados,Janete Limeira,10287,8,00:00.0
+607,RICAR,Ricardo Adocicados,Janete Limeira,10299,4,00:00.0
+608,RICAR,Ricardo Adocicados,Janete Limeira,10447,4,00:00.0
+609,RICAR,Ricardo Adocicados,Janete Limeira,10481,8,00:00.0
+610,RICAR,Ricardo Adocicados,Janete Limeira,10563,2,00:00.0
+611,RICAR,Ricardo Adocicados,Janete Limeira,10622,4,00:00.0
+612,RICAR,Ricardo Adocicados,Janete Limeira,10648,5,00:00.0
+613,RICAR,Ricardo Adocicados,Janete Limeira,10813,1,00:00.0
+614,RICAR,Ricardo Adocicados,Janete Limeira,10851,5,00:00.0
+615,RICAR,Ricardo Adocicados,Janete Limeira,10877,1,00:00.0
+616,RICAR,Ricardo Adocicados,Janete Limeira,11059,2,00:00.0
+617,RICSU,Richter Supermarkt,Michael Holz,10255,9,00:00.0
+618,RICSU,Richter Supermarkt,Michael Holz,10419,4,00:00.0
+619,RICSU,Richter Supermarkt,Michael Holz,10537,1,00:00.0
+620,RICSU,Richter Supermarkt,Michael Holz,10666,7,00:00.0
+621,RICSU,Richter Supermarkt,Michael Holz,10751,3,00:00.0
+622,RICSU,Richter Supermarkt,Michael Holz,10758,3,00:00.0
+623,RICSU,Richter Supermarkt,Michael Holz,10931,4,00:00.0
+624,RICSU,Richter Supermarkt,Michael Holz,10951,9,00:00.0
+625,RICSU,Richter Supermarkt,Michael Holz,11033,7,00:00.0
+626,RICSU,Richter Supermarkt,Michael Holz,11075,8,00:00.0
+627,ROMEY,Romero y tomillo,Alejandra Camino,10281,4,00:00.0
+628,ROMEY,Romero y tomillo,Alejandra Camino,10282,4,00:00.0
+629,ROMEY,Romero y tomillo,Alejandra Camino,10306,1,00:00.0
+630,ROMEY,Romero y tomillo,Alejandra Camino,10917,4,00:00.0
+631,ROMEY,Romero y tomillo,Alejandra Camino,11013,2,00:00.0
+632,SANTG,Santé Gourmet,Jonas Bergulfsen,10387,1,00:00.0
+633,SANTG,Santé Gourmet,Jonas Bergulfsen,10520,7,00:00.0
+634,SANTG,Santé Gourmet,Jonas Bergulfsen,10639,7,00:00.0
+635,SANTG,Santé Gourmet,Jonas Bergulfsen,10831,3,00:00.0
+636,SANTG,Santé Gourmet,Jonas Bergulfsen,10909,1,00:00.0
+637,SANTG,Santé Gourmet,Jonas Bergulfsen,11015,2,00:00.0
+638,SAVEA,Save-a-lot Markets,Jose Pavarotti,10324,9,00:00.0
+639,SAVEA,Save-a-lot Markets,Jose Pavarotti,10393,1,00:00.0
+640,SAVEA,Save-a-lot Markets,Jose Pavarotti,10398,2,00:00.0
+641,SAVEA,Save-a-lot Markets,Jose Pavarotti,10440,4,00:00.0
+642,SAVEA,Save-a-lot Markets,Jose Pavarotti,10452,8,00:00.0
+643,SAVEA,Save-a-lot Markets,Jose Pavarotti,10510,6,00:00.0
+644,SAVEA,Save-a-lot Markets,Jose Pavarotti,10555,6,00:00.0
+645,SAVEA,Save-a-lot Markets,Jose Pavarotti,10603,8,00:00.0
+646,SAVEA,Save-a-lot Markets,Jose Pavarotti,10607,5,00:00.0
+647,SAVEA,Save-a-lot Markets,Jose Pavarotti,10612,1,00:00.0
+648,SAVEA,Save-a-lot Markets,Jose Pavarotti,10627,8,00:00.0
+649,SAVEA,Save-a-lot Markets,Jose Pavarotti,10657,2,00:00.0
+650,SAVEA,Save-a-lot Markets,Jose Pavarotti,10678,7,00:00.0
+651,SAVEA,Save-a-lot Markets,Jose Pavarotti,10700,3,00:00.0
+652,SAVEA,Save-a-lot Markets,Jose Pavarotti,10711,5,00:00.0
+653,SAVEA,Save-a-lot Markets,Jose Pavarotti,10713,1,00:00.0
+654,SAVEA,Save-a-lot Markets,Jose Pavarotti,10714,5,00:00.0
+655,SAVEA,Save-a-lot Markets,Jose Pavarotti,10722,8,00:00.0
+656,SAVEA,Save-a-lot Markets,Jose Pavarotti,10748,3,00:00.0
+657,SAVEA,Save-a-lot Markets,Jose Pavarotti,10757,6,00:00.0
+658,SAVEA,Save-a-lot Markets,Jose Pavarotti,10815,2,00:00.0
+659,SAVEA,Save-a-lot Markets,Jose Pavarotti,10847,4,00:00.0
+660,SAVEA,Save-a-lot Markets,Jose Pavarotti,10882,4,00:00.0
+661,SAVEA,Save-a-lot Markets,Jose Pavarotti,10894,1,00:00.0
+662,SAVEA,Save-a-lot Markets,Jose Pavarotti,10941,7,00:00.0
+663,SAVEA,Save-a-lot Markets,Jose Pavarotti,10983,2,00:00.0
+664,SAVEA,Save-a-lot Markets,Jose Pavarotti,10984,1,00:00.0
+665,SAVEA,Save-a-lot Markets,Jose Pavarotti,11002,4,00:00.0
+666,SAVEA,Save-a-lot Markets,Jose Pavarotti,11030,7,00:00.0
+667,SAVEA,Save-a-lot Markets,Jose Pavarotti,11031,6,00:00.0
+668,SAVEA,Save-a-lot Markets,Jose Pavarotti,11064,1,00:00.0
+669,SEVES,Seven Seas Imports,Hari Kumar,10359,5,00:00.0
+670,SEVES,Seven Seas Imports,Hari Kumar,10377,1,00:00.0
+671,SEVES,Seven Seas Imports,Hari Kumar,10388,2,00:00.0
+672,SEVES,Seven Seas Imports,Hari Kumar,10472,8,00:00.0
+673,SEVES,Seven Seas Imports,Hari Kumar,10523,7,00:00.0
+674,SEVES,Seven Seas Imports,Hari Kumar,10547,3,00:00.0
+675,SEVES,Seven Seas Imports,Hari Kumar,10800,1,00:00.0
+676,SEVES,Seven Seas Imports,Hari Kumar,10804,6,00:00.0
+677,SEVES,Seven Seas Imports,Hari Kumar,10869,5,00:00.0
+678,SIMOB,Simons bistro,Jytte Petersen,10341,7,00:00.0
+679,SIMOB,Simons bistro,Jytte Petersen,10417,4,00:00.0
+680,SIMOB,Simons bistro,Jytte Petersen,10556,2,00:00.0
+681,SIMOB,Simons bistro,Jytte Petersen,10642,7,00:00.0
+682,SIMOB,Simons bistro,Jytte Petersen,10669,2,00:00.0
+683,SIMOB,Simons bistro,Jytte Petersen,10802,4,00:00.0
+684,SIMOB,Simons bistro,Jytte Petersen,11074,7,00:00.0
+685,SPECD,Spécialités du monde,Dominique Perrier,10738,2,00:00.0
+686,SPECD,Spécialités du monde,Dominique Perrier,10907,6,00:00.0
+687,SPECD,Spécialités du monde,Dominique Perrier,10964,3,00:00.0
+688,SPECD,Spécialités du monde,Dominique Perrier,11043,5,00:00.0
+689,SPLIR,Split Rail Beer & Ale,Art Braunschweiger,10271,6,00:00.0
+690,SPLIR,Split Rail Beer & Ale,Art Braunschweiger,10329,4,00:00.0
+691,SPLIR,Split Rail Beer & Ale,Art Braunschweiger,10349,7,00:00.0
+692,SPLIR,Split Rail Beer & Ale,Art Braunschweiger,10369,8,00:00.0
+693,SPLIR,Split Rail Beer & Ale,Art Braunschweiger,10385,1,00:00.0
+694,SPLIR,Split Rail Beer & Ale,Art Braunschweiger,10432,3,00:00.0
+695,SPLIR,Split Rail Beer & Ale,Art Braunschweiger,10756,8,00:00.0
+696,SPLIR,Split Rail Beer & Ale,Art Braunschweiger,10821,1,00:00.0
+697,SPLIR,Split Rail Beer & Ale,Art Braunschweiger,10974,3,00:00.0
+698,SUPRD,Suprêmes délices,Pascale Cartrain,10252,4,00:00.0
+699,SUPRD,Suprêmes délices,Pascale Cartrain,10302,4,00:00.0
+700,SUPRD,Suprêmes délices,Pascale Cartrain,10458,7,00:00.0
+701,SUPRD,Suprêmes délices,Pascale Cartrain,10463,5,00:00.0
+702,SUPRD,Suprêmes délices,Pascale Cartrain,10475,9,00:00.0
+703,SUPRD,Suprêmes délices,Pascale Cartrain,10767,4,00:00.0
+704,SUPRD,Suprêmes délices,Pascale Cartrain,10841,5,00:00.0
+705,SUPRD,Suprêmes délices,Pascale Cartrain,10846,2,00:00.0
+706,SUPRD,Suprêmes délices,Pascale Cartrain,10885,6,00:00.0
+707,SUPRD,Suprêmes délices,Pascale Cartrain,10930,4,00:00.0
+708,SUPRD,Suprêmes délices,Pascale Cartrain,11035,2,00:00.0
+709,SUPRD,Suprêmes délices,Pascale Cartrain,11038,1,00:00.0
+710,THEBI,The Big Cheese,Liz Nixon,10310,8,00:00.0
+711,THEBI,The Big Cheese,Liz Nixon,10708,6,00:00.0
+712,THEBI,The Big Cheese,Liz Nixon,10805,2,00:00.0
+713,THEBI,The Big Cheese,Liz Nixon,10992,1,00:00.0
+714,THECR,The Cracker Box,Liu Wong,10624,4,00:00.0
+715,THECR,The Cracker Box,Liu Wong,10775,7,00:00.0
+716,THECR,The Cracker Box,Liu Wong,11003,3,00:00.0
+717,TOMSP,Toms Spezialitäten,Karin Josephs,10249,6,00:00.0
+718,TOMSP,Toms Spezialitäten,Karin Josephs,10438,3,00:00.0
+719,TOMSP,Toms Spezialitäten,Karin Josephs,10446,6,00:00.0
+720,TOMSP,Toms Spezialitäten,Karin Josephs,10548,3,00:00.0
+721,TOMSP,Toms Spezialitäten,Karin Josephs,10608,4,00:00.0
+722,TOMSP,Toms Spezialitäten,Karin Josephs,10967,2,00:00.0
+723,TORTU,Tortuga Restaurante,Miguel Angel Paolino,10276,8,00:00.0
+724,TORTU,Tortuga Restaurante,Miguel Angel Paolino,10293,1,00:00.0
+725,TORTU,Tortuga Restaurante,Miguel Angel Paolino,10304,1,00:00.0
+726,TORTU,Tortuga Restaurante,Miguel Angel Paolino,10319,7,00:00.0
+727,TORTU,Tortuga Restaurante,Miguel Angel Paolino,10518,4,00:00.0
+728,TORTU,Tortuga Restaurante,Miguel Angel Paolino,10576,3,00:00.0
+729,TORTU,Tortuga Restaurante,Miguel Angel Paolino,10676,2,00:00.0
+730,TORTU,Tortuga Restaurante,Miguel Angel Paolino,10842,1,00:00.0
+731,TORTU,Tortuga Restaurante,Miguel Angel Paolino,10915,2,00:00.0
+732,TORTU,Tortuga Restaurante,Miguel Angel Paolino,11069,1,00:00.0
+733,TRADH,Tradição Hipermercados,Anabela Domingues,10292,1,00:00.0
+734,TRADH,Tradição Hipermercados,Anabela Domingues,10496,7,00:00.0
+735,TRADH,Tradição Hipermercados,Anabela Domingues,10606,4,00:00.0
+736,TRADH,Tradição Hipermercados,Anabela Domingues,10830,4,00:00.0
+737,TRADH,Tradição Hipermercados,Anabela Domingues,10834,1,00:00.0
+738,TRADH,Tradição Hipermercados,Anabela Domingues,10839,3,00:00.0
+739,TRAIH,Trail's Head Gourmet Provisioners,Helvetius Nagy,10574,4,00:00.0
+740,TRAIH,Trail's Head Gourmet Provisioners,Helvetius Nagy,10577,9,00:00.0
+741,TRAIH,Trail's Head Gourmet Provisioners,Helvetius Nagy,10822,6,00:00.0
+742,VAFFE,Vaffeljernet,Palle Ibsen,10367,7,00:00.0
+743,VAFFE,Vaffeljernet,Palle Ibsen,10399,8,00:00.0
+744,VAFFE,Vaffeljernet,Palle Ibsen,10465,1,00:00.0
+745,VAFFE,Vaffeljernet,Palle Ibsen,10591,1,00:00.0
+746,VAFFE,Vaffeljernet,Palle Ibsen,10602,8,00:00.0
+747,VAFFE,Vaffeljernet,Palle Ibsen,10688,4,00:00.0
+748,VAFFE,Vaffeljernet,Palle Ibsen,10744,6,00:00.0
+749,VAFFE,Vaffeljernet,Palle Ibsen,10769,3,00:00.0
+750,VAFFE,Vaffeljernet,Palle Ibsen,10921,1,00:00.0
+751,VAFFE,Vaffeljernet,Palle Ibsen,10946,1,00:00.0
+752,VAFFE,Vaffeljernet,Palle Ibsen,10994,2,00:00.0
+753,VICTE,Victuailles en stock,Mary Saveley,10251,3,00:00.0
+754,VICTE,Victuailles en stock,Mary Saveley,10334,8,00:00.0
+755,VICTE,Victuailles en stock,Mary Saveley,10450,8,00:00.0
+756,VICTE,Victuailles en stock,Mary Saveley,10459,4,00:00.0
+757,VICTE,Victuailles en stock,Mary Saveley,10478,2,00:00.0
+758,VICTE,Victuailles en stock,Mary Saveley,10546,1,00:00.0
+759,VICTE,Victuailles en stock,Mary Saveley,10806,3,00:00.0
+760,VICTE,Victuailles en stock,Mary Saveley,10814,3,00:00.0
+761,VICTE,Victuailles en stock,Mary Saveley,10843,4,00:00.0
+762,VICTE,Victuailles en stock,Mary Saveley,10850,1,00:00.0
+763,VINET,Vins et alcools Chevalier,Paul Henriot,10248,5,00:00.0
+764,VINET,Vins et alcools Chevalier,Paul Henriot,10274,6,00:00.0
+765,VINET,Vins et alcools Chevalier,Paul Henriot,10295,2,00:00.0
+766,VINET,Vins et alcools Chevalier,Paul Henriot,10737,2,00:00.0
+767,VINET,Vins et alcools Chevalier,Paul Henriot,10739,3,00:00.0
+768,WANDK,Die Wandernde Kuh,Rita Müller,10301,8,00:00.0
+769,WANDK,Die Wandernde Kuh,Rita Müller,10312,2,00:00.0
+770,WANDK,Die Wandernde Kuh,Rita Müller,10348,4,00:00.0
+771,WANDK,Die Wandernde Kuh,Rita Müller,10356,6,00:00.0
+772,WANDK,Die Wandernde Kuh,Rita Müller,10513,7,00:00.0
+773,WANDK,Die Wandernde Kuh,Rita Müller,10632,8,00:00.0
+774,WANDK,Die Wandernde Kuh,Rita Müller,10640,4,00:00.0
+775,WANDK,Die Wandernde Kuh,Rita Müller,10651,8,00:00.0
+776,WANDK,Die Wandernde Kuh,Rita Müller,10668,1,00:00.0
+777,WANDK,Die Wandernde Kuh,Rita Müller,11046,8,00:00.0
+778,WARTH,Wartian Herkku,Pirkko Koskitalo,10266,3,00:00.0
+779,WARTH,Wartian Herkku,Pirkko Koskitalo,10270,1,00:00.0
+780,WARTH,Wartian Herkku,Pirkko Koskitalo,10320,5,00:00.0
+781,WARTH,Wartian Herkku,Pirkko Koskitalo,10333,5,00:00.0
+782,WARTH,Wartian Herkku,Pirkko Koskitalo,10412,8,00:00.0
+783,WARTH,Wartian Herkku,Pirkko Koskitalo,10416,8,00:00.0
+784,WARTH,Wartian Herkku,Pirkko Koskitalo,10437,8,00:00.0
+785,WARTH,Wartian Herkku,Pirkko Koskitalo,10455,8,00:00.0
+786,WARTH,Wartian Herkku,Pirkko Koskitalo,10526,4,00:00.0
+787,WARTH,Wartian Herkku,Pirkko Koskitalo,10553,2,00:00.0
+788,WARTH,Wartian Herkku,Pirkko Koskitalo,10583,2,00:00.0
+789,WARTH,Wartian Herkku,Pirkko Koskitalo,10636,4,00:00.0
+790,WARTH,Wartian Herkku,Pirkko Koskitalo,10750,9,00:00.0
+791,WARTH,Wartian Herkku,Pirkko Koskitalo,10781,2,00:00.0
+792,WARTH,Wartian Herkku,Pirkko Koskitalo,11025,6,00:00.0
+793,WELLI,Wellington Importadora,Paula Parente,10256,3,00:00.0
+794,WELLI,Wellington Importadora,Paula Parente,10420,3,00:00.0
+795,WELLI,Wellington Importadora,Paula Parente,10585,7,00:00.0
+796,WELLI,Wellington Importadora,Paula Parente,10644,3,00:00.0
+797,WELLI,Wellington Importadora,Paula Parente,10803,4,00:00.0
+798,WELLI,Wellington Importadora,Paula Parente,10809,7,00:00.0
+799,WELLI,Wellington Importadora,Paula Parente,10900,1,00:00.0
+800,WELLI,Wellington Importadora,Paula Parente,10905,9,00:00.0
+801,WELLI,Wellington Importadora,Paula Parente,10935,4,00:00.0
+802,WHITC,White Clover Markets,Karl Jablonski,10269,5,00:00.0
+803,WHITC,White Clover Markets,Karl Jablonski,10344,4,00:00.0
+804,WHITC,White Clover Markets,Karl Jablonski,10469,1,00:00.0
+805,WHITC,White Clover Markets,Karl Jablonski,10483,7,00:00.0
+806,WHITC,White Clover Markets,Karl Jablonski,10504,4,00:00.0
+807,WHITC,White Clover Markets,Karl Jablonski,10596,8,00:00.0
+808,WHITC,White Clover Markets,Karl Jablonski,10693,3,00:00.0
+809,WHITC,White Clover Markets,Karl Jablonski,10696,8,00:00.0
+810,WHITC,White Clover Markets,Karl Jablonski,10723,3,00:00.0
+811,WHITC,White Clover Markets,Karl Jablonski,10740,4,00:00.0
+812,WHITC,White Clover Markets,Karl Jablonski,10861,4,00:00.0
+813,WHITC,White Clover Markets,Karl Jablonski,10904,3,00:00.0
+814,WHITC,White Clover Markets,Karl Jablonski,11032,2,00:00.0
+815,WHITC,White Clover Markets,Karl Jablonski,11066,7,00:00.0
+816,WILMK,Wilman Kala,Matti Karttunen,10615,2,00:00.0
+817,WILMK,Wilman Kala,Matti Karttunen,10673,2,00:00.0
+818,WILMK,Wilman Kala,Matti Karttunen,10695,7,00:00.0
+819,WILMK,Wilman Kala,Matti Karttunen,10873,4,00:00.0
+820,WILMK,Wilman Kala,Matti Karttunen,10879,3,00:00.0
+821,WILMK,Wilman Kala,Matti Karttunen,10910,1,00:00.0
+822,WILMK,Wilman Kala,Matti Karttunen,11005,2,00:00.0
+823,WOLZA,Wolski  Zajazd,Zbyszek Piestrzeniewicz,10374,1,00:00.0
+824,WOLZA,Wolski  Zajazd,Zbyszek Piestrzeniewicz,10611,6,00:00.0
+825,WOLZA,Wolski  Zajazd,Zbyszek Piestrzeniewicz,10792,1,00:00.0
+826,WOLZA,Wolski  Zajazd,Zbyszek Piestrzeniewicz,10870,5,00:00.0
+827,WOLZA,Wolski  Zajazd,Zbyszek Piestrzeniewicz,10906,4,00:00.0
+828,WOLZA,Wolski  Zajazd,Zbyszek Piestrzeniewicz,10998,8,00:00.0
+829,WOLZA,Wolski  Zajazd,Zbyszek Piestrzeniewicz,11044,4,00:00.0

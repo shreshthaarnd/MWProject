@@ -1,7 +1,7 @@
-Name,City,Salary
-Sonali,Agra,10000
-Sumanyu,Agra,10000
-Tanishq,Etah,10000
-RAAJ,Etah,1520
-Avi,Delhi,50000
-Asit,Agra,40000
+EmpNo,Name,City
+2,Sonali,Agra
+3,Sumanyu,Agra
+5,Tanishq,Etah
+6,RAAJ,Etah
+7,Avi,Delhi
+8,Asit,Agra

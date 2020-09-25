@@ -13,6 +13,7 @@ urlpatterns = [
     path('genjoin/', gen_join),
     path('downloadCSV/', downloadCSV),
     path('resetdb/', resetdb),
+    path('CallTransformAPI/', CallTransformAPI),
 ]+ static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
 
 if settings.DEBUG:

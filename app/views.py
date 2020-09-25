@@ -7,6 +7,17 @@ from django.http import HttpResponse
 from app.main import *
 import mimetypes
 import pymysql
+from django.http import Http404
+from rest_framework.views import APIView
+from rest_framework.response import Response
+from rest_framework import status
+from rest_framework import generics, filters
+from django.http import HttpResponse, JsonResponse
+from rest_framework.parsers import JSONParser
+from rest_framework.request import Request
+from rest_framework.permissions import IsAuthenticated
+from rest_framework.decorators import api_view
+from rest_framework import status
 
 def index(request):
 	dic={'data':CSVData.objects.all(),
@@ -129,24 +140,36 @@ def gen_df(request):
 				print('error')
 			selected_fieldsstr=''
 			selected_fields=[]
+			lt2=[]
 			for x in lt:
+				z=x['table']
 				for y in x['col']:
-					if not request.POST.get(x['table']+y+'fields')==None and request.POST.get(x['table']+y)==None:
-						primary.append(request.POST.get(x['table']+y))
-						selected_fieldsstr=selected_fieldsstr+request.POST.get(x['table']+y+'fields')+','
-						selected_fields.append(request.POST.get(x['table']+y+'fields'))
-				selected_fieldsstr=selected_fieldsstr[0:len(selected_fieldsstr)-1]
+					primary_key=request.POST.get(z+y)
+					field=request.POST.get(z+y+'fields')
+					if not primary_key==None:
+						primary.append(primary_key)
+					if not field==None:
+						selected_fields.append(field)
+						dic={'table':z,'col':field}
+						lt2.append(dic)
 				try:
-					query="select "+selected_fieldsstr+" from "+x['table']
+					selected_fieldslt=[]
+					selected_fieldsstr=''
+					count=0
+					for a in lt2:
+						if a['table']==z:
+							session_key='table'+str(count+1)
+							request.session[session_key]=a['table']
+							selected_fieldslt.append(a['col'])
+							selected_fieldsstr=selected_fieldsstr+a['col']+','
+					query="select "+selected_fieldsstr[0:len(selected_fieldsstr)-1]+" from "+z
+					#print(query)
 					cur.execute(query)
 					data=cur.fetchall()
-					data2=pd.DataFrame(data,columns=selected_fields)
-					data2.to_csv(x['table']+'.csv', index=False)
+					data2=pd.DataFrame(data,columns=selected_fieldslt)
+					data2.to_csv(z+'.csv', index=False)
 				except:
 					print('error')
-			
-			#df2.to_csv('df_'+x.File_Name+'.csv', index=False)
-		print(primary)
 		dic={'data':CSVData.objects.all(),
 			'data2':tables,
 			'fields':getFields(),
@@ -154,23 +177,64 @@ def gen_df(request):
 			'primary':primary,
 			'selected_fields':selected_fields}
 		return render(request,'index.html',dic)
+import urllib3
 @csrf_exempt
 def gen_join(request):
 	primary=request.GET.get('primary')
 	join_type=request.GET.get('jointype')
 	sort_col=request.GET.get('sortcol')
 	sort_type=request.GET.get('sorttype')
-	CSV_obj=CSVData.objects.all()
-	df_a=pd.read_csv('df_'+CSV_obj[0].File_Name+'.csv')
-	df_b=pd.read_csv('df_'+CSV_obj[1].File_Name+'.csv')
-	df_c=Transform_join(df_a, df_b, primary, join_type)
-	df_d=Transform_sort(df_c,sort_col,sort_type)
-	out=df_d.to_html()
+	out=''
+	
+	http = urllib3.PoolManager()
+	
+	try:
+		a=request.session['table1']
+		CSV_obj=CSVData.objects.all()
+		df_a=pd.read_csv('df_'+CSV_obj[0].File_Name+'.csv')
+		df_b=pd.read_csv('df_'+CSV_obj[1].File_Name+'.csv')
+		df_c=Transform_join(df_a, df_b, primary, join_type)
+		df_d=Transform_sort(df_c,sort_col,sort_type)
+		out=df_d.to_html()
+		r = http.request(
+	     'POST',
+	     'http://127.0.0.1:8000/CallTransformAPI/',
+	     fields={'type':'csv','primary': primary,'join_type':join_type,'sort_col':sort_col,'sort_type':sort_type})
+		
+	except:
+		df_a=pd.read_csv('table1.csv')
+		df_b=pd.read_csv('table2.csv')
+		df_c=Transform_join(df_a, df_b, primary, join_type)
+		df_d=Transform_sort(df_c,sort_col,sort_type)
+		out=df_d.to_html()
+
 	dic={'data':CSVData.objects.all(),
 			'fields':getFields(),
 			'primary':primary,
 			'outdata':out[36:len(out)-8]}
 	return render(request,'index.html',dic)
+
+@csrf_exempt
+@api_view(['POST',])
+def CallTransformAPI(request):
+	data=request.data
+	print(data)
+	if data['type']=='csv':
+		CSV_obj=CSVData.objects.all()
+		df_a=pd.read_csv('df_'+CSV_obj[0].File_Name+'.csv')
+		df_b=pd.read_csv('df_'+CSV_obj[1].File_Name+'.csv')
+		df_c=Transform_join(df_a, df_b, data['primary'], data['join_type'])
+		df_d=Transform_sort(df_c,data['sort_col'],data['sort_type'])
+		out=df_d.to_html()
+		return Response({'output':out})
+	else:
+		df_a=pd.read_csv('table1.csv')
+		df_b=pd.read_csv('table2.csv')
+		df_c=Transform_join(df_a, df_b, data['primary'], date['join_type'])
+		df_d=Transform_sort(df_c,data['sort_col'],data['sort_type'])
+		out=df_d.to_html()
+		return Response({'output':out})
+
 def downloadCSV(request):
 	fl_path = 'out2.csv'
 	filename = 'out2.csv'
