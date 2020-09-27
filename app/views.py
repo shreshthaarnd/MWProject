@@ -206,10 +206,7 @@ def gen_join(request):
 		df_b=pd.read_csv('df_'+CSV_obj[1].File_Name+'.csv')
 		df_c=Transform_join(df_a, df_b, primary, join_type)
 		df_d=Transform_sort(df_c,sort_col,sort_type)
-		if compare_type=='>=':
-			df_d=df_d[df_d[compare_field]>=int(compare_val)]
-		if compare_type=='<=':
-			df_d=df_d[df_d[compare_field]<=int(compare_val)]
+		df_d=Transform_filter(df_d,compare_type,compare_field,compare_val)
 		out=df_d.to_html()
 		if output_type=='csv':
 			df_d.to_csv('out.csv', index=True)
@@ -223,10 +220,7 @@ def gen_join(request):
 		df_b=pd.read_csv('table2.csv')
 		df_c=Transform_join(df_a, df_b, primary, join_type)
 		df_d=Transform_sort(df_c,sort_col,sort_type)
-		if compare_type=='>=':
-			df_d=df_d[df_d[compare_field]>=int(compare_val)]
-		if compare_type=='<=':
-			df_d=df_d[df_d[compare_field]<=int(compare_val)]
+		df_d=Transform_filter(df_d,compare_type,compare_field,compare_val)
 		out=df_d.to_html()
 
 		if output_type=='db':
@@ -254,22 +248,38 @@ def gen_join(request):
 
 @csrf_exempt
 @api_view(['POST',])
-def CallTransformAPI(request):
+def CallSortAPI(request):
+	data=request.data
+	df_a=pd.read_csv('outjoin.csv')
+	df_d=Transform_sort(df_a,data['sort_col'],data['sort_type'])
+	out=df_d.to_html()
+	return Response({'output':out})
+
+@csrf_exempt
+@api_view(['POST',])
+def CallFilterAPI(request):
+	data=request.data
+	df_a=pd.read_csv('outjoin.csv')
+	df_d=Transform_filter(df_a,data['compare_type'],data['compare_field'],data['compare_val'])
+	out=df_d.to_html()
+	return Response({'output':out})
+
+@csrf_exempt
+@api_view(['POST',])
+def CallJoinAPI(request):
 	data=request.data
 	if data['type']=='csv':
 		CSV_obj=CSVData.objects.all()
 		df_a=pd.read_csv('df_'+CSV_obj[0].File_Name+'.csv')
 		df_b=pd.read_csv('df_'+CSV_obj[1].File_Name+'.csv')
 		df_c=Transform_join(df_a, df_b, data['primary'], data['join_type'])
-		df_d=Transform_sort(df_c,data['sort_col'],data['sort_type'])
-		out=df_d.to_html()
+		out=df_c.to_html()
 		return Response({'output':out})
 	else:
 		df_a=pd.read_csv('table1.csv')
 		df_b=pd.read_csv('table2.csv')
 		df_c=Transform_join(df_a, df_b, data['primary'], date['join_type'])
-		df_d=Transform_sort(df_c,data['sort_col'],data['sort_type'])
-		out=df_d.to_html()
+		out=df_c.to_html()
 		return Response({'output':out})
 
 def downloadCSV(request):

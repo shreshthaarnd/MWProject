@@ -13,7 +13,9 @@ urlpatterns = [
     path('genjoin/', gen_join),
     path('downloadCSV/', downloadCSV),
     path('resetdb/', resetdb),
-    path('CallTransformAPI/', CallTransformAPI),
+    path('CallJoinAPI/', CallJoinAPI),
+    path('CallSortAPI/', CallSortAPI),
+    path('CallFilterAPI/', CallFilterAPI),
 ]+ static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
 
 if settings.DEBUG:
