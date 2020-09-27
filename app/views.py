@@ -57,7 +57,7 @@ def saveCSV(request):
 			user=request.POST.get('user')
 			password=request.POST.get('password')
 			database=request.POST.get('db')
-			DBData.objects.filter(Database=database).delete()
+			DBData.objects.all().delete()
 			if DBData.objects.filter(Database=database).exists():
 				return redirect('/index/')
 			else:
@@ -95,6 +95,7 @@ import csv
 @csrf_exempt
 def gen_df(request):
 	if request.method=='POST':
+		optype=''
 		tables=[]
 		lt=[]
 		primary=[]
@@ -116,6 +117,7 @@ def gen_df(request):
 							lt1.append(z)
 					df2=df.loc[:, lt1]
 					df2.to_csv('df_'+x.File_Name+'.csv', index=False)
+			optype='csv'
 		else:
 			database=DBData.objects.filter(Database=request.session['database'])[0]
 			db=pymysql.connect(database.Host,database.Username,database.Password,database.Database)
@@ -141,6 +143,7 @@ def gen_df(request):
 			selected_fieldsstr=''
 			selected_fields=[]
 			lt2=[]
+			count2=1
 			for x in lt:
 				z=x['table']
 				for y in x['col']:
@@ -167,23 +170,31 @@ def gen_df(request):
 					cur.execute(query)
 					data=cur.fetchall()
 					data2=pd.DataFrame(data,columns=selected_fieldslt)
-					data2.to_csv(z+'.csv', index=False)
+					data2.to_csv('table'+str(count2)+'.csv', index=False)
+					count2=count2+1
 				except:
 					print('error')
+			optype='db'
 		dic={'data':CSVData.objects.all(),
 			'data2':tables,
 			'fields':getFields(),
 			'fields2':lt,
 			'primary':primary,
+			'optype':optype,
 			'selected_fields':selected_fields}
 		return render(request,'index.html',dic)
 import urllib3
+from sqlalchemy import *
 @csrf_exempt
 def gen_join(request):
 	primary=request.GET.get('primary')
 	join_type=request.GET.get('jointype')
 	sort_col=request.GET.get('sortcol')
 	sort_type=request.GET.get('sorttype')
+	output_type=request.GET.get('outputtype')
+	compare_field=request.GET.get('comparefield')
+	compare_type=request.GET.get('comparetype')
+	compare_val=request.GET.get('compareval')
 	out=''
 	
 	http = urllib3.PoolManager()
@@ -195,7 +206,13 @@ def gen_join(request):
 		df_b=pd.read_csv('df_'+CSV_obj[1].File_Name+'.csv')
 		df_c=Transform_join(df_a, df_b, primary, join_type)
 		df_d=Transform_sort(df_c,sort_col,sort_type)
+		if compare_type=='>=':
+			df_d=df_d[df_d[compare_field]>=int(compare_val)]
+		if compare_type=='<=':
+			df_d=df_d[df_d[compare_field]<=int(compare_val)]
 		out=df_d.to_html()
+		if output_type=='csv':
+			df_d.to_csv('out.csv', index=True)
 		r = http.request(
 	     'POST',
 	     'http://127.0.0.1:8000/CallTransformAPI/',
@@ -206,19 +223,39 @@ def gen_join(request):
 		df_b=pd.read_csv('table2.csv')
 		df_c=Transform_join(df_a, df_b, primary, join_type)
 		df_d=Transform_sort(df_c,sort_col,sort_type)
+		if compare_type=='>=':
+			df_d=df_d[df_d[compare_field]>=int(compare_val)]
+		if compare_type=='<=':
+			df_d=df_d[df_d[compare_field]<=int(compare_val)]
 		out=df_d.to_html()
+
+		if output_type=='db':
+			database=DBData.objects.filter(Database=request.session['database'])[0]
+			engine = create_engine('mysql+pymysql://'+database.Username+':'+database.Password+'@'+database.Host+'/'+database.Database)
+			connection = engine.connect()
+			df_d.to_sql('output',
+							connection,
+							schema=None,
+							if_exists='replace',
+							index=True,
+							index_label=None,
+							chunksize=None,
+							dtype=None,
+							method=None)
+		elif output_type=='csv':
+			df_d.to_csv('out.csv', index=True)
 
 	dic={'data':CSVData.objects.all(),
 			'fields':getFields(),
 			'primary':primary,
-			'outdata':out[36:len(out)-8]}
+			'outdata':out[36:len(out)-8],
+			'outtype':output_type}
 	return render(request,'index.html',dic)
 
 @csrf_exempt
 @api_view(['POST',])
 def CallTransformAPI(request):
 	data=request.data
-	print(data)
 	if data['type']=='csv':
 		CSV_obj=CSVData.objects.all()
 		df_a=pd.read_csv('df_'+CSV_obj[0].File_Name+'.csv')
@@ -236,8 +273,8 @@ def CallTransformAPI(request):
 		return Response({'output':out})
 
 def downloadCSV(request):
-	fl_path = 'out2.csv'
-	filename = 'out2.csv'
+	fl_path = 'out.csv'
+	filename = 'out.csv'
 	fl = open(fl_path, 'r')
 	mime_type, _ = mimetypes.guess_type(fl_path)
 	response = HttpResponse(fl, content_type=mime_type)
